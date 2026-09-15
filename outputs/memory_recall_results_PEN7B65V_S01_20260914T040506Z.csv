@@ -1,0 +1,125 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Athlete_S01_SET1,Pre‑Game Warm‑Up Checklist,Target,pilot_s04_B_t01__ROLEGEN_Athlete_S01_SET1,pilot_s04_t01,1,4,Check the hydration pack before leaving the locker room.,Ceheck the water room,Y,N,Semantic,1.0,Primacy,N,N,Y,Hydration pack,9,2,0.074,0.376,8.0,1.25,0.096,30.2,role-adapted-v8-chunked,64,2,2026-09-14T03:54:32.657+00:00,2026-09-14T03:55:33.430+00:00,60.773,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",123456780987,Y,N,30.029,6,1,0,0.0,30.029,[],2026-09-14T03:55:33.430+00:00,2026-09-14T03:56:03.459+00:00,30.029,2026-09-14T03:56:03.459+00:00,2026-09-14T03:56:29.643+00:00,26.184,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Athlete_S01_SET1,Pre‑Game Warm‑Up Checklist,Target,pilot_s04_B_t02__ROLEGEN_Athlete_S01_SET1,pilot_s04_t02,2,4,Confirm the starting lineup on the whiteboard.,Organize the team plan,Y,N,Semantic,0.8,Middle,Y,N,N,Starting lineup,7,1,0.118,0.263,8.0,1.25,0.096,30.2,role-adapted-v8-chunked,64,2,2026-09-14T03:54:32.657+00:00,2026-09-14T03:55:33.430+00:00,60.773,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",123456780987,Y,N,30.029,6,1,0,0.0,30.029,[],2026-09-14T03:55:33.430+00:00,2026-09-14T03:56:03.459+00:00,30.029,2026-09-14T03:56:03.459+00:00,2026-09-14T03:56:29.643+00:00,26.184,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Athlete_S01_SET1,Pre‑Game Warm‑Up Checklist,Target,pilot_s04_B_t03__ROLEGEN_Athlete_S01_SET1,pilot_s04_t03,3,4,Describe the key defensive strategy for the next quarter.,,N,N,None,0.0,Middle,N,Y,N,Defensive strategy,9,1,0.074,0.306,8.0,1.25,0.096,30.2,role-adapted-v8-chunked,64,2,2026-09-14T03:54:32.657+00:00,2026-09-14T03:55:33.430+00:00,60.773,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",123456780987,Y,N,30.029,6,1,0,0.0,30.029,[],2026-09-14T03:55:33.430+00:00,2026-09-14T03:56:03.459+00:00,30.029,2026-09-14T03:56:03.459+00:00,2026-09-14T03:56:29.643+00:00,26.184,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Athlete_S01_SET1,Pre‑Game Warm‑Up Checklist,Target,pilot_s04_B_t04__ROLEGEN_Athlete_S01_SET1,pilot_s04_t04,4,4,Mark the finish line on the track.,Mark the finish line,Y,N,Exact,1.0,Recency,N,N,N,Finish line,7,1,0.118,0.263,8.0,1.25,0.096,30.2,role-adapted-v8-chunked,64,2,2026-09-14T03:54:32.657+00:00,2026-09-14T03:55:33.430+00:00,60.773,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",123456780987,Y,N,30.029,6,1,0,0.0,30.029,[],2026-09-14T03:55:33.430+00:00,2026-09-14T03:56:03.459+00:00,30.029,2026-09-14T03:56:03.459+00:00,2026-09-14T03:56:29.643+00:00,26.184,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Athlete_S01_SET2,Mid‑Practice Skill Drill,Target,pilot_s05_B_t01__ROLEGEN_Athlete_S01_SET2,pilot_s05_t01,1,4,Gather the cones for the agility ladder setup.,Gather the cones and place them,Y,N,Semantic,1.0,Primacy,N,N,Y,Agility ladder,8,1,0.105,0.286,8.0,1.25,0.108,30.375,role-adapted-v8-chunked,61,2,2026-09-14T03:56:30.341+00:00,2026-09-14T03:57:30.455+00:00,60.114,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","Gather the cones, Place the ball, Place the whistle",Y,N,30.001,4,3,0,0.0,30.001,[],2026-09-14T03:57:30.455+00:00,2026-09-14T03:58:00.456+00:00,30.001,2026-09-14T03:58:00.456+00:00,2026-09-14T03:58:19.914+00:00,19.458,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Athlete_S01_SET2,Mid‑Practice Skill Drill,Target,pilot_s05_B_t02__ROLEGEN_Athlete_S01_SET2,pilot_s05_t02,2,4,Set the ball on the rebounder at 10 feet.,Place the ball 10 ft away,Y,N,Semantic,1.0,Middle,Y,N,N,Rebounder,9,1,0.107,0.311,8.0,1.25,0.108,30.375,role-adapted-v8-chunked,61,2,2026-09-14T03:56:30.341+00:00,2026-09-14T03:57:30.455+00:00,60.114,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","Gather the cones, Place the ball, Place the whistle",Y,N,30.001,4,3,0,0.0,30.001,[],2026-09-14T03:57:30.455+00:00,2026-09-14T03:58:00.456+00:00,30.001,2026-09-14T03:58:00.456+00:00,2026-09-14T03:58:19.914+00:00,19.458,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Athlete_S01_SET2,Mid‑Practice Skill Drill,Target,pilot_s05_B_t03__ROLEGEN_Athlete_S01_SET2,pilot_s05_t03,3,4,Explain the timing for the partner pass and catch.,,N,N,None,0.0,Middle,N,Y,N,Partner pass,9,2,0.101,0.38,8.0,1.25,0.108,30.375,role-adapted-v8-chunked,61,2,2026-09-14T03:56:30.341+00:00,2026-09-14T03:57:30.455+00:00,60.114,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","Gather the cones, Place the ball, Place the whistle",Y,N,30.001,4,3,0,0.0,30.001,[],2026-09-14T03:57:30.455+00:00,2026-09-14T03:58:00.456+00:00,30.001,2026-09-14T03:58:00.456+00:00,2026-09-14T03:58:19.914+00:00,19.458,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Athlete_S01_SET2,Mid‑Practice Skill Drill,Target,pilot_s05_B_t04__ROLEGEN_Athlete_S01_SET2,pilot_s05_t04,4,4,Place the whistle on the bench.,Place down the whistle,Y,N,Semantic,1.0,Recency,N,N,N,Whistle,6,1,0.119,0.238,8.0,1.25,0.108,30.375,role-adapted-v8-chunked,61,2,2026-09-14T03:56:30.341+00:00,2026-09-14T03:57:30.455+00:00,60.114,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","Gather the cones, Place the ball, Place the whistle",Y,N,30.001,4,3,0,0.0,30.001,[],2026-09-14T03:57:30.455+00:00,2026-09-14T03:58:00.456+00:00,30.001,2026-09-14T03:58:00.456+00:00,2026-09-14T03:58:19.914+00:00,19.458,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Athlete_S01_SET3,Post‑Game Cool‑Down Routine,Target,pilot_s01_B_t01__ROLEGEN_Athlete_S01_SET3,pilot_s01_t01,1,4,Retrieve the foam roller from the recovery room.,Place the foam,Y,N,Semantic,1.0,Primacy,N,N,Y,Foam roller,8,1,0.083,0.282,7.0,1.0,0.087,25.775,role-adapted-v8-chunked,53,2,2026-09-14T03:58:20.431+00:00,2026-09-14T03:59:21.460+00:00,61.029,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","foam, roller, breathing, water",Y,N,22.664,6,4,0,0.0,22.664,"[{""time_sec"": 22.664, ""answer"": ""foam, roller, breathing, water""}]",2026-09-14T03:59:21.460+00:00,2026-09-14T03:59:52.484+00:00,31.024,2026-09-14T03:59:52.484+00:00,2026-09-14T04:00:27.828+00:00,35.345,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Athlete_S01_SET3,Post‑Game Cool‑Down Routine,Target,pilot_s01_B_t02__ROLEGEN_Athlete_S01_SET3,pilot_s01_t02,2,4,Set the stretch mat in the corner.,Place the roller in the corner,Y,N,Semantic,0.698,Middle,Y,N,N,Stretch mat,7,1,0.088,0.258,7.0,1.0,0.087,25.775,role-adapted-v8-chunked,53,2,2026-09-14T03:58:20.431+00:00,2026-09-14T03:59:21.460+00:00,61.029,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","foam, roller, breathing, water",Y,N,22.664,6,4,0,0.0,22.664,"[{""time_sec"": 22.664, ""answer"": ""foam, roller, breathing, water""}]",2026-09-14T03:59:21.460+00:00,2026-09-14T03:59:52.484+00:00,31.024,2026-09-14T03:59:52.484+00:00,2026-09-14T04:00:27.828+00:00,35.345,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Athlete_S01_SET3,Post‑Game Cool‑Down Routine,Target,pilot_s01_B_t03__ROLEGEN_Athlete_S01_SET3,pilot_s01_t03,3,4,Outline the breathing technique for relaxation.,Practice the breathing techniques,Y,N,Semantic,1.0,Middle,N,Y,N,Breathing technique,6,1,0.088,0.233,7.0,1.0,0.087,25.775,role-adapted-v8-chunked,53,2,2026-09-14T03:58:20.431+00:00,2026-09-14T03:59:21.460+00:00,61.029,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","foam, roller, breathing, water",Y,N,22.664,6,4,0,0.0,22.664,"[{""time_sec"": 22.664, ""answer"": ""foam, roller, breathing, water""}]",2026-09-14T03:59:21.460+00:00,2026-09-14T03:59:52.484+00:00,31.024,2026-09-14T03:59:52.484+00:00,2026-09-14T04:00:27.828+00:00,35.345,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Athlete_S01_SET3,Post‑Game Cool‑Down Routine,Target,pilot_s01_B_t04__ROLEGEN_Athlete_S01_SET3,pilot_s01_t04,4,4,Place the water bottles on the table.,Place down the water bottles,Y,N,Semantic,1.0,Recency,N,N,N,Water bottles,7,1,0.088,0.258,7.0,1.0,0.087,25.775,role-adapted-v8-chunked,53,2,2026-09-14T03:58:20.431+00:00,2026-09-14T03:59:21.460+00:00,61.029,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","foam, roller, breathing, water",Y,N,22.664,6,4,0,0.0,22.664,"[{""time_sec"": 22.664, ""answer"": ""foam, roller, breathing, water""}]",2026-09-14T03:59:21.460+00:00,2026-09-14T03:59:52.484+00:00,31.024,2026-09-14T03:59:52.484+00:00,2026-09-14T04:00:27.828+00:00,35.345,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Athlete_S01_SET4,Pre‑Game Warm‑Up Checklist,Target,pilot_s02_B_t01__ROLEGEN_Athlete_S01_SET4,pilot_s02_t01,1,4,Check your shin guards for cracks.,Check for shin gaurd cracks,Y,N,Semantic,1.0,Primacy,N,N,Y,Coach’s voice,6,1,0.026,0.224,7.75,1.25,0.024,28.475,role-adapted-v8-chunked,68,2,2026-09-14T04:00:28.443+00:00,2026-09-14T04:01:29.456+00:00,61.013,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","shin gaurd cracks, run 3 laps, tech check water bottle label.",Y,N,30.005,4,3,0,0.0,30.005,[],2026-09-14T04:01:29.456+00:00,2026-09-14T04:01:59.461+00:00,30.005,2026-09-14T04:01:59.461+00:00,2026-09-14T04:02:50.503+00:00,51.042,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Athlete_S01_SET4,Pre‑Game Warm‑Up Checklist,Target,pilot_s02_B_t02__ROLEGEN_Athlete_S01_SET4,pilot_s02_t02,2,4,"Run three laps around the field, focusing on breathing.","Run 3 laps, focus on breathing",Y,N,Semantic,1.0,Middle,Y,N,N,Timer starts,9,1,0.021,0.298,7.75,1.25,0.024,28.475,role-adapted-v8-chunked,68,2,2026-09-14T04:00:28.443+00:00,2026-09-14T04:01:29.456+00:00,61.013,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","shin gaurd cracks, run 3 laps, tech check water bottle label.",Y,N,30.005,4,3,0,0.0,30.005,[],2026-09-14T04:01:29.456+00:00,2026-09-14T04:01:59.461+00:00,30.005,2026-09-14T04:01:59.461+00:00,2026-09-14T04:02:50.503+00:00,51.042,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Athlete_S01_SET4,Pre‑Game Warm‑Up Checklist,Target,pilot_s02_B_t03__ROLEGEN_Athlete_S01_SET4,pilot_s02_t03,3,4,"Remember the new drill: sprint, pivot, pass, repeat.","Remember the plan made, pass, give, pass, give, pass",Y,N,Semantic,1.0,Middle,N,Y,N,Coach’s whistle,8,1,0.021,0.273,7.75,1.25,0.024,28.475,role-adapted-v8-chunked,68,2,2026-09-14T04:00:28.443+00:00,2026-09-14T04:01:29.456+00:00,61.013,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","shin gaurd cracks, run 3 laps, tech check water bottle label.",Y,N,30.005,4,3,0,0.0,30.005,[],2026-09-14T04:01:29.456+00:00,2026-09-14T04:01:59.461+00:00,30.005,2026-09-14T04:01:59.461+00:00,2026-09-14T04:02:50.503+00:00,51.042,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Athlete_S01_SET4,Pre‑Game Warm‑Up Checklist,Target,pilot_s02_B_t04__ROLEGEN_Athlete_S01_SET4,pilot_s02_t04,4,4,Confirm your water bottle is full and labeled.,Check your bottle is labeled,Y,N,Semantic,1.0,Recency,N,N,N,Coach’s nod,8,2,0.026,0.344,7.75,1.25,0.024,28.475,role-adapted-v8-chunked,68,2,2026-09-14T04:00:28.443+00:00,2026-09-14T04:01:29.456+00:00,61.013,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","shin gaurd cracks, run 3 laps, tech check water bottle label.",Y,N,30.005,4,3,0,0.0,30.005,[],2026-09-14T04:01:29.456+00:00,2026-09-14T04:01:59.461+00:00,30.005,2026-09-14T04:01:59.461+00:00,2026-09-14T04:02:50.503+00:00,51.042,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Athlete_S01_SET5,Post‑Practice Recovery Plan,Target,pilot_s03_B_t01__ROLEGEN_Athlete_S01_SET5,pilot_s03_t01,1,4,"Pack your recovery kit: ice pack, compression sleeve, and protein shake.",Pack your recovery kit,Y,N,Exact,1.0,Primacy,N,N,Y,Coach’s reminder,11,2,0.05,0.423,11.0,1.5,0.049,38.75,role-adapted-v8-chunked,78,2,2026-09-14T04:02:50.967+00:00,2026-09-14T04:03:51.419+00:00,60.453,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-14T04:03:51.419+00:00,2026-09-14T04:04:22.515+00:00,31.096,2026-09-14T04:04:22.515+00:00,2026-09-14T04:05:05.531+00:00,43.016,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Athlete_S01_SET5,Post‑Practice Recovery Plan,Target,pilot_s03_B_t02__ROLEGEN_Athlete_S01_SET5,pilot_s03_t02,2,4,Complete a 10‑minute cool‑down jog at a steady pace.,Do a 10-minuet steady jog,Y,N,Semantic,1.0,Middle,Y,N,N,Timer clicks,11,1,0.015,0.347,11.0,1.5,0.049,38.75,role-adapted-v8-chunked,78,2,2026-09-14T04:02:50.967+00:00,2026-09-14T04:03:51.419+00:00,60.453,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-14T04:03:51.419+00:00,2026-09-14T04:04:22.515+00:00,31.096,2026-09-14T04:04:22.515+00:00,2026-09-14T04:05:05.531+00:00,43.016,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Athlete_S01_SET5,Post‑Practice Recovery Plan,Target,pilot_s03_B_t03__ROLEGEN_Athlete_S01_SET5,pilot_s03_t03,3,4,Apply foam roller to your quadriceps for 30 seconds.,Use the foam roller for 30 seconds,Y,N,Semantic,1.0,Middle,N,N,N,Coach’s demonstration,9,1,0.052,0.303,11.0,1.5,0.049,38.75,role-adapted-v8-chunked,78,2,2026-09-14T04:02:50.967+00:00,2026-09-14T04:03:51.419+00:00,60.453,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-14T04:03:51.419+00:00,2026-09-14T04:04:22.515+00:00,31.096,2026-09-14T04:04:22.515+00:00,2026-09-14T04:05:05.531+00:00,43.016,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEN7B65V_704efe93c7c4460e92b6f3ff0e0689af,1,2026-09-14T03:53:30.033+00:00,Y,2026-09-14T03:53:27.371+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEN7B65V,Athlete,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Athlete_S01_SET5,Post‑Practice Recovery Plan,Target,pilot_s03_B_t04__ROLEGEN_Athlete_S01_SET5,pilot_s03_t04,4,4,Schedule a massage for next week and note the time on your phone.,Schedule a massage,Y,N,Exact,1.0,Recency,N,Y,N,Coach’s suggestion,13,2,0.08,0.477,11.0,1.5,0.049,38.75,role-adapted-v8-chunked,78,2,2026-09-14T04:02:50.967+00:00,2026-09-14T04:03:51.419+00:00,60.453,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-14T04:03:51.419+00:00,2026-09-14T04:04:22.515+00:00,31.096,2026-09-14T04:04:22.515+00:00,2026-09-14T04:05:05.531+00:00,43.016,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
