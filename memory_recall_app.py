@@ -16,9 +16,20 @@ from pathlib import Path
 
 import gradio as gr
 import pandas as pd
-from openai import OpenAI
 from PIL import Image, ImageDraw, ImageFont
+from openai import OpenAI
 
+from ReminderRuleEngine import UniversalReminderRuleEngine
+from participant_registry import (
+    ActiveSessionError,
+    InvalidCredentialsError,
+    ParticipantInactiveError,
+    ParticipantLockedError,
+    authenticate_and_acquire_session,
+    create_auto_participant,
+    normalize_participant_id,
+    release_session,
+)
 from pilot_config import (
     APP_RUNTIME_VERSION,
     APP_TITLE,
@@ -67,7 +78,6 @@ from pilot_config import (
     READING_TIME_SECONDS,
     RECALL_INPUT_LINES,
     RECALL_TIME_SECONDS,
-    RECENT_SCENARIO_HISTORY,
     RESULTS_TABLE_COLUMN_WIDTHS,
     RESULTS_TABLE_MAX_HEIGHT,
     ROLE_GENERATION_CHUNK_SIZE,
@@ -104,7 +114,6 @@ from pilot_config import (
     TARGET_WORD_TOLERANCE,
     TIMER_INTERVAL_SECONDS,
 )
-
 from pilot_schema import (
     APP_VERSION,
     SCHEMA_VERSION,
@@ -113,22 +122,9 @@ from pilot_schema import (
     PARTICIPANT_REGISTRY_VERSION,
     CANONICAL_COLUMNS,
     OUTPUT_DIR,
-    serial_category,
 )
-from ReminderRuleEngine import UniversalReminderRuleEngine
+from protocol_design import prepare_session_scenarios
 from scenario_bank import SCENARIO_FAMILIES
-from protocol_design import DISTRACTOR_CONDITIONS, prepare_session_scenarios
-from participant_registry import (
-    ActiveSessionError,
-    InvalidCredentialsError,
-    ParticipantInactiveError,
-    ParticipantLockedError,
-    RegistryError,
-    authenticate_and_acquire_session,
-    create_auto_participant,
-    normalize_participant_id,
-    release_session,
-)
 
 # ==========================================================================
 # RUNTIME MODEL CLIENT
@@ -1081,10 +1077,7 @@ def prepare_role_aware_session(
     This avoids the previous failure mode where one 5-scenario request consumed
     most of the 8k TPM budget and a second full retry immediately hit a 429.
     """
-    form_id, templates = prepare_session_scenarios(
-        user=user,
-        session_number=session_number,
-    )
+    form_id, templates = prepare_session_scenarios(  user=user, session_number=session_number,)
     if len(templates) != TOTAL_SETS:
         raise RuntimeError(
             f"Protocol error: expected {TOTAL_SETS} counterbalanced templates, "
