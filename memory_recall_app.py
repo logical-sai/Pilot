@@ -16,20 +16,9 @@ from pathlib import Path
 
 import gradio as gr
 import pandas as pd
-from PIL import Image, ImageDraw, ImageFont
 from openai import OpenAI
+from PIL import Image, ImageDraw, ImageFont
 
-from ReminderRuleEngine import UniversalReminderRuleEngine
-from participant_registry import (
-    ActiveSessionError,
-    InvalidCredentialsError,
-    ParticipantInactiveError,
-    ParticipantLockedError,
-    authenticate_and_acquire_session,
-    create_auto_participant,
-    normalize_participant_id,
-    release_session,
-)
 from pilot_config import (
     APP_RUNTIME_VERSION,
     APP_TITLE,
@@ -78,6 +67,7 @@ from pilot_config import (
     READING_TIME_SECONDS,
     RECALL_INPUT_LINES,
     RECALL_TIME_SECONDS,
+    RECENT_SCENARIO_HISTORY,
     RESULTS_TABLE_COLUMN_WIDTHS,
     RESULTS_TABLE_MAX_HEIGHT,
     ROLE_GENERATION_CHUNK_SIZE,
@@ -114,6 +104,7 @@ from pilot_config import (
     TARGET_WORD_TOLERANCE,
     TIMER_INTERVAL_SECONDS,
 )
+
 from pilot_schema import (
     APP_VERSION,
     SCHEMA_VERSION,
@@ -122,9 +113,22 @@ from pilot_schema import (
     PARTICIPANT_REGISTRY_VERSION,
     CANONICAL_COLUMNS,
     OUTPUT_DIR,
+    serial_category,
 )
-from protocol_design import prepare_session_scenarios
+from ReminderRuleEngine import UniversalReminderRuleEngine
 from scenario_bank import SCENARIO_FAMILIES
+from protocol_design import DISTRACTOR_CONDITIONS, prepare_session_scenarios
+from participant_registry import (
+    ActiveSessionError,
+    InvalidCredentialsError,
+    ParticipantInactiveError,
+    ParticipantLockedError,
+    RegistryError,
+    authenticate_and_acquire_session,
+    create_auto_participant,
+    normalize_participant_id,
+    release_session,
+)
 
 # ==========================================================================
 # RUNTIME MODEL CLIENT
@@ -138,8 +142,8 @@ print(
 )
 
 print(
-    "[PILOT UI] one-second timer outputs only state/countdowns/phase signal; "
-    "static components are not part of timer.tick",
+    "[PILOT UI] timer outputs state/countdowns/transition snapshot only; "
+    "transition renderer never rereads state_store",
     flush=True,
 )
 
@@ -1077,7 +1081,10 @@ def prepare_role_aware_session(
     This avoids the previous failure mode where one 5-scenario request consumed
     most of the 8k TPM budget and a second full retry immediately hit a 429.
     """
-    form_id, templates = prepare_session_scenarios(  user=user, session_number=session_number,)
+    form_id, templates = prepare_session_scenarios(
+        user=user,
+        session_number=session_number,
+    )
     if len(templates) != TOTAL_SETS:
         raise RuntimeError(
             f"Protocol error: expected {TOTAL_SETS} counterbalanced templates, "
@@ -2247,17 +2254,85 @@ def submit_distractor_answer(answer, state):
     return state
 
 
+def _phase_transition_payload(state: dict) -> str:
+    """Serialize everything needed to render one phase transition.
+
+    The follow-up UI callback consumes this snapshot directly instead of reading
+    state_store again. This removes the race where the internal phase advanced
+    but the UI callback observed the previous state.
+    """
+    phase = str(state.get("phase", ""))
+    payload: dict = {
+        "delivery_id": time.time_ns(),
+        "phase": phase,
+        "set_idx": int(state.get("set_idx", 0)),
+    }
+
+    if phase == "reading":
+        payload.update({
+            "scenario_title": session_set_title(state),
+            "stimulus_html": scenario_stimulus_html(state),
+            "reading_seconds": int(
+                state.get("phase_remaining", READING_TIME_SECONDS)
+            ),
+            "table_rows": current_df_rows(state).to_dict(orient="records"),
+        })
+
+    elif phase == "distractor":
+        scenario = current_scenario(state)
+        d = scenario["distractor"]
+        requires_answer = bool(d.get("requires_answer", True))
+
+        if requires_answer:
+            prompt = (
+                f"### Active distraction • {scenario['distractor_condition']} load\n"
+                f"{d['task']}\n\n"
+                "Work for the full interval. You may update and save your answer at any time."
+            )
+        else:
+            prompt = (
+                "### Quiet baseline interval\n"
+                f"{d['task']}\n\n"
+                "This quiet interval is intentional: it provides the "
+                "no-distraction comparison condition."
+            )
+
+        payload.update({
+            "distractor_prompt": prompt,
+            "requires_answer": requires_answer,
+            "distractor_seconds": int(
+                state.get("phase_remaining", DISTRACTOR_TIME_SECONDS)
+            ),
+            "table_rows": current_df_rows(state).to_dict(orient="records"),
+        })
+
+    elif phase == "recall":
+        scenario = current_scenario(state)
+        payload.update({
+            "recall_title": (
+                f"### Recall • Set {scenario['set_index']} of {TOTAL_SETS}"
+            ),
+            "recall_seconds": int(
+                state.get("phase_remaining", RECALL_TIME_SECONDS)
+            ),
+            "table_rows": current_df_rows(state).to_dict(orient="records"),
+        })
+
+    elif phase == "complete":
+        payload.update({
+            "summary_html": final_summary(state),
+            "table_rows": current_df_rows(state).to_dict(orient="records"),
+            "output_path": state.get("output_path") or "",
+        })
+
+    return json.dumps(payload, ensure_ascii=False)
+
+
 def timer_tick_light(distractor_answer, recalled_text, state):
-    """Advance time without touching static UI components.
+    """Advance the state machine without rerendering static components.
 
-    The one-second timer is allowed to output only:
-      * the hidden session state;
-      * the three countdown components;
-      * a hidden phase-change signal.
-
-    The protected stimulus, headings, prompts, inputs, tables, and view containers
-    are deliberately absent from this event's output list. This prevents Gradio
-    from marking them as processing/rerendering them every second.
+    Static transitions are emitted as self-contained JSON snapshots. The
+    transition renderer therefore cannot see stale state_store data.
     """
     if not state:
         return (
@@ -2268,10 +2343,10 @@ def timer_tick_light(distractor_answer, recalled_text, state):
             gr.skip(),
         )
 
-    before_phase = state.get("phase")
+    before_phase = str(state.get("phase", ""))
     before_set_idx = int(state.get("set_idx", 0))
 
-    # Reuse the tested state-machine logic, but intentionally ignore its UI tuple.
+    # Keep render_tick as the single authority for phase/state mutation.
     render_tick(
         state,
         distractor_answer,
@@ -2279,7 +2354,7 @@ def timer_tick_light(distractor_answer, recalled_text, state):
         False,
     )
 
-    after_phase = state.get("phase")
+    after_phase = str(state.get("phase", ""))
     after_set_idx = int(state.get("set_idx", 0))
 
     reading_timer = gr.skip()
@@ -2299,89 +2374,81 @@ def timer_tick_light(distractor_answer, recalled_text, state):
             f"Recall time: **{int(state.get('phase_remaining', 0))}s**"
         )
 
-    phase_changed = (
+    changed = (
         before_phase != after_phase
         or before_set_idx != after_set_idx
     )
 
-    if phase_changed:
-        # The changing value triggers phase_signal.change exactly when the UI
-        # actually needs to be redrawn.
-        phase_signal = (
-            f"{after_phase}:{after_set_idx}:"
-            f"{len(state.get('completed_set_indices', []))}:"
-            f"{time.time_ns()}"
+    if changed:
+        print(
+            "[PILOT TRANSITION] "
+            f"set_position={before_set_idx}->{after_set_idx} "
+            f"phase={before_phase}->{after_phase}",
+            flush=True,
         )
+        transition_payload = _phase_transition_payload(state)
     else:
-        phase_signal = gr.skip()
+        transition_payload = gr.skip()
 
     return (
         state,
         reading_timer,
         distractor_timer,
         recall_timer,
-        phase_signal,
+        transition_payload,
     )
 
 
-def render_phase_ui(state):
-    """Render static UI only when the phase or set actually changes."""
-    if not state:
-        return (
-            gr.skip(), gr.skip(), gr.skip(), gr.skip(),
-            gr.skip(), gr.skip(),
-            gr.skip(), gr.skip(), gr.skip(),
-            gr.skip(), gr.skip(),
-            gr.skip(), gr.skip(), gr.skip(),
-        )
+def render_transition_payload(payload_text):
+    """Apply a transition snapshot without consulting state_store."""
+    if not payload_text:
+        return tuple(gr.skip() for _ in range(14))
 
-    phase = state.get("phase")
+    try:
+        payload = json.loads(str(payload_text))
+    except Exception as exc:
+        raise RuntimeError(
+            f"Invalid UI transition payload: {type(exc).__name__}: {exc}"
+        ) from exc
+
+    phase = payload.get("phase")
 
     if phase == "reading":
-        scenario = current_scenario(state)
         return (
-            gr.update(visible=True),    # reading_view
-            gr.update(visible=False),   # distractor_view
-            gr.update(visible=False),   # recall_view
-            gr.update(visible=False),   # results_view
-            session_set_title(state),
-            scenario_stimulus_html(state),
-            gr.skip(),                  # distractor title
-            gr.skip(),                  # distractor prompt
-            gr.update(value=""),        # distractor answer
-            gr.skip(),                  # recall title
-            gr.update(value=""),        # recall text
-            gr.skip(),                  # summary
-            current_df_rows(state),
-            gr.skip(),                  # output file
+            gr.update(visible=True),
+            gr.update(visible=False),
+            gr.update(visible=False),
+            gr.update(visible=False),
+            payload.get("scenario_title", ""),
+            payload.get("stimulus_html", ""),
+            gr.skip(),
+            gr.skip(),
+            gr.update(value=""),
+            gr.skip(),
+            gr.update(value=""),
+            gr.skip(),
+            pd.DataFrame(
+                payload.get("table_rows") or [],
+                columns=DISPLAY_COLUMNS,
+            ),
+            gr.skip(),
         )
 
     if phase == "distractor":
-        scenario = current_scenario(state)
-        d = scenario["distractor"]
-        requires_answer = bool(d.get("requires_answer", True))
-
+        requires_answer = bool(payload.get("requires_answer", True))
         if requires_answer:
-            prompt = (
-                f"### Active distraction • "
-                f"{scenario['distractor_condition']} load\n"
-                f"{d['task']}\n\n"
-                "Work for the full interval. You may update and save your "
-                "answer at any time."
-            )
             answer_update = gr.update(
                 visible=True,
                 value="",
+                interactive=True,
                 placeholder="Example: 36, 35, 25, ...",
             )
         else:
-            prompt = (
-                "### Quiet baseline interval\n"
-                f"{d['task']}\n\n"
-                "This quiet interval is intentional: it provides the "
-                "no-distraction comparison condition."
+            answer_update = gr.update(
+                visible=False,
+                value="",
+                interactive=False,
             )
-            answer_update = gr.update(visible=False, value="")
 
         return (
             gr.update(visible=False),
@@ -2391,17 +2458,19 @@ def render_phase_ui(state):
             gr.skip(),
             gr.skip(),
             gr.skip(),
-            prompt,
+            payload.get("distractor_prompt", ""),
             answer_update,
             gr.skip(),
             gr.skip(),
             gr.skip(),
-            current_df_rows(state),
+            pd.DataFrame(
+                payload.get("table_rows") or [],
+                columns=DISPLAY_COLUMNS,
+            ),
             gr.skip(),
         )
 
     if phase == "recall":
-        scenario = current_scenario(state)
         return (
             gr.update(visible=False),
             gr.update(visible=False),
@@ -2412,10 +2481,13 @@ def render_phase_ui(state):
             gr.skip(),
             gr.skip(),
             gr.skip(),
-            f"### Recall • Set {scenario['set_index']} of {TOTAL_SETS}",
-            gr.update(value=""),
+            payload.get("recall_title", ""),
+            gr.update(value="", interactive=True),
             gr.skip(),
-            current_df_rows(state),
+            pd.DataFrame(
+                payload.get("table_rows") or [],
+                columns=DISPLAY_COLUMNS,
+            ),
             gr.skip(),
         )
 
@@ -2432,12 +2504,14 @@ def render_phase_ui(state):
             gr.skip(),
             gr.skip(),
             gr.skip(),
-            final_summary(state),
-            current_df_rows(state),
-            state.get("output_path") or None,
+            payload.get("summary_html", ""),
+            pd.DataFrame(
+                payload.get("table_rows") or [],
+                columns=DISPLAY_COLUMNS,
+            ),
+            payload.get("output_path") or None,
         )
 
-    # Registration or any other non-assessment state: leave UI untouched.
     return tuple(gr.skip() for _ in range(14))
 
 
@@ -2582,12 +2656,12 @@ with gr.Blocks(title=APP_TITLE) as app:
 
     timer = gr.Timer(value=TIMER_INTERVAL_SECONDS, active=True)
 
-    # Changed only when the state machine enters a new phase/set. Keeping this
-    # separate allows the one-second timer to avoid static UI components entirely.
-    phase_signal = gr.Textbox(
+    # Changed only on an actual phase/set transition. The value contains the
+    # complete transition snapshot, so its renderer never rereads state_store.
+    transition_payload = gr.Textbox(
         value="",
         visible=False,
-        elem_id="pilot-phase-signal",
+        elem_id="pilot-transition-payload",
     )
 
     common_outputs = [
@@ -2672,7 +2746,7 @@ with gr.Blocks(title=APP_TITLE) as app:
             reading_timer_ui,
             distractor_timer_ui,
             recall_timer_ui,
-            phase_signal,
+            transition_payload,
         ],
         show_progress="hidden",
         trigger_mode="always_last",
@@ -2680,10 +2754,11 @@ with gr.Blocks(title=APP_TITLE) as app:
         concurrency_id="pilot_state_machine",
     )
 
-    # Static UI is rendered only after an actual phase/set transition.
-    phase_signal.change(
-        fn=render_phase_ui,
-        inputs=[state_store],
+    # Static UI is rendered only after an actual transition. The renderer receives
+    # the snapshot directly and never reads state_store.
+    transition_payload.change(
+        fn=render_transition_payload,
+        inputs=[transition_payload],
         outputs=[
             reading_view,
             distractor_view,

@@ -28,7 +28,8 @@ def _env_bool(name: str, default: bool) -> bool:
 # ==========================================================================
 # MODEL / BACKEND
 # ==========================================================================
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "***").strip()
+GROQ_API_KEY = os.environ.get(
+    "GROQ_API_KEY", "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").strip()
 GROQ_BASE_URL = os.environ.get(
     "GROQ_BASE_URL",
     "https://api.groq.com/openai/v1",
@@ -50,9 +51,9 @@ EVALUATOR_TEMPERATURE = 0.0
 EVALUATOR_MAX_TOKENS = _env_int("EVALUATOR_MAX_TOKENS", 800)
 
 # Role-specific scenario generation.
-APP_RUNTIME_VERSION = "memory-recall-role-v8-timer-isolated"
+APP_RUNTIME_VERSION = "memory-recall-role-v9-transition-snapshot"
 
-ROLE_GENERATION_VERSION = "role-adapted-v8-chunked"
+ROLE_GENERATION_VERSION = "role-adapted-v9-chunked"
 ROLE_GENERATION_RETRIES = _env_int("ROLE_GENERATION_RETRIES", 2)
 
 # GPT-OSS defaults to medium reasoning. These stimuli do not need deep reasoning,
@@ -113,9 +114,9 @@ DEFAULT_ROLE = "Student"
 OTHER_ROLE_VALUE = "Other / Prefer not to say"
 GENERAL_ROLE_PROMPT = "a general everyday adult context"
 
-READING_TIME_SECONDS = _env_int("READING_TIME_SECONDS", 40)
-DISTRACTOR_TIME_SECONDS = _env_int("DISTRACTOR_TIME_SECONDS", 15)
-RECALL_TIME_SECONDS = _env_int("RECALL_TIME_SECONDS", 40)
+READING_TIME_SECONDS = _env_int("READING_TIME_SECONDS", 60)
+DISTRACTOR_TIME_SECONDS = _env_int("DISTRACTOR_TIME_SECONDS", 45)
+RECALL_TIME_SECONDS = _env_int("RECALL_TIME_SECONDS", 60)
 TIMER_INTERVAL_SECONDS = _env_float("TIMER_INTERVAL_SECONDS", 1.0)
 
 TARGETS_PER_SCENARIO = _env_int("TARGETS_PER_SCENARIO", 4)
