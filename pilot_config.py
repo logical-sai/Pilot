@@ -28,8 +28,7 @@ def _env_bool(name: str, default: bool) -> bool:
 # ==========================================================================
 # MODEL / BACKEND
 # ==========================================================================
-GROQ_API_KEY = os.environ.get(
-    "GROQ_API_KEY", "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").strip()
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "").strip()
 GROQ_BASE_URL = os.environ.get(
     "GROQ_BASE_URL",
     "https://api.groq.com/openai/v1",
@@ -51,9 +50,9 @@ EVALUATOR_TEMPERATURE = 0.0
 EVALUATOR_MAX_TOKENS = _env_int("EVALUATOR_MAX_TOKENS", 800)
 
 # Role-specific scenario generation.
-APP_RUNTIME_VERSION = "memory-recall-role-v9-transition-snapshot"
+APP_RUNTIME_VERSION = "memory-recall-role-v11-stopwatch-server"
 
-ROLE_GENERATION_VERSION = "role-adapted-v9-chunked"
+ROLE_GENERATION_VERSION = "role-adapted-v11-self-paced"
 ROLE_GENERATION_RETRIES = _env_int("ROLE_GENERATION_RETRIES", 2)
 
 # GPT-OSS defaults to medium reasoning. These stimuli do not need deep reasoning,
@@ -115,9 +114,10 @@ OTHER_ROLE_VALUE = "Other / Prefer not to say"
 GENERAL_ROLE_PROMPT = "a general everyday adult context"
 
 READING_TIME_SECONDS = _env_int("READING_TIME_SECONDS", 60)
-DISTRACTOR_TIME_SECONDS = _env_int("DISTRACTOR_TIME_SECONDS", 45)
-RECALL_TIME_SECONDS = _env_int("RECALL_TIME_SECONDS", 60)
+DISTRACTOR_TIME_SECONDS = _env_int("DISTRACTOR_TIME_SECONDS", 30)
+RECALL_TIME_SECONDS = _env_int("RECALL_TIME_SECONDS", 120)
 TIMER_INTERVAL_SECONDS = _env_float("TIMER_INTERVAL_SECONDS", 1.0)
+STOPWATCH_REFRESH_MS = _env_int("STOPWATCH_REFRESH_MS", 1000)
 
 TARGETS_PER_SCENARIO = _env_int("TARGETS_PER_SCENARIO", 4)
 NON_INSTRUCTION_DETAILS_PER_SCENARIO = _env_int(
@@ -241,16 +241,14 @@ GRADIO_SHARE = _env_bool("GRADIO_SHARE", True)
 DISPLAY_COLUMNS = (
     "Set",
     "Scenario",
-    "Distractor",
-    "Complexity",
-    "Recall",
+    "Remembered",
     "In order",
-    "Intrusions",
-    "Distractor result",
+    "Extra responses",
+    "Activity",
 )
 
 RESULTS_TABLE_MAX_HEIGHT = 360
-RESULTS_TABLE_COLUMN_WIDTHS = (60, 220, 100, 90, 120, 90, 85, 160)
+RESULTS_TABLE_COLUMN_WIDTHS = (60, 260, 130, 100, 120, 180)
 RECALL_INPUT_LINES = 8
 
 CUSTOM_CSS = """
@@ -280,6 +278,75 @@ CUSTOM_CSS = """
 .metric-value { font-size:1.45rem; font-weight:700; }
 .result-note { opacity:.78; font-size:.92rem; margin-top:10px; }
 @media (max-width: 800px) { .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+
+/* Participant-oriented phase layout. */
+.phase-guide {
+    border: 1px solid rgba(127,127,127,.22);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 10px 0 16px 0;
+    background: rgba(127,127,127,.055);
+}
+.phase-guide strong { font-size: 1.02rem; }
+.phase-guide .muted { opacity: .74; margin-top: 4px; }
+
+.pilot-stopwatch-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    border: 1px solid rgba(127,127,127,.24);
+    border-radius: 14px;
+    padding: 10px 14px;
+    margin: 4px 0 16px 0;
+    background: rgba(127,127,127,.05);
+}
+.pilot-stopwatch-label {
+    font-size: .82rem;
+    opacity: .7;
+}
+.pilot-stopwatch {
+    font-variant-numeric: tabular-nums;
+    font-size: 1.35rem;
+    font-weight: 700;
+    min-width: 74px;
+}
+.pilot-stopwatch-note {
+    font-size: .84rem;
+    opacity: .68;
+}
+.pilot-steps {
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:12px;
+    margin:14px 0 18px 0;
+}
+.pilot-step {
+    border:1px solid rgba(127,127,127,.22);
+    border-radius:14px;
+    padding:14px 16px;
+    background:rgba(127,127,127,.045);
+}
+.pilot-step-number {
+    font-size:.78rem;
+    opacity:.65;
+    margin-bottom:4px;
+}
+.pilot-step-title {
+    font-weight:700;
+    margin-bottom:4px;
+}
+.pilot-step-copy {
+    font-size:.9rem;
+    opacity:.78;
+}
+@media (max-width: 760px) {
+    .pilot-steps { grid-template-columns:1fr; }
+    .pilot-stopwatch-card {
+        display:flex;
+        width:100%;
+        justify-content:space-between;
+    }
+}
 
 /* Protected stimulus is plain HTML, so Gradio creates no download/fullscreen toolbar. */
 #protected-instruction-canvas .protected-stimulus-frame {

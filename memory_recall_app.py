@@ -99,6 +99,7 @@ from pilot_config import (
     STIMULUS_TEXT_RGB,
     STIMULUS_TEXT_START_Y,
     STIMULUS_WIDTH,
+    STOPWATCH_REFRESH_MS,
     SUBJECT_ID_MAX_LENGTH,
     TARGETS_PER_SCENARIO,
     TARGET_WORD_TOLERANCE,
@@ -142,8 +143,8 @@ print(
 )
 
 print(
-    "[PILOT UI] timer outputs state/countdowns/transition snapshot only; "
-    "transition renderer never rereads state_store",
+    "[PILOT UI] self-paced phases; UI-only stopwatch timer; "
+    "no automatic phase transitions",
     flush=True,
 )
 
@@ -1326,8 +1327,8 @@ def make_state(subject_id: str, role: str, consent_timestamp: datetime, registry
         "scenarios": scenarios,
         "scenario": scenarios[0],
         "phase": "reading",
-        "phase_remaining": READING_TIME_SECONDS,
-        "phase_deadline_epoch": time.time() + READING_TIME_SECONDS,
+        "phase_remaining": None,
+        "phase_deadline_epoch": None,
         "reading_start": now,
         "reading_end": None,
         "distractor_start": None,
@@ -1387,23 +1388,151 @@ def current_df_rows(state: dict) -> pd.DataFrame:
         rows.append({
             "Set": set_index,
             "Scenario": first.get("Scenario_Title", ""),
-            "Distractor": condition,
-            "Complexity": round(float(first.get("Instruction_Complexity_Index") or 0), 2),
-            "Recall": f"{remembered}/{len(targets)} ({100.0 * remembered / len(targets):.0f}%)",
+            "Remembered": f"{remembered}/{len(targets)} ({100.0 * remembered / len(targets):.0f}%)",
             "In order": f"{in_order}/{len(targets)}",
-            "Intrusions": len(intrusions),
-            "Distractor result": distraction_perf,
+            "Extra responses": len(intrusions),
+            "Activity": distraction_perf,
         })
 
     return pd.DataFrame(rows, columns=DISPLAY_COLUMNS)
 
 
 def session_set_title(state: dict) -> str:
+    """Participant-facing set heading; research form metadata stays in the dataset."""
     s = current_scenario(state)
-    return (
-        f"### Set {s['set_index']} of {TOTAL_SETS}  •  {s['title']}\n"
-        f"Equivalent form: **{s['scenario_form']}**"
+    return f"### Set {s['set_index']} of {TOTAL_SETS} · {s['title']}"
+
+
+def _format_elapsed_seconds(seconds: float) -> str:
+    total = max(0, int(seconds))
+    hours, remainder = divmod(total, 3600)
+    minutes, secs = divmod(remainder, 60)
+
+    if hours:
+        return f"{hours:02d}:{minutes:02d}:{secs:02d}"
+    return f"{minutes:02d}:{secs:02d}"
+
+
+def _phase_elapsed_seconds(state: dict, phase: str) -> float:
+    """Return authoritative elapsed time for the currently visible phase."""
+    if not state:
+        return 0.0
+
+    now = utc_now()
+    if phase == "reading":
+        start = state.get("reading_start")
+    elif phase == "distractor":
+        start = state.get("distractor_start")
+    elif phase == "recall":
+        start = state.get("recall_start")
+    else:
+        start = None
+
+    if not start:
+        return 0.0
+    return max(0.0, (now - start).total_seconds())
+
+
+def phase_stopwatch_html(state: dict, phase: str) -> str:
+    """Render an elapsed-time display.
+
+    The server timestamps are authoritative. A lightweight timer refreshes only
+    the stopwatch components; it never participates in phase transitions.
+    """
+    elapsed = _format_elapsed_seconds(
+        _phase_elapsed_seconds(state, phase)
     )
+    return (
+        '<div class="pilot-stopwatch-card">'
+        '<div>'
+        '<div class="pilot-stopwatch-label">Elapsed time</div>'
+        f'<div class="pilot-stopwatch">{elapsed}</div>'
+        '</div>'
+        '<div class="pilot-stopwatch-note">'
+        'No time limit — continue when you are ready.'
+        '</div>'
+        '</div>'
+    )
+
+
+def stopwatch_tick(state):
+    """Refresh only the visible stopwatch.
+
+    No state mutation and no phase transition occurs here. Because the scenario,
+    views, inputs, buttons, and tables are not outputs of this event, timer ticks
+    cannot make the participant content flash.
+    """
+    if not state:
+        return gr.skip(), gr.skip(), gr.skip()
+
+    phase = state.get("phase")
+
+    if phase == "reading":
+        return (
+            phase_stopwatch_html(state, "reading"),
+            gr.skip(),
+            gr.skip(),
+        )
+
+    if phase == "distractor":
+        return (
+            gr.skip(),
+            phase_stopwatch_html(state, "distractor"),
+            gr.skip(),
+        )
+
+    if phase == "recall":
+        return (
+            gr.skip(),
+            gr.skip(),
+            phase_stopwatch_html(state, "recall"),
+        )
+
+    return gr.skip(), gr.skip(), gr.skip()
+
+
+def reading_phase_guide() -> str:
+    return (
+        '<div class="phase-guide">'
+        '<strong>Step 1 of 3 · Read</strong>'
+        '<div class="muted">'
+        'Read the situation and instructions carefully. '
+        'When you feel ready, select <strong>Continue to activity</strong>. '
+        'You will not be able to return to these instructions.'
+        '</div>'
+        '</div>'
+    )
+
+
+def recall_phase_title(state: dict) -> str:
+    scenario = current_scenario(state)
+    return (
+        f"### Set {scenario['set_index']} of {TOTAL_SETS} · Recall\\n"
+        "Enter every instruction you remember, one per line. "
+        "It is okay to submit fewer responses if that is all you remember."
+    )
+
+
+def participant_activity_prompt(state: dict) -> tuple[str, bool]:
+    scenario = current_scenario(state)
+    d = scenario["distractor"]
+    requires_answer = bool(d.get("requires_answer", True))
+
+    if requires_answer:
+        prompt = (
+            "### Step 2 of 3 · Activity\\n"
+            "Complete the activity below at your own pace. "
+            "Enter your response, then select **Continue to recall**.\\n\\n"
+            f"{d['task']}"
+        )
+    else:
+        prompt = (
+            "### Step 2 of 3 · Activity\\n"
+            f"{d['task']}\\n\\n"
+            "When you are ready to move on, select **Continue to recall**."
+        )
+
+    return prompt, requires_answer
 
 
 def register_new_participant(role, consent_confirmed):
@@ -1451,7 +1580,7 @@ def register_new_participant(role, consent_confirmed):
         state["phase"] = "registration"
         state["reading_start"] = None
         state["phase_deadline_epoch"] = None
-        state["phase_remaining"] = READING_TIME_SECONDS
+        state["phase_remaining"] = None
 
         return (
             state,
@@ -1488,7 +1617,7 @@ def register_new_participant(role, consent_confirmed):
 
 
 def begin_new_participant_assessment(state):
-    """Start the experimental clock after credentials have been saved."""
+    """Begin the self-paced reading phase after credentials have been saved."""
     if not state or state.get("phase") != "registration":
         return (
             state,
@@ -1503,10 +1632,10 @@ def begin_new_participant_assessment(state):
     now = utc_now()
     state["phase"] = "reading"
     state["reading_start"] = now
-    state["phase_remaining"] = READING_TIME_SECONDS
-    state["phase_deadline_epoch"] = time.time() + READING_TIME_SECONDS
+    state["reading_end"] = None
+    state["phase_remaining"] = None
+    state["phase_deadline_epoch"] = None
 
-    scenario = current_scenario(state)
     canvas = scenario_stimulus_html(state)
 
     return (
@@ -1515,7 +1644,7 @@ def begin_new_participant_assessment(state):
         gr.update(visible=True),
         session_set_title(state),
         canvas,
-        f"Reading time: **{READING_TIME_SECONDS}s**",
+        phase_stopwatch_html(state, "reading"),
         "",
     )
 
@@ -1591,6 +1720,12 @@ def start_returning_experiment(subject_id, access_code, role, consent_confirmed)
         release_session(canonical_id, registry_session_token)
         raise
 
+    state["phase"] = "reading"
+    state["reading_start"] = utc_now()
+    state["reading_end"] = None
+    state["phase_remaining"] = None
+    state["phase_deadline_epoch"] = None
+
     s = current_scenario(state)
     canvas = scenario_stimulus_html(state)
     return (
@@ -1598,7 +1733,7 @@ def start_returning_experiment(subject_id, access_code, role, consent_confirmed)
         gr.update(visible=False), gr.update(visible=True), gr.update(visible=False),
         gr.update(visible=False), gr.update(visible=False),
         "",
-        session_set_title(state), canvas, f"Reading time: **{READING_TIME_SECONDS}s**",
+        session_set_title(state), canvas, phase_stopwatch_html(state, "reading"),
         "", "", "", gr.update(value=""),
         "", "", gr.update(value=""), "", empty_display_df(), None,
     )
@@ -1608,9 +1743,10 @@ def transition_to_distractor(state: dict) -> dict:
     now = utc_now()
     state["reading_end"] = now
     state["phase"] = "distractor"
-    state["phase_remaining"] = DISTRACTOR_TIME_SECONDS
-    state["phase_deadline_epoch"] = time.time() + DISTRACTOR_TIME_SECONDS
+    state["phase_remaining"] = None
+    state["phase_deadline_epoch"] = None
     state["distractor_start"] = now
+    state["distractor_end"] = None
     state["distractor_response_time_sec"] = None
     state["submitted_distractor_answer"] = None
     state["distractor_answer_updates"] = []
@@ -1621,9 +1757,10 @@ def transition_to_recall(state: dict) -> dict:
     now = utc_now()
     state["distractor_end"] = now
     state["phase"] = "recall"
-    state["phase_remaining"] = RECALL_TIME_SECONDS
-    state["phase_deadline_epoch"] = time.time() + RECALL_TIME_SECONDS
+    state["phase_remaining"] = None
+    state["phase_deadline_epoch"] = None
     state["recall_start"] = now
+    state["recall_end"] = None
     return state
 
 
@@ -1944,12 +2081,12 @@ def final_summary(state: dict) -> str:
   <div style="opacity:.75">Participant <strong>{state['user']}</strong> • Session {state['session_number']} • {completed_sets}/{TOTAL_SETS} sets complete</div>
 </div>
 <div class="metric-grid">
-  <div class="metric-card"><div class="metric-label">Target recall</div><div class="metric-value">{remembered}/{total}</div><div>{recall_pct:.1f}%</div></div>
-  <div class="metric-card"><div class="metric-label">Recalled in order</div><div class="metric-value">{in_order}/{total}</div></div>
-  <div class="metric-card"><div class="metric-label">Possible intrusions</div><div class="metric-value">{len(intrusions)}</div></div>
+  <div class="metric-card"><div class="metric-label">Instructions remembered</div><div class="metric-value">{remembered}/{total}</div><div>{recall_pct:.1f}%</div></div>
+  <div class="metric-card"><div class="metric-label">In original order</div><div class="metric-value">{in_order}/{total}</div></div>
+  <div class="metric-card"><div class="metric-label">Extra responses</div><div class="metric-value">{len(intrusions)}</div></div>
   <div class="metric-card"><div class="metric-label">Completed sets</div><div class="metric-value">{completed_sets}/{TOTAL_SETS}</div></div>
 </div>
-<div class="result-note">The table below intentionally shows one row per completed set. The downloadable CSV contains the detailed target-level research data. This is descriptive pilot output, not a clinical score.</div>
+<div class="result-note">You completed the full session. The table below summarizes each set. This is a descriptive session summary, not a clinical score.</div>
 """
 
 
@@ -1972,8 +2109,8 @@ def advance_after_set(state: dict) -> tuple[bool, Path | None]:
     state.update({
         "scenario": scenario,
         "phase": "reading",
-        "phase_remaining": READING_TIME_SECONDS,
-        "phase_deadline_epoch": time.time() + READING_TIME_SECONDS,
+        "phase_remaining": None,
+        "phase_deadline_epoch": None,
         "reading_start": now,
         "reading_end": None,
         "distractor_start": None,
@@ -1986,6 +2123,183 @@ def advance_after_set(state: dict) -> tuple[bool, Path | None]:
         "distractor_answer_updates": [],
     })
     return False, None
+
+
+def continue_from_reading(state):
+    """Participant-controlled transition from reading to the activity."""
+    if not state or state.get("phase") != "reading":
+        gr.Warning("This set is no longer in the reading phase.")
+        return (
+            state,
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+        )
+
+    transition_to_distractor(state)
+    prompt, requires_answer = participant_activity_prompt(state)
+
+    answer_update = (
+        gr.update(
+            visible=True,
+            value="",
+            interactive=True,
+            placeholder="Enter your activity response here",
+        )
+        if requires_answer
+        else gr.update(visible=False, value="", interactive=False)
+    )
+
+    return (
+        state,
+        gr.update(visible=False),
+        gr.update(visible=True),
+        "### Step 2 of 3 · Activity",
+        prompt,
+        phase_stopwatch_html(state, "activity"),
+        answer_update,
+    )
+
+
+def continue_from_distractor(answer, state):
+    """Participant-controlled transition from the activity to recall."""
+    if not state or state.get("phase") != "distractor":
+        gr.Warning("This set is no longer in the activity phase.")
+        return (
+            state,
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+        )
+
+    scenario = current_scenario(state)
+    requires_answer = bool(
+        scenario["distractor"].get("requires_answer", True)
+    )
+    value = str(answer or "").strip()
+
+    if requires_answer and not value:
+        gr.Warning("Enter your activity response before continuing.")
+        return (
+            state,
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+        )
+
+    elapsed = seconds_between(state.get("distractor_start"), utc_now())
+    state["submitted_distractor_answer"] = value if requires_answer else ""
+    state["distractor_response_time_sec"] = elapsed if requires_answer else None
+
+    if requires_answer:
+        state.setdefault("distractor_answer_updates", []).append({
+            "time_sec": elapsed,
+            "answer": value,
+        })
+
+    transition_to_recall(state)
+
+    return (
+        state,
+        gr.update(visible=False),
+        gr.update(visible=True),
+        recall_phase_title(state),
+        phase_stopwatch_html(state, "recall"),
+        gr.update(value="", interactive=True),
+    )
+
+
+def submit_recall_self_paced(distractor_answer, recalled_text, state):
+    """Finalize recall when the participant chooses to submit."""
+    if not state or state.get("phase") != "recall":
+        gr.Warning("This set is no longer in the recall phase.")
+        return (
+            state,
+            *[gr.skip() for _ in range(17)],
+        )
+
+    if state.get("is_processing"):
+        return (
+            state,
+            *[gr.skip() for _ in range(17)],
+        )
+
+    state["is_processing"] = True
+    try:
+        finalized = append_set_results(
+            state,
+            recalled_text or "",
+            distractor_answer or "",
+        )
+
+        if not finalized:
+            return (
+                state,
+                *[gr.skip() for _ in range(17)],
+            )
+
+        finished, path = advance_after_set(state)
+
+        if finished:
+            state["phase"] = "complete"
+            state["output_path"] = str(path)
+            return (
+                state,
+                gr.update(visible=False),
+                gr.update(visible=False),
+                gr.update(visible=False),
+                gr.update(visible=True),
+                gr.skip(),
+                gr.skip(),
+                gr.skip(),
+                gr.skip(),
+                gr.skip(),
+                gr.skip(),
+                gr.update(value=""),
+                gr.skip(),
+                gr.skip(),
+                gr.update(value=""),
+                final_summary(state),
+                current_df_rows(state),
+                str(path),
+            )
+
+        # Next set begins immediately in self-paced reading mode.
+        state["reading_start"] = utc_now()
+        state["reading_end"] = None
+        state["phase"] = "reading"
+        state["phase_remaining"] = None
+        state["phase_deadline_epoch"] = None
+
+        return (
+            state,
+            gr.update(visible=True),
+            gr.update(visible=False),
+            gr.update(visible=False),
+            gr.update(visible=False),
+            session_set_title(state),
+            scenario_stimulus_html(state),
+            phase_stopwatch_html(state, "reading"),
+            gr.skip(),
+            gr.skip(),
+            gr.skip(),
+            gr.update(value=""),
+            gr.skip(),
+            gr.skip(),
+            gr.update(value=""),
+            gr.skip(),
+            current_df_rows(state),
+            gr.skip(),
+        )
+    finally:
+        state["is_processing"] = False
 
 
 def render_tick(state, distractor_answer, recalled_text, force_submit=False):
@@ -2525,14 +2839,38 @@ with gr.Blocks(title=APP_TITLE) as app:
 
     gr.Markdown("# Memory Recall Pilot")
     gr.Markdown(
-        "**First time here?** Choose **New participant** and the program will assign "
-        "your Participant ID automatically. Choose **Returning participant** only if "
-        "you have completed or started this study before."
+        "Complete the assessment independently by following the instructions on each screen. "
+        "You control when to move on; the program records how long you spend in each phase."
+    )
+    gr.HTML(
+        """
+        <div class="pilot-steps">
+          <div class="pilot-step">
+            <div class="pilot-step-number">STEP 1</div>
+            <div class="pilot-step-title">Read</div>
+            <div class="pilot-step-copy">Read a short situation and its instructions. Continue when you feel ready.</div>
+          </div>
+          <div class="pilot-step">
+            <div class="pilot-step-number">STEP 2</div>
+            <div class="pilot-step-title">Activity</div>
+            <div class="pilot-step-copy">Complete a brief intervening activity, then choose when to continue.</div>
+          </div>
+          <div class="pilot-step">
+            <div class="pilot-step-number">STEP 3</div>
+            <div class="pilot-step-title">Recall</div>
+            <div class="pilot-step-copy">Enter the instructions you remember, one per line, then submit.</div>
+          </div>
+        </div>
+        """
+    )
+    gr.Markdown(
+        "**During the assessment:** work independently, do not take notes or screenshots, "
+        "and do not use outside assistance. Once you leave the reading screen, you cannot return to it."
     )
 
     with gr.Column(visible=True, elem_classes=["card-panel"]) as welcome_view:
         gr.Markdown(
-            "### Participant privacy\n"
+            "### Before you begin\n"
             "Do not enter a name, phone number, email address, or other direct identifier."
         )
 
@@ -2543,10 +2881,10 @@ with gr.Blocks(title=APP_TITLE) as app:
         )
 
         role_dropdown = gr.Dropdown(
-            label="Participant context (research metadata)",
+            label="Which context best matches you?",
             choices=ROLES_LIST,
             value=DEFAULT_ROLE,
-            info="Scenario content is generated for this role while experimental structure and distractor assignment remain controlled.",
+            info="The situations you see will be written to fit this context.",
         )
 
         gr.Markdown(
@@ -2610,35 +2948,54 @@ with gr.Blocks(title=APP_TITLE) as app:
                 "They are used to keep repeated sessions linked to the correct pseudonymous participant."
             )
             begin_new_btn = gr.Button(
-                "I saved my ID and code — Begin assessment",
+                "I saved my ID and code — Start assessment",
                 variant="primary",
             )
 
     with gr.Column(visible=False, elem_classes=["card-panel"]) as reading_view:
         scenario_title_ui = gr.Markdown("")
+        gr.HTML(reading_phase_guide())
+        reading_timer_ui = gr.HTML("")
         scenario_canvas_ui = gr.HTML(
             value='<div class="protected-stimulus-frame"></div>',
             elem_id="protected-instruction-canvas",
         )
-        reading_timer_ui = gr.Markdown("")
+        reading_continue_btn = gr.Button(
+            "Continue to activity",
+            variant="primary",
+        )
 
     with gr.Column(visible=False, elem_classes=["card-panel"]) as distractor_view:
         distractor_title_ui = gr.Markdown("")
         distractor_prompt_ui = gr.Markdown("")
-        distractor_timer_ui = gr.Markdown("")
+        distractor_timer_ui = gr.HTML("")
         distractor_answer_input = gr.Textbox(
-            label="Distractor answers"
+            label="Your activity response",
+            placeholder="Enter your response here",
         )
-        distractor_submit_btn = gr.Button("Save current answer", variant="secondary")
+        distractor_continue_btn = gr.Button(
+            "Continue to recall",
+            variant="primary",
+        )
 
     with gr.Column(visible=False, elem_classes=["card-panel"]) as recall_view:
         recall_title_ui = gr.Markdown("")
-        recall_timer_ui = gr.Markdown("")
+        recall_timer_ui = gr.HTML("")
         recalled_text_input = gr.Textbox(
-            label="Enter remembered instructions, one per line",
+            label="Instructions you remember",
+            placeholder="Enter one remembered instruction per line",
             lines=RECALL_INPUT_LINES,
         )
-        submit_btn = gr.Button("Submit recall now", variant="primary")
+        submit_btn = gr.Button(
+            "Submit recall",
+            variant="primary",
+        )
+
+    # UI-only stopwatch refresh. It never advances the experiment.
+    stopwatch_timer = gr.Timer(
+        value=max(1.0, STOPWATCH_REFRESH_MS / 1000.0),
+        active=True,
+    )
 
     with gr.Column(visible=False, elem_classes=["card-panel"]) as results_view:
         summary_ui = gr.HTML("")
@@ -2654,16 +3011,6 @@ with gr.Blocks(title=APP_TITLE) as app:
         )
         output_file = gr.File(label=OUTPUT_DOWNLOAD_LABEL)
 
-    timer = gr.Timer(value=TIMER_INTERVAL_SECONDS, active=True)
-
-    # Changed only on an actual phase/set transition. The value contains the
-    # complete transition snapshot, so its renderer never rereads state_store.
-    transition_payload = gr.Textbox(
-        value="",
-        visible=False,
-        elem_id="pilot-transition-payload",
-    )
-
     common_outputs = [
         state_store, reading_view, distractor_view, recall_view, results_view,
         scenario_title_ui, scenario_canvas_ui, reading_timer_ui,
@@ -2671,6 +3018,20 @@ with gr.Blocks(title=APP_TITLE) as app:
         distractor_answer_input, recall_title_ui, recall_timer_ui,
         recalled_text_input, summary_ui, results_table, output_file,
     ]
+
+    stopwatch_timer.tick(
+        fn=stopwatch_tick,
+        inputs=[state_store],
+        outputs=[
+            reading_timer_ui,
+            distractor_timer_ui,
+            recall_timer_ui,
+        ],
+        show_progress="hidden",
+        trigger_mode="always_last",
+        concurrency_limit=1,
+        concurrency_id="pilot_stopwatch",
+    )
 
     participant_mode.change(
         fn=toggle_participant_mode,
@@ -2734,62 +3095,41 @@ with gr.Blocks(title=APP_TITLE) as app:
         concurrency_id="participant_registration",
     )
 
-    timer.tick(
-        fn=timer_tick_light,
-        inputs=[
-            distractor_answer_input,
-            recalled_text_input,
-            state_store,
-        ],
+    reading_continue_btn.click(
+        fn=continue_from_reading,
+        inputs=[state_store],
         outputs=[
             state_store,
-            reading_timer_ui,
+            reading_view,
+            distractor_view,
+            distractor_title_ui,
+            distractor_prompt_ui,
             distractor_timer_ui,
-            recall_timer_ui,
-            transition_payload,
+            distractor_answer_input,
         ],
         show_progress="hidden",
-        trigger_mode="always_last",
         concurrency_limit=1,
         concurrency_id="pilot_state_machine",
     )
 
-    # Static UI is rendered only after an actual transition. The renderer receives
-    # the snapshot directly and never reads state_store.
-    transition_payload.change(
-        fn=render_transition_payload,
-        inputs=[transition_payload],
+    distractor_continue_btn.click(
+        fn=continue_from_distractor,
+        inputs=[distractor_answer_input, state_store],
         outputs=[
-            reading_view,
+            state_store,
             distractor_view,
             recall_view,
-            results_view,
-            scenario_title_ui,
-            scenario_canvas_ui,
-            distractor_title_ui,
-            distractor_prompt_ui,
-            distractor_answer_input,
             recall_title_ui,
+            recall_timer_ui,
             recalled_text_input,
-            summary_ui,
-            results_table,
-            output_file,
         ],
         show_progress="hidden",
-        concurrency_limit=1,
-        concurrency_id="pilot_phase_render",
-    )
-
-    distractor_submit_btn.click(
-        fn=submit_distractor_answer,
-        inputs=[distractor_answer_input, state_store],
-        outputs=[state_store],
         concurrency_limit=1,
         concurrency_id="pilot_state_machine",
     )
 
     submit_btn.click(
-        fn=submit_recall,
+        fn=submit_recall_self_paced,
         inputs=[distractor_answer_input, recalled_text_input, state_store],
         outputs=common_outputs,
         concurrency_limit=1,

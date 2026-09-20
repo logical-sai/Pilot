@@ -21,12 +21,6 @@ During **Reading**, the instruction stimulus must be visible.
 
 During **Recall**, the instructions are intentionally hidden. A recall screen that contains only the recall textbox is therefore correct *provided that the participant saw the preceding reading stimulus*. A session that advances after a blank reading screen is invalid and should not be used as research data.
 
-## Why you may see “Session 8”
-
-Session numbering is based on completed result CSVs for the same Participant ID in `outputs/`. If seven completed files already exist for that ID, the next run is Session 8. Aborted/incomplete runs are not supposed to create completed result CSVs.
-
-During development, the simplest way to avoid contaminating longitudinal session numbers is to choose **New participant** for each disposable test run. Before collecting real participants, archive/remove only your known test CSVs and start with a clean study workspace. Do not delete real study data just to reset numbering.
-
 ## Setup
 
 ```bash
@@ -37,36 +31,6 @@ pip install -r requirements.txt
 ```
 
 The app expects Ollama at `http://localhost:11434/v1` with model `llama3.2`. If Ollama is unavailable, lexical recall matching still works, but semantic matching is reduced.
-
-## Mandatory regression check
-
-Run this after installation and whenever you modify the code:
-
-```bash
-python self_check.py
-```
-
-Expected result:
-
-```text
-Memory Recall Pilot v8.3 regression check: PASS
-  - app/schema version consistency: PASS
-  - five-set protocol and 4 targets/set: PASS
-  - equivalent-form/distraction counterbalancing: PASS
-  - protected stimulus PNG rendering: PASS
-  - all five stimuli pre-render before assessment: PASS
-  - automatic Participant ID uniqueness: PASS
-  - concurrent duplicate-ID protection: PASS
-  - complete five-set state-machine simulation: PASS
-  - exactly 20 saved target rows: PASS
-  - final UI summary exactly five rows: PASS
-```
-
-Then run:
-
-```bash
-python memory_recall_app.py
-```
 
 ## Participant flow
 
