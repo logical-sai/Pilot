@@ -15,19 +15,8 @@ Usage:
     python reconstruct_recall_statistics.py ./outputs --exclude-session SESSION_ID ...
 """
 from __future__ import annotations
-
-import argparse
-import json
-from itertools import combinations
 from pathlib import Path
-
-import numpy as np
 import pandas as pd
-import statsmodels.api as sm
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (
-    average_precision_score, brier_score_loss, log_loss, roc_auc_score
-)
 
 COHORT_VERSION = "role-adapted-v10-self-paced"
 FAMILIES = ("pilot_s02", "pilot_s03", "pilot_s04", "pilot_s05")
