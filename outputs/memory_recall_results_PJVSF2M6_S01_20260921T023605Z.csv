@@ -1,0 +1,134 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET1,Midterm Review Session,Target,pilot_s02_C_t01__ROLEGEN_Student_S01_SET1,pilot_s02_t01,1,4,Remember the first lecture topic today.,,N,N,None,0.0,Primacy,N,N,Y,first lecture,6,1,0.075,0.231,7.75,1.0,0.07,27.425,role-adapted-v10-self-paced,55,2,2026-09-21T02:27:55.206+00:00,2026-09-21T02:28:00.646+00:00,5.44,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 34, 32",Y,N,201.139,4,4,3,75.0,201.139,"[{""time_sec"": 201.139, ""answer"": ""12, 35, 34, 32""}]",2026-09-21T02:28:00.646+00:00,2026-09-21T02:31:21.785+00:00,201.139,2026-09-21T02:31:21.785+00:00,2026-09-21T02:32:17.684+00:00,55.899,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET1,Midterm Review Session,Target,pilot_s02_C_t02__ROLEGEN_Student_S01_SET1,pilot_s02_t02,2,4,List three key points from the reading.,,N,N,None,0.0,Middle,Y,N,N,reading points,7,1,0.072,0.256,7.75,1.0,0.07,27.425,role-adapted-v10-self-paced,55,2,2026-09-21T02:27:55.206+00:00,2026-09-21T02:28:00.646+00:00,5.44,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 34, 32",Y,N,201.139,4,4,3,75.0,201.139,"[{""time_sec"": 201.139, ""answer"": ""12, 35, 34, 32""}]",2026-09-21T02:28:00.646+00:00,2026-09-21T02:31:21.785+00:00,201.139,2026-09-21T02:31:21.785+00:00,2026-09-21T02:32:17.684+00:00,55.899,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET1,Midterm Review Session,Target,pilot_s02_C_t03__ROLEGEN_Student_S01_SET1,pilot_s02_t03,3,4,Describe how the experiment's results might influence future studies.,,N,N,None,0.0,Middle,N,Y,N,experiment results,9,1,0.066,0.305,7.75,1.0,0.07,27.425,role-adapted-v10-self-paced,55,2,2026-09-21T02:27:55.206+00:00,2026-09-21T02:28:00.646+00:00,5.44,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 34, 32",Y,N,201.139,4,4,3,75.0,201.139,"[{""time_sec"": 201.139, ""answer"": ""12, 35, 34, 32""}]",2026-09-21T02:28:00.646+00:00,2026-09-21T02:31:21.785+00:00,201.139,2026-09-21T02:31:21.785+00:00,2026-09-21T02:32:17.684+00:00,55.899,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET1,Midterm Review Session,Target,pilot_s02_C_t04__ROLEGEN_Student_S01_SET1,pilot_s02_t04,4,4,Recall the last assignment's submission deadline for next week.,,N,N,None,0.0,Recency,N,N,N,assignment deadline,9,1,0.066,0.305,7.75,1.0,0.07,27.425,role-adapted-v10-self-paced,55,2,2026-09-21T02:27:55.206+00:00,2026-09-21T02:28:00.646+00:00,5.44,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 34, 32",Y,N,201.139,4,4,3,75.0,201.139,"[{""time_sec"": 201.139, ""answer"": ""12, 35, 34, 32""}]",2026-09-21T02:28:00.646+00:00,2026-09-21T02:31:21.785+00:00,201.139,2026-09-21T02:31:21.785+00:00,2026-09-21T02:32:17.684+00:00,55.899,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET1,Midterm Review Session,Intrusion,,,,,,26 times 2 minus 17,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.07,27.425,role-adapted-v10-self-paced,55,2,2026-09-21T02:27:55.206+00:00,2026-09-21T02:28:00.646+00:00,5.44,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 34, 32",Y,N,201.139,4,4,3,75.0,201.139,"[{""time_sec"": 201.139, ""answer"": ""12, 35, 34, 32""}]",2026-09-21T02:28:00.646+00:00,2026-09-21T02:31:21.785+00:00,201.139,2026-09-21T02:31:21.785+00:00,2026-09-21T02:32:17.684+00:00,55.899,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s03_C_t01__ROLEGEN_Student_S01_SET2,pilot_s03_t01,1,4,List the three main causes of the French Revolution.,,N,N,None,0.0,Primacy,N,N,Y,List the three main causes,9,1,0.137,0.316,9.0,1.0,0.147,31.725,role-adapted-v10-self-paced,56,2,2026-09-21T02:32:18.024+00:00,2026-09-21T02:32:47.819+00:00,29.795,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T02:32:47.819+00:00,2026-09-21T02:32:58.166+00:00,10.347,2026-09-21T02:32:58.166+00:00,2026-09-21T02:33:33.154+00:00,34.988,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s03_C_t02__ROLEGEN_Student_S01_SET2,pilot_s03_t02,2,4,Explain why the Treaty of Versailles was controversial.,Treaty of versailles controversy,Y,N,Semantic,1.0,Middle,Y,N,N,Explain why the Treaty of Versailles,8,1,0.137,0.291,9.0,1.0,0.147,31.725,role-adapted-v10-self-paced,56,2,2026-09-21T02:32:18.024+00:00,2026-09-21T02:32:47.819+00:00,29.795,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T02:32:47.819+00:00,2026-09-21T02:32:58.166+00:00,10.347,2026-09-21T02:32:58.166+00:00,2026-09-21T02:33:33.154+00:00,34.988,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s03_C_t03__ROLEGEN_Student_S01_SET2,pilot_s03_t03,3,4,"Describe the process of photosynthesis in detail, including all stages.",Photosynthesis,Y,N,Exact,1.0,Middle,N,N,N,Describe the process of photosynthesis,10,1,0.15,0.343,9.0,1.0,0.147,31.725,role-adapted-v10-self-paced,56,2,2026-09-21T02:32:18.024+00:00,2026-09-21T02:32:47.819+00:00,29.795,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T02:32:47.819+00:00,2026-09-21T02:32:58.166+00:00,10.347,2026-09-21T02:32:58.166+00:00,2026-09-21T02:33:33.154+00:00,34.988,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s03_C_t04__ROLEGEN_Student_S01_SET2,pilot_s03_t04,4,4,Summarize the plot of the novel in one paragraph.,Summarize content of essay,Y,N,Semantic,1.0,Recency,N,Y,N,Summarize the plot,9,1,0.162,0.319,9.0,1.0,0.147,31.725,role-adapted-v10-self-paced,56,2,2026-09-21T02:32:18.024+00:00,2026-09-21T02:32:47.819+00:00,29.795,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T02:32:47.819+00:00,2026-09-21T02:32:58.166+00:00,10.347,2026-09-21T02:32:58.166+00:00,2026-09-21T02:33:33.154+00:00,34.988,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET2,Exam Preparation,Intrusion,,,,,,Coffee cup,N,N,Intrusion,,,,,,,,,,,9.0,1.0,0.147,31.725,role-adapted-v10-self-paced,56,2,2026-09-21T02:32:18.024+00:00,2026-09-21T02:32:47.819+00:00,29.795,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T02:32:47.819+00:00,2026-09-21T02:32:58.166+00:00,10.347,2026-09-21T02:32:58.166+00:00,2026-09-21T02:33:33.154+00:00,34.988,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s04_C_t01__ROLEGEN_Student_S01_SET3,pilot_s04_t01,1,4,Review the chapter summary,,N,N,None,0.0,Primacy,N,N,Y,chapter summary,4,1,0.086,0.183,4.75,1.0,0.06,19.775,role-adapted-v10-self-paced,37,2,2026-09-21T02:33:33.600+00:00,2026-09-21T02:34:09.914+00:00,36.314,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",Clock shows 8 check glossary reviews notes before midterm,Y,N,22.273,6,1,0,0.0,22.273,"[{""time_sec"": 22.273, ""answer"": ""Clock shows 8 check glossary reviews notes before midterm""}]",2026-09-21T02:34:09.914+00:00,2026-09-21T02:34:32.187+00:00,22.273,2026-09-21T02:34:32.187+00:00,2026-09-21T02:34:37.537+00:00,5.35,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s04_C_t02__ROLEGEN_Student_S01_SET3,pilot_s04_t02,2,4,Solve five practice problems,,N,N,None,0.0,Middle,Y,N,N,practice problems,4,1,0.0,0.17,4.75,1.0,0.06,19.775,role-adapted-v10-self-paced,37,2,2026-09-21T02:33:33.600+00:00,2026-09-21T02:34:09.914+00:00,36.314,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",Clock shows 8 check glossary reviews notes before midterm,Y,N,22.273,6,1,0,0.0,22.273,"[{""time_sec"": 22.273, ""answer"": ""Clock shows 8 check glossary reviews notes before midterm""}]",2026-09-21T02:34:09.914+00:00,2026-09-21T02:34:32.187+00:00,22.273,2026-09-21T02:34:32.187+00:00,2026-09-21T02:34:37.537+00:00,5.35,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s04_C_t03__ROLEGEN_Student_S01_SET3,pilot_s04_t03,3,4,Explain the main theorem in your own words,,N,N,None,0.0,Middle,N,Y,N,main theorem,8,1,0.064,0.28,4.75,1.0,0.06,19.775,role-adapted-v10-self-paced,37,2,2026-09-21T02:33:33.600+00:00,2026-09-21T02:34:09.914+00:00,36.314,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",Clock shows 8 check glossary reviews notes before midterm,Y,N,22.273,6,1,0,0.0,22.273,"[{""time_sec"": 22.273, ""answer"": ""Clock shows 8 check glossary reviews notes before midterm""}]",2026-09-21T02:34:09.914+00:00,2026-09-21T02:34:32.187+00:00,22.273,2026-09-21T02:34:32.187+00:00,2026-09-21T02:34:37.537+00:00,5.35,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s04_C_t04__ROLEGEN_Student_S01_SET3,pilot_s04_t04,4,4,Check the glossary,,N,N,None,0.0,Recency,N,N,N,glossary,3,1,0.089,0.158,4.75,1.0,0.06,19.775,role-adapted-v10-self-paced,37,2,2026-09-21T02:33:33.600+00:00,2026-09-21T02:34:09.914+00:00,36.314,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",Clock shows 8 check glossary reviews notes before midterm,Y,N,22.273,6,1,0,0.0,22.273,"[{""time_sec"": 22.273, ""answer"": ""Clock shows 8 check glossary reviews notes before midterm""}]",2026-09-21T02:34:09.914+00:00,2026-09-21T02:34:32.187+00:00,22.273,2026-09-21T02:34:32.187+00:00,2026-09-21T02:34:37.537+00:00,5.35,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET4,Lecture Note Review,Target,pilot_s05_C_t01__ROLEGEN_Student_S01_SET4,pilot_s05_t01,1,4,List the three main causes of the French Revolution.,,N,N,None,0.0,Primacy,N,N,Y,Professor's handout,9,1,0.108,0.311,7.0,1.0,0.084,25.75,role-adapted-v10-self-paced,52,2,2026-09-21T02:34:37.538+00:00,2026-09-21T02:35:07.857+00:00,30.32,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",Treaty of versailles significance coffee cup,Y,N,12.924,4,1,0,0.0,12.924,"[{""time_sec"": 12.924, ""answer"": ""Treaty of versailles significance coffee cup""}]",2026-09-21T02:35:07.857+00:00,2026-09-21T02:35:20.781+00:00,12.924,2026-09-21T02:35:20.781+00:00,2026-09-21T02:35:23.905+00:00,3.123,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET4,Lecture Note Review,Target,pilot_s05_C_t02__ROLEGEN_Student_S01_SET4,pilot_s05_t02,2,4,Identify chapter five's key theme today.,,N,N,None,0.0,Middle,Y,N,N,Lecture slide,6,1,0.0,0.22,7.0,1.0,0.084,25.75,role-adapted-v10-self-paced,52,2,2026-09-21T02:34:37.538+00:00,2026-09-21T02:35:07.857+00:00,30.32,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",Treaty of versailles significance coffee cup,Y,N,12.924,4,1,0,0.0,12.924,"[{""time_sec"": 12.924, ""answer"": ""Treaty of versailles significance coffee cup""}]",2026-09-21T02:35:07.857+00:00,2026-09-21T02:35:20.781+00:00,12.924,2026-09-21T02:35:20.781+00:00,2026-09-21T02:35:23.905+00:00,3.123,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET4,Lecture Note Review,Target,pilot_s05_C_t03__ROLEGEN_Student_S01_SET4,pilot_s05_t03,3,4,Explain why the Treaty of Versailles mattered historically.,,N,N,None,0.0,Middle,N,Y,N,History textbook,8,1,0.108,0.286,7.0,1.0,0.084,25.75,role-adapted-v10-self-paced,52,2,2026-09-21T02:34:37.538+00:00,2026-09-21T02:35:07.857+00:00,30.32,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",Treaty of versailles significance coffee cup,Y,N,12.924,4,1,0,0.0,12.924,"[{""time_sec"": 12.924, ""answer"": ""Treaty of versailles significance coffee cup""}]",2026-09-21T02:35:07.857+00:00,2026-09-21T02:35:20.781+00:00,12.924,2026-09-21T02:35:20.781+00:00,2026-09-21T02:35:23.905+00:00,3.123,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET4,Lecture Note Review,Target,pilot_s05_C_t04__ROLEGEN_Student_S01_SET4,pilot_s05_t04,4,4,Name the capital of Spain.,,N,N,None,0.0,Recency,N,N,N,Map on wall,5,1,0.121,0.213,7.0,1.0,0.084,25.75,role-adapted-v10-self-paced,52,2,2026-09-21T02:34:37.538+00:00,2026-09-21T02:35:07.857+00:00,30.32,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",Treaty of versailles significance coffee cup,Y,N,12.924,4,1,0,0.0,12.924,"[{""time_sec"": 12.924, ""answer"": ""Treaty of versailles significance coffee cup""}]",2026-09-21T02:35:07.857+00:00,2026-09-21T02:35:20.781+00:00,12.924,2026-09-21T02:35:20.781+00:00,2026-09-21T02:35:23.905+00:00,3.123,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET5,Exam Prep,Target,pilot_s01_C_t01__ROLEGEN_Student_S01_SET5,pilot_s01_t01,1,4,Identify the main topic of the first chapter.,,N,N,None,0.0,Primacy,N,N,Y,first chapter,8,1,0.099,0.285,8.0,1.0,0.086,28.3,role-adapted-v10-self-paced,55,2,2026-09-21T02:35:23.905+00:00,2026-09-21T02:35:43.304+00:00,19.399,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",Main topic ofstudy session topic lasts about an hour,Y,N,19.967,6,1,0,0.0,19.967,"[{""time_sec"": 19.967, ""answer"": ""Main topic ofstudy session topic lasts about an hour""}]",2026-09-21T02:35:43.304+00:00,2026-09-21T02:36:03.271+00:00,19.967,2026-09-21T02:36:03.271+00:00,2026-09-21T02:36:05.120+00:00,1.849,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET5,Exam Prep,Target,pilot_s01_C_t02__ROLEGEN_Student_S01_SET5,pilot_s01_t02,2,4,Summarize the key equation.,,N,N,None,0.0,Middle,Y,N,N,key equation,4,1,0.087,0.183,8.0,1.0,0.086,28.3,role-adapted-v10-self-paced,55,2,2026-09-21T02:35:23.905+00:00,2026-09-21T02:35:43.304+00:00,19.399,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",Main topic ofstudy session topic lasts about an hour,Y,N,19.967,6,1,0,0.0,19.967,"[{""time_sec"": 19.967, ""answer"": ""Main topic ofstudy session topic lasts about an hour""}]",2026-09-21T02:35:43.304+00:00,2026-09-21T02:36:03.271+00:00,19.967,2026-09-21T02:36:03.271+00:00,2026-09-21T02:36:05.120+00:00,1.849,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET5,Exam Prep,Target,pilot_s01_C_t03__ROLEGEN_Student_S01_SET5,pilot_s01_t03,3,4,Explain why the concept is important for the exam.,,N,N,None,0.0,Middle,N,Y,N,concept importance,9,1,0.073,0.306,8.0,1.0,0.086,28.3,role-adapted-v10-self-paced,55,2,2026-09-21T02:35:23.905+00:00,2026-09-21T02:35:43.304+00:00,19.399,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",Main topic ofstudy session topic lasts about an hour,Y,N,19.967,6,1,0,0.0,19.967,"[{""time_sec"": 19.967, ""answer"": ""Main topic ofstudy session topic lasts about an hour""}]",2026-09-21T02:35:43.304+00:00,2026-09-21T02:36:03.271+00:00,19.967,2026-09-21T02:36:03.271+00:00,2026-09-21T02:36:05.120+00:00,1.849,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJVSF2M6_e635ff089e05434091d696dc1c3dcbaa,1,2026-09-21T02:27:34.799+00:00,Y,2026-09-21T02:27:30.576+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJVSF2M6,Student,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET5,Exam Prep,Target,pilot_s01_C_t04__ROLEGEN_Student_S01_SET5,pilot_s01_t04,4,4,List the three most common test questions related to this topic.,,N,N,None,0.0,Recency,N,N,N,common test questions,11,1,0.084,0.358,8.0,1.0,0.086,28.3,role-adapted-v10-self-paced,55,2,2026-09-21T02:35:23.905+00:00,2026-09-21T02:35:43.304+00:00,19.399,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",Main topic ofstudy session topic lasts about an hour,Y,N,19.967,6,1,0,0.0,19.967,"[{""time_sec"": 19.967, ""answer"": ""Main topic ofstudy session topic lasts about an hour""}]",2026-09-21T02:35:43.304+00:00,2026-09-21T02:36:03.271+00:00,19.967,2026-09-21T02:36:03.271+00:00,2026-09-21T02:36:05.120+00:00,1.849,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

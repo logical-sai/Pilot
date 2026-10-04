@@ -1,0 +1,124 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,1,1,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s01_A_t01__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s01_t01,1,4,"Check the backpack for homework, lunch, and a spare change of clothes.",,N,N,None,0.0,Primacy,N,N,Y,Backpack,12,2,0.082,0.452,11.25,1.5,0.084,39.875,role-adapted-v10-self-paced,76,2,2026-09-20T07:34:23.360+00:00,2026-09-20T07:34:46.236+00:00,22.876,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:34:46.236+00:00,2026-09-20T07:35:02.682+00:00,16.446,2026-09-20T07:35:02.682+00:00,2026-09-20T07:35:26.437+00:00,23.754,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,1,1,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s01_A_t02__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s01_t02,2,4,Call the school nurse to confirm the child’s vaccination status.,,N,N,None,0.0,Middle,Y,N,N,Nurse,11,1,0.085,0.358,11.25,1.5,0.084,39.875,role-adapted-v10-self-paced,76,2,2026-09-20T07:34:23.360+00:00,2026-09-20T07:34:46.236+00:00,22.876,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:34:46.236+00:00,2026-09-20T07:35:02.682+00:00,16.446,2026-09-20T07:35:02.682+00:00,2026-09-20T07:35:26.437+00:00,23.754,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,1,1,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s01_A_t03__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s01_t03,3,4,Ask the child to name three things they are excited about for the day.,,N,N,None,0.0,Middle,N,Y,N,Excitement,14,1,0.096,0.434,11.25,1.5,0.084,39.875,role-adapted-v10-self-paced,76,2,2026-09-20T07:34:23.360+00:00,2026-09-20T07:34:46.236+00:00,22.876,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:34:46.236+00:00,2026-09-20T07:35:02.682+00:00,16.446,2026-09-20T07:35:02.682+00:00,2026-09-20T07:35:26.437+00:00,23.754,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,1,1,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s01_A_t04__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s01_t04,4,4,Hand over the bus pass and say goodbye.,Morning school drop off,Y,N,Semantic,1.0,Recency,N,N,N,Bus pass,8,2,0.073,0.351,11.25,1.5,0.084,39.875,role-adapted-v10-self-paced,76,2,2026-09-20T07:34:23.360+00:00,2026-09-20T07:34:46.236+00:00,22.876,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:34:46.236+00:00,2026-09-20T07:35:02.682+00:00,16.446,2026-09-20T07:35:02.682+00:00,2026-09-20T07:35:26.437+00:00,23.754,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,2,2,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Homework Check,Target,pilot_s02_A_t01__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s02_t01,1,4,Locate the math worksheet on the kitchen counter.,,N,N,None,0.0,Primacy,N,N,Y,Math worksheet,8,1,0.063,0.279,10.25,1.25,0.058,35.225,role-adapted-v10-self-paced,69,2,2026-09-20T07:35:26.955+00:00,2026-09-20T07:35:44.724+00:00,17.769,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Evening home work check,Y,N,17.208,6,1,0,0.0,17.208,"[{""time_sec"": 17.208, ""answer"": ""Evening home work check""}]",2026-09-20T07:35:44.724+00:00,2026-09-20T07:36:01.932+00:00,17.208,2026-09-20T07:36:01.932+00:00,2026-09-20T07:37:18.927+00:00,76.996,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,2,2,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Homework Check,Target,pilot_s02_A_t02__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s02_t02,2,4,Verify that the science project has all required materials assembled.,,N,N,None,0.0,Middle,Y,N,N,Science project,10,1,0.056,0.328,10.25,1.25,0.058,35.225,role-adapted-v10-self-paced,69,2,2026-09-20T07:35:26.955+00:00,2026-09-20T07:35:44.724+00:00,17.769,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Evening home work check,Y,N,17.208,6,1,0,0.0,17.208,"[{""time_sec"": 17.208, ""answer"": ""Evening home work check""}]",2026-09-20T07:35:44.724+00:00,2026-09-20T07:36:01.932+00:00,17.208,2026-09-20T07:36:01.932+00:00,2026-09-20T07:37:18.927+00:00,76.996,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,2,2,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Homework Check,Target,pilot_s02_A_t03__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s02_t03,3,4,Ask the child to explain the main idea of their reading assignment.,,N,N,None,0.0,Middle,N,Y,N,Reading explanation,12,1,0.054,0.378,10.25,1.25,0.058,35.225,role-adapted-v10-self-paced,69,2,2026-09-20T07:35:26.955+00:00,2026-09-20T07:35:44.724+00:00,17.769,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Evening home work check,Y,N,17.208,6,1,0,0.0,17.208,"[{""time_sec"": 17.208, ""answer"": ""Evening home work check""}]",2026-09-20T07:35:44.724+00:00,2026-09-20T07:36:01.932+00:00,17.208,2026-09-20T07:36:01.932+00:00,2026-09-20T07:37:18.927+00:00,76.996,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,2,2,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Homework Check,Target,pilot_s02_A_t04__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s02_t04,4,4,Set the homework timer for thirty minutes and start the timer.,,N,N,None,0.0,Recency,N,N,N,Timer,11,2,0.058,0.424,10.25,1.25,0.058,35.225,role-adapted-v10-self-paced,69,2,2026-09-20T07:35:26.955+00:00,2026-09-20T07:35:44.724+00:00,17.769,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Evening home work check,Y,N,17.208,6,1,0,0.0,17.208,"[{""time_sec"": 17.208, ""answer"": ""Evening home work check""}]",2026-09-20T07:35:44.724+00:00,2026-09-20T07:36:01.932+00:00,17.208,2026-09-20T07:36:01.932+00:00,2026-09-20T07:37:18.927+00:00,76.996,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,2,2,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Homework Check,Intrusion,,,,,,Drop off school,N,N,Intrusion,,,,,,,,,,,10.25,1.25,0.058,35.225,role-adapted-v10-self-paced,69,2,2026-09-20T07:35:26.955+00:00,2026-09-20T07:35:44.724+00:00,17.769,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Evening home work check,Y,N,17.208,6,1,0,0.0,17.208,"[{""time_sec"": 17.208, ""answer"": ""Evening home work check""}]",2026-09-20T07:35:44.724+00:00,2026-09-20T07:36:01.932+00:00,17.208,2026-09-20T07:36:01.932+00:00,2026-09-20T07:37:18.927+00:00,76.996,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,3,3,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET3,Weekend Grocery Shopping,Target,pilot_s03_A_t01__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s03_t01,1,4,"Pick up the milk, eggs, and bread from the dairy aisle.",,N,N,None,0.0,Primacy,N,N,Y,Dairy aisle,11,2,0.069,0.425,12.25,1.75,0.066,43.85,role-adapted-v10-self-paced,82,2,2026-09-20T07:37:19.232+00:00,2026-09-20T07:37:42.815+00:00,23.583,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Week end grocery shopping,Y,N,27.924,4,1,0,0.0,27.924,"[{""time_sec"": 27.924, ""answer"": ""Week end grocery shopping""}]",2026-09-20T07:37:42.815+00:00,2026-09-20T07:38:10.739+00:00,27.924,2026-09-20T07:38:10.739+00:00,2026-09-20T07:38:15.041+00:00,4.302,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,3,3,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET3,Weekend Grocery Shopping,Target,pilot_s03_A_t02__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s03_t02,2,4,Check the expiration dates on all produce items before adding them to the cart.,,N,N,None,0.0,Middle,Y,N,N,Expiration dates,14,2,0.061,0.499,12.25,1.75,0.066,43.85,role-adapted-v10-self-paced,82,2,2026-09-20T07:37:19.232+00:00,2026-09-20T07:37:42.815+00:00,23.583,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Week end grocery shopping,Y,N,27.924,4,1,0,0.0,27.924,"[{""time_sec"": 27.924, ""answer"": ""Week end grocery shopping""}]",2026-09-20T07:37:42.815+00:00,2026-09-20T07:38:10.739+00:00,27.924,2026-09-20T07:38:10.739+00:00,2026-09-20T07:38:15.041+00:00,4.302,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,3,3,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET3,Weekend Grocery Shopping,Target,pilot_s03_A_t03__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s03_t03,3,4,Ask the child to choose one new fruit to try this week.,,N,N,None,0.0,Middle,N,N,N,New fruit,12,1,0.064,0.38,12.25,1.75,0.066,43.85,role-adapted-v10-self-paced,82,2,2026-09-20T07:37:19.232+00:00,2026-09-20T07:37:42.815+00:00,23.583,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Week end grocery shopping,Y,N,27.924,4,1,0,0.0,27.924,"[{""time_sec"": 27.924, ""answer"": ""Week end grocery shopping""}]",2026-09-20T07:37:42.815+00:00,2026-09-20T07:38:10.739+00:00,27.924,2026-09-20T07:38:10.739+00:00,2026-09-20T07:38:15.041+00:00,4.302,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,3,3,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET3,Weekend Grocery Shopping,Target,pilot_s03_A_t04__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s03_t04,4,4,Confirm the total cost at the checkout and hand over the payment.,,N,N,None,0.0,Recency,N,Y,N,Checkout,12,2,0.069,0.45,12.25,1.75,0.066,43.85,role-adapted-v10-self-paced,82,2,2026-09-20T07:37:19.232+00:00,2026-09-20T07:37:42.815+00:00,23.583,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Week end grocery shopping,Y,N,27.924,4,1,0,0.0,27.924,"[{""time_sec"": 27.924, ""answer"": ""Week end grocery shopping""}]",2026-09-20T07:37:42.815+00:00,2026-09-20T07:38:10.739+00:00,27.924,2026-09-20T07:38:10.739+00:00,2026-09-20T07:38:15.041+00:00,4.302,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,4,4,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET4,Morning Prep,Target,pilot_s04_A_t01__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s04_t01,1,4,Remember to pick up the milk today.,,N,N,None,0.0,Primacy,N,N,Y,Morning routine,7,1,0.054,0.253,7.0,1.0,0.052,25.275,role-adapted-v10-self-paced,49,2,2026-09-20T07:38:15.042+00:00,2026-09-20T07:38:23.670+00:00,8.629,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:38:23.670+00:00,2026-09-20T07:38:27.123+00:00,3.453,2026-09-20T07:38:27.123+00:00,2026-09-20T07:38:39.104+00:00,11.981,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,4,4,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET4,Morning Prep,Target,pilot_s04_A_t02__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s04_t02,2,4,Schedule the doctor appointment for next Tuesday at.,,N,N,None,0.0,Middle,Y,N,N,Planning,8,1,0.074,0.281,7.0,1.0,0.052,25.275,role-adapted-v10-self-paced,49,2,2026-09-20T07:38:15.042+00:00,2026-09-20T07:38:23.670+00:00,8.629,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:38:23.670+00:00,2026-09-20T07:38:27.123+00:00,3.453,2026-09-20T07:38:27.123+00:00,2026-09-20T07:38:39.104+00:00,11.981,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,4,4,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET4,Morning Prep,Target,pilot_s04_A_t03__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s04_t03,3,4,What should we cook for dinner tonight any?,,N,N,None,0.0,Middle,N,Y,N,Meal planning,8,1,0.022,0.273,7.0,1.0,0.052,25.275,role-adapted-v10-self-paced,49,2,2026-09-20T07:38:15.042+00:00,2026-09-20T07:38:23.670+00:00,8.629,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:38:23.670+00:00,2026-09-20T07:38:27.123+00:00,3.453,2026-09-20T07:38:27.123+00:00,2026-09-20T07:38:39.104+00:00,11.981,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,4,4,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET4,Morning Prep,Target,pilot_s04_A_t04__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s04_t04,4,4,Pack the backpack now quickly.,,N,N,None,0.0,Recency,N,N,N,Packing,5,1,0.058,0.204,7.0,1.0,0.052,25.275,role-adapted-v10-self-paced,49,2,2026-09-20T07:38:15.042+00:00,2026-09-20T07:38:23.670+00:00,8.629,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:38:23.670+00:00,2026-09-20T07:38:27.123+00:00,3.453,2026-09-20T07:38:27.123+00:00,2026-09-20T07:38:39.104+00:00,11.981,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,4,4,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET4,Morning Prep,Intrusion,,,,,,Morning prep,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.052,25.275,role-adapted-v10-self-paced,49,2,2026-09-20T07:38:15.042+00:00,2026-09-20T07:38:23.670+00:00,8.629,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T07:38:23.670+00:00,2026-09-20T07:38:27.123+00:00,3.453,2026-09-20T07:38:27.123+00:00,2026-09-20T07:38:39.104+00:00,11.981,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,5,5,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET5,Evening Routine,Target,pilot_s05_A_t01__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s05_t01,1,4,Don't forget to feed the cat before leaving.,,N,N,None,0.0,Primacy,N,N,Y,Leaving,8,2,0.086,0.353,6.75,1.5,0.06,28.275,role-adapted-v10-self-paced,51,2,2026-09-20T07:38:39.464+00:00,2026-09-20T07:38:52.417+00:00,12.953,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37",Evening routine,Y,N,25.656,6,1,0,0.0,25.656,"[{""time_sec"": 25.656, ""answer"": ""Evening routine""}]",2026-09-20T07:38:52.417+00:00,2026-09-20T07:39:18.073+00:00,25.656,2026-09-20T07:39:18.073+00:00,2026-09-20T07:39:24.058+00:00,5.985,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,5,5,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET5,Evening Routine,Target,pilot_s05_A_t02__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s05_t02,2,4,Arrange the laundry basket by color.,,N,N,None,0.0,Middle,Y,N,N,Laundry,6,1,0.059,0.229,6.75,1.5,0.06,28.275,role-adapted-v10-self-paced,51,2,2026-09-20T07:38:39.464+00:00,2026-09-20T07:38:52.417+00:00,12.953,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37",Evening routine,Y,N,25.656,6,1,0,0.0,25.656,"[{""time_sec"": 25.656, ""answer"": ""Evening routine""}]",2026-09-20T07:38:52.417+00:00,2026-09-20T07:39:18.073+00:00,25.656,2026-09-20T07:39:18.073+00:00,2026-09-20T07:39:24.058+00:00,5.985,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,5,5,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET5,Evening Routine,Target,pilot_s05_A_t03__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s05_t03,3,4,Which book should we read together tonight any?,,N,N,None,0.0,Middle,N,Y,N,Reading,8,1,0.0,0.27,6.75,1.5,0.06,28.275,role-adapted-v10-self-paced,51,2,2026-09-20T07:38:39.464+00:00,2026-09-20T07:38:52.417+00:00,12.953,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37",Evening routine,Y,N,25.656,6,1,0,0.0,25.656,"[{""time_sec"": 25.656, ""answer"": ""Evening routine""}]",2026-09-20T07:38:52.417+00:00,2026-09-20T07:39:18.073+00:00,25.656,2026-09-20T07:39:18.073+00:00,2026-09-20T07:39:24.058+00:00,5.985,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5M7H2W9_0d1ec514bcaa4e18b4b5ebb37d4174b3,1,2026-09-20T07:33:56.646+00:00,Y,2026-09-20T07:33:53.592+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5M7H2W9,Parent / Caregiver,5,5,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET5,Evening Routine,Target,pilot_s05_A_t04__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s05_t04,4,4,Close the windows before dark.,,N,N,None,0.0,Recency,N,N,N,Nighttime,5,2,0.094,0.279,6.75,1.5,0.06,28.275,role-adapted-v10-self-paced,51,2,2026-09-20T07:38:39.464+00:00,2026-09-20T07:38:52.417+00:00,12.953,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37",Evening routine,Y,N,25.656,6,1,0,0.0,25.656,"[{""time_sec"": 25.656, ""answer"": ""Evening routine""}]",2026-09-20T07:38:52.417+00:00,2026-09-20T07:39:18.073+00:00,25.656,2026-09-20T07:39:18.073+00:00,2026-09-20T07:39:24.058+00:00,5.985,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

@@ -1,0 +1,122 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Teacher_Educator_S01_SET1,Lesson Planning Prompt,Target,pilot_s01_B_t01__ROLEGEN_Teacher_Educator_S01_SET1,pilot_s01_t01,1,4,List the three main objectives for the lesson.,,N,N,None,0.0,Primacy,N,N,Y,objectives,8,1,0.096,0.284,8.0,1.0,0.069,28.025,role-adapted-v10-self-paced,60,2,2026-09-20T17:02:32.725+00:00,2026-09-20T17:03:20.546+00:00,47.821,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:03:20.546+00:00,2026-09-20T17:04:02.435+00:00,41.889,2026-09-20T17:04:02.435+00:00,2026-09-20T17:04:21.679+00:00,19.244,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Teacher_Educator_S01_SET1,Lesson Planning Prompt,Target,pilot_s01_B_t02__ROLEGEN_Teacher_Educator_S01_SET1,pilot_s01_t02,2,4,Explain why each objective is important.,,N,N,None,0.0,Middle,Y,N,N,importance,6,1,0.0,0.22,8.0,1.0,0.069,28.025,role-adapted-v10-self-paced,60,2,2026-09-20T17:02:32.725+00:00,2026-09-20T17:03:20.546+00:00,47.821,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:03:20.546+00:00,2026-09-20T17:04:02.435+00:00,41.889,2026-09-20T17:04:02.435+00:00,2026-09-20T17:04:21.679+00:00,19.244,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Teacher_Educator_S01_SET1,Lesson Planning Prompt,Target,pilot_s01_B_t03__ROLEGEN_Teacher_Educator_S01_SET1,pilot_s01_t03,3,4,Describe how you will assess student understanding of the objectives.,,N,N,None,0.0,Middle,N,Y,N,assessment,10,1,0.086,0.333,8.0,1.0,0.069,28.025,role-adapted-v10-self-paced,60,2,2026-09-20T17:02:32.725+00:00,2026-09-20T17:03:20.546+00:00,47.821,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:03:20.546+00:00,2026-09-20T17:04:02.435+00:00,41.889,2026-09-20T17:04:02.435+00:00,2026-09-20T17:04:21.679+00:00,19.244,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Teacher_Educator_S01_SET1,Lesson Planning Prompt,Target,pilot_s01_B_t04__ROLEGEN_Teacher_Educator_S01_SET1,pilot_s01_t04,4,4,Suggest one engaging activity to reinforce the objectives.,,N,N,None,0.0,Recency,N,N,N,activity,8,1,0.093,0.284,8.0,1.0,0.069,28.025,role-adapted-v10-self-paced,60,2,2026-09-20T17:02:32.725+00:00,2026-09-20T17:03:20.546+00:00,47.821,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:03:20.546+00:00,2026-09-20T17:04:02.435+00:00,41.889,2026-09-20T17:04:02.435+00:00,2026-09-20T17:04:21.679+00:00,19.244,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Teacher_Educator_S01_SET1,Lesson Planning Prompt,Intrusion,,,,,,Students work in pairs,N,N,Intrusion,,,,,,,,,,,8.0,1.0,0.069,28.025,role-adapted-v10-self-paced,60,2,2026-09-20T17:02:32.725+00:00,2026-09-20T17:03:20.546+00:00,47.821,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:03:20.546+00:00,2026-09-20T17:04:02.435+00:00,41.889,2026-09-20T17:04:02.435+00:00,2026-09-20T17:04:21.679+00:00,19.244,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Teacher_Educator_S01_SET2,Lesson Planning Prompt,Target,pilot_s02_B_t01__ROLEGEN_Teacher_Educator_S01_SET2,pilot_s02_t01,1,4,List the three main objectives for the lesson.,Describe each objective,Y,N,Semantic,1.0,Primacy,N,N,Y,Objectives,8,1,0.103,0.285,8.0,1.0,0.088,28.3,role-adapted-v10-self-paced,58,2,2026-09-20T17:04:21.942+00:00,2026-09-20T17:04:48.918+00:00,26.976,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","20,37,23,34,27,38",Y,N,122.573,6,6,5,83.3,122.573,"[{""time_sec"": 122.573, ""answer"": ""20,37,23,34,27,38""}]",2026-09-20T17:04:48.918+00:00,2026-09-20T17:06:51.491+00:00,122.573,2026-09-20T17:06:51.491+00:00,2026-09-20T17:07:12.317+00:00,20.826,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Teacher_Educator_S01_SET2,Lesson Planning Prompt,Target,pilot_s02_B_t02__ROLEGEN_Teacher_Educator_S01_SET2,pilot_s02_t02,2,4,Identify the key resource needed for the activity.,,N,N,None,0.0,Middle,Y,N,N,Resource,8,1,0.129,0.289,8.0,1.0,0.088,28.3,role-adapted-v10-self-paced,58,2,2026-09-20T17:04:21.942+00:00,2026-09-20T17:04:48.918+00:00,26.976,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","20,37,23,34,27,38",Y,N,122.573,6,6,5,83.3,122.573,"[{""time_sec"": 122.573, ""answer"": ""20,37,23,34,27,38""}]",2026-09-20T17:04:48.918+00:00,2026-09-20T17:06:51.491+00:00,122.573,2026-09-20T17:06:51.491+00:00,2026-09-20T17:07:12.317+00:00,20.826,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Teacher_Educator_S01_SET2,Lesson Planning Prompt,Target,pilot_s02_B_t03__ROLEGEN_Teacher_Educator_S01_SET2,pilot_s02_t03,3,4,Explain why this resource is essential for student engagement.,,N,N,None,0.0,Middle,N,Y,N,Explanation,9,1,0.07,0.305,8.0,1.0,0.088,28.3,role-adapted-v10-self-paced,58,2,2026-09-20T17:04:21.942+00:00,2026-09-20T17:04:48.918+00:00,26.976,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","20,37,23,34,27,38",Y,N,122.573,6,6,5,83.3,122.573,"[{""time_sec"": 122.573, ""answer"": ""20,37,23,34,27,38""}]",2026-09-20T17:04:48.918+00:00,2026-09-20T17:06:51.491+00:00,122.573,2026-09-20T17:06:51.491+00:00,2026-09-20T17:07:12.317+00:00,20.826,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Teacher_Educator_S01_SET2,Lesson Planning Prompt,Target,pilot_s02_B_t04__ROLEGEN_Teacher_Educator_S01_SET2,pilot_s02_t04,4,4,Outline the assessment method to gauge understanding.,,N,N,None,0.0,Recency,N,N,N,Assessment,7,1,0.051,0.253,8.0,1.0,0.088,28.3,role-adapted-v10-self-paced,58,2,2026-09-20T17:04:21.942+00:00,2026-09-20T17:04:48.918+00:00,26.976,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","20,37,23,34,27,38",Y,N,122.573,6,6,5,83.3,122.573,"[{""time_sec"": 122.573, ""answer"": ""20,37,23,34,27,38""}]",2026-09-20T17:04:48.918+00:00,2026-09-20T17:06:51.491+00:00,122.573,2026-09-20T17:06:51.491+00:00,2026-09-20T17:07:12.317+00:00,20.826,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Teacher_Educator_S01_SET3,Lesson Planning Challenge,Target,pilot_s03_B_t01__ROLEGEN_Teacher_Educator_S01_SET3,pilot_s03_t01,1,4,List three primary food chain components.,,N,N,None,0.0,Primacy,N,N,Y,food chain,6,1,0.0,0.22,9.5,1.0,0.034,31.25,role-adapted-v10-self-paced,71,2,2026-09-20T17:07:12.881+00:00,2026-09-20T17:07:36.254+00:00,23.372,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","28,29,30,31",Y,N,98.907,4,4,1,25.0,98.907,"[{""time_sec"": 98.907, ""answer"": ""28,29,30,31""}]",2026-09-20T17:07:36.254+00:00,2026-09-20T17:09:15.161+00:00,98.907,2026-09-20T17:09:15.161+00:00,2026-09-20T17:09:32.978+00:00,17.817,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Teacher_Educator_S01_SET3,Lesson Planning Challenge,Target,pilot_s03_B_t02__ROLEGEN_Teacher_Educator_S01_SET3,pilot_s03_t02,2,4,Explain the role of decomposers in nutrient cycling.,,N,N,None,0.0,Middle,Y,N,N,decomposers,8,1,0.036,0.275,9.5,1.0,0.034,31.25,role-adapted-v10-self-paced,71,2,2026-09-20T17:07:12.881+00:00,2026-09-20T17:07:36.254+00:00,23.372,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","28,29,30,31",Y,N,98.907,4,4,1,25.0,98.907,"[{""time_sec"": 98.907, ""answer"": ""28,29,30,31""}]",2026-09-20T17:07:36.254+00:00,2026-09-20T17:09:15.161+00:00,98.907,2026-09-20T17:09:15.161+00:00,2026-09-20T17:09:32.978+00:00,17.817,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Teacher_Educator_S01_SET3,Lesson Planning Challenge,Target,pilot_s03_B_t03__ROLEGEN_Teacher_Educator_S01_SET3,pilot_s03_t03,3,4,Describe how a change in temperature can affect species distribution across a habitat.,,N,N,None,0.0,Middle,N,N,N,temperature,13,1,0.049,0.402,9.5,1.0,0.034,31.25,role-adapted-v10-self-paced,71,2,2026-09-20T17:07:12.881+00:00,2026-09-20T17:07:36.254+00:00,23.372,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","28,29,30,31",Y,N,98.907,4,4,1,25.0,98.907,"[{""time_sec"": 98.907, ""answer"": ""28,29,30,31""}]",2026-09-20T17:07:36.254+00:00,2026-09-20T17:09:15.161+00:00,98.907,2026-09-20T17:09:15.161+00:00,2026-09-20T17:09:32.978+00:00,17.817,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Teacher_Educator_S01_SET3,Lesson Planning Challenge,Target,pilot_s03_B_t04__ROLEGEN_Teacher_Educator_S01_SET3,pilot_s03_t04,4,4,Suggest a classroom activity that demonstrates energy transfer in an ecosystem.,,N,N,None,0.0,Recency,N,Y,N,energy transfer,11,1,0.05,0.353,9.5,1.0,0.034,31.25,role-adapted-v10-self-paced,71,2,2026-09-20T17:07:12.881+00:00,2026-09-20T17:07:36.254+00:00,23.372,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","28,29,30,31",Y,N,98.907,4,4,1,25.0,98.907,"[{""time_sec"": 98.907, ""answer"": ""28,29,30,31""}]",2026-09-20T17:07:36.254+00:00,2026-09-20T17:09:15.161+00:00,98.907,2026-09-20T17:09:15.161+00:00,2026-09-20T17:09:32.978+00:00,17.817,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Teacher_Educator_S01_SET3,Lesson Planning Challenge,Intrusion,,,,,,There is a visual diagram of Ecosystem,N,N,Intrusion,,,,,,,,,,,9.5,1.0,0.034,31.25,role-adapted-v10-self-paced,71,2,2026-09-20T17:07:12.881+00:00,2026-09-20T17:07:36.254+00:00,23.372,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","28,29,30,31",Y,N,98.907,4,4,1,25.0,98.907,"[{""time_sec"": 98.907, ""answer"": ""28,29,30,31""}]",2026-09-20T17:07:36.254+00:00,2026-09-20T17:09:15.161+00:00,98.907,2026-09-20T17:09:15.161+00:00,2026-09-20T17:09:32.978+00:00,17.817,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Teacher_Educator_S01_SET4,Lesson Planning Prompt,Target,pilot_s04_B_t01__ROLEGEN_Teacher_Educator_S01_SET4,pilot_s04_t01,1,4,Identify the main learning objective for the lesson.,Lesson will focus on environmental science,Y,N,Semantic,1.0,Primacy,N,N,Y,learning objective,8,1,0.085,0.283,6.75,1.0,0.058,24.75,role-adapted-v10-self-paced,52,2,2026-09-20T17:09:33.246+00:00,2026-09-20T17:09:48.504+00:00,15.257,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:09:48.504+00:00,2026-09-20T17:09:58.579+00:00,10.076,2026-09-20T17:09:58.579+00:00,2026-09-20T17:10:15.108+00:00,16.529,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Teacher_Educator_S01_SET4,Lesson Planning Prompt,Target,pilot_s04_B_t02__ROLEGEN_Teacher_Educator_S01_SET4,pilot_s04_t02,2,4,Select three key activities that support the objective.,,N,N,None,0.0,Middle,Y,N,N,key activities,8,1,0.082,0.282,6.75,1.0,0.058,24.75,role-adapted-v10-self-paced,52,2,2026-09-20T17:09:33.246+00:00,2026-09-20T17:09:48.504+00:00,15.257,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:09:48.504+00:00,2026-09-20T17:09:58.579+00:00,10.076,2026-09-20T17:09:58.579+00:00,2026-09-20T17:10:15.108+00:00,16.529,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Teacher_Educator_S01_SET4,Lesson Planning Prompt,Target,pilot_s04_B_t03__ROLEGEN_Teacher_Educator_S01_SET4,pilot_s04_t03,3,4,Explain how each activity will be assessed.,,N,N,None,0.0,Middle,N,Y,N,assessment,7,1,0.0,0.245,6.75,1.0,0.058,24.75,role-adapted-v10-self-paced,52,2,2026-09-20T17:09:33.246+00:00,2026-09-20T17:09:48.504+00:00,15.257,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:09:48.504+00:00,2026-09-20T17:09:58.579+00:00,10.076,2026-09-20T17:09:58.579+00:00,2026-09-20T17:10:15.108+00:00,16.529,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Teacher_Educator_S01_SET4,Lesson Planning Prompt,Target,pilot_s04_B_t04__ROLEGEN_Teacher_Educator_S01_SET4,pilot_s04_t04,4,4,List the required materials.,,N,N,None,0.0,Recency,N,N,N,materials,4,1,0.064,0.18,6.75,1.0,0.058,24.75,role-adapted-v10-self-paced,52,2,2026-09-20T17:09:33.246+00:00,2026-09-20T17:09:48.504+00:00,15.257,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:09:48.504+00:00,2026-09-20T17:09:58.579+00:00,10.076,2026-09-20T17:09:58.579+00:00,2026-09-20T17:10:15.108+00:00,16.529,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Teacher_Educator_S01_SET5,Lesson Planning Challenge,Target,pilot_s05_B_t01__ROLEGEN_Teacher_Educator_S01_SET5,pilot_s05_t01,1,4,Identify three key concepts from the curriculum guide.,,N,N,None,0.0,Primacy,N,N,Y,curriculum guide,8,1,0.024,0.274,7.25,1.0,0.023,25.475,role-adapted-v10-self-paced,64,2,2026-09-20T17:10:15.574+00:00,2026-09-20T17:10:43.784+00:00,28.211,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","11,21,41,76,32,11.10",Y,N,21.56,6,6,0,0.0,21.56,"[{""time_sec"": 21.56, ""answer"": ""11,21,41,76,32,11.10""}]",2026-09-20T17:10:43.784+00:00,2026-09-20T17:11:05.344+00:00,21.56,2026-09-20T17:11:05.344+00:00,2026-09-20T17:11:31.229+00:00,25.884,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Teacher_Educator_S01_SET5,Lesson Planning Challenge,Target,pilot_s05_B_t02__ROLEGEN_Teacher_Educator_S01_SET5,pilot_s05_t02,2,4,Create a lesson plan that includes a hands‑on activity.,Teacher prepares a lesson for mixed ability class,Y,N,Semantic,0.7,Middle,Y,N,N,hands‑on activity,10,1,0.022,0.323,7.25,1.0,0.023,25.475,role-adapted-v10-self-paced,64,2,2026-09-20T17:10:15.574+00:00,2026-09-20T17:10:43.784+00:00,28.211,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","11,21,41,76,32,11.10",Y,N,21.56,6,6,0,0.0,21.56,"[{""time_sec"": 21.56, ""answer"": ""11,21,41,76,32,11.10""}]",2026-09-20T17:10:43.784+00:00,2026-09-20T17:11:05.344+00:00,21.56,2026-09-20T17:11:05.344+00:00,2026-09-20T17:11:31.229+00:00,25.884,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Teacher_Educator_S01_SET5,Lesson Planning Challenge,Target,pilot_s05_B_t03__ROLEGEN_Teacher_Educator_S01_SET5,pilot_s05_t03,3,4,Explain how the activity supports student inquiry.,,N,N,None,0.0,Middle,N,Y,N,student inquiry,7,1,0.046,0.252,7.25,1.0,0.023,25.475,role-adapted-v10-self-paced,64,2,2026-09-20T17:10:15.574+00:00,2026-09-20T17:10:43.784+00:00,28.211,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","11,21,41,76,32,11.10",Y,N,21.56,6,6,0,0.0,21.56,"[{""time_sec"": 21.56, ""answer"": ""11,21,41,76,32,11.10""}]",2026-09-20T17:10:43.784+00:00,2026-09-20T17:11:05.344+00:00,21.56,2026-09-20T17:11:05.344+00:00,2026-09-20T17:11:31.229+00:00,25.884,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PEBQSVGE_28981a4909764ef88a38543113aefa08,1,2026-09-20T17:02:17.537+00:00,Y,2026-09-20T17:02:13.084+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PEBQSVGE,Teacher / Educator,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Teacher_Educator_S01_SET5,Lesson Planning Challenge,Target,pilot_s05_B_t04__ROLEGEN_Teacher_Educator_S01_SET5,pilot_s05_t04,4,4,List two assessment methods.,,N,N,None,0.0,Recency,N,N,N,assessment methods,4,1,0.0,0.17,7.25,1.0,0.023,25.475,role-adapted-v10-self-paced,64,2,2026-09-20T17:10:15.574+00:00,2026-09-20T17:10:43.784+00:00,28.211,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","11,21,41,76,32,11.10",Y,N,21.56,6,6,0,0.0,21.56,"[{""time_sec"": 21.56, ""answer"": ""11,21,41,76,32,11.10""}]",2026-09-20T17:10:43.784+00:00,2026-09-20T17:11:05.344+00:00,21.56,2026-09-20T17:11:05.344+00:00,2026-09-20T17:11:31.229+00:00,25.884,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

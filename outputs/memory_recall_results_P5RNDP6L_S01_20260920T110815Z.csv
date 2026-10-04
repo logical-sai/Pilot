@@ -1,0 +1,218 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Target,pilot_s05_B_t01__ROLEGEN_Office_Professional_S01_SET1,pilot_s05_t01,1,4,Summarize the client's project scope and key deliverables.,2. Summarise the client's project scope and key deliverables.,Y,N,Semantic,1.0,Primacy,N,N,Y,client's project scope,8,2,0.111,0.357,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Target,pilot_s05_B_t02__ROLEGEN_Office_Professional_S01_SET1,pilot_s05_t02,2,4,Identify the two main budget constraints affecting the timeline.,4. Identify the two main budget constraints affecting the timeline.,Y,N,Exact,1.0,Middle,Y,N,N,budget constraints,9,1,0.064,0.305,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Target,pilot_s05_B_t03__ROLEGEN_Office_Professional_S01_SET1,pilot_s05_t03,3,4,Explain how the new compliance regulations impact the project phases.,5. Explain how the new compliance regulations impact the project phases.,Y,N,Exact,1.0,Middle,N,Y,N,compliance regulations,10,1,0.107,0.336,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Target,pilot_s05_B_t04__ROLEGEN_Office_Professional_S01_SET1,pilot_s05_t04,4,4,List the next three action items for the project team.,7. List the next three action items for the project teams.,Y,N,Exact,1.0,Recency,N,N,N,next action items,10,1,0.107,0.336,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Intrusion,,,,,,1. You are preparing a brief report for the upcoming client meeting.,N,N,Intrusion,,,,,,,,,,,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Intrusion,,,,,,3. The meeting is scheduled for next Wednesday.,N,N,Intrusion,,,,,,,,,,,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,1,1,pilot_s05,B,pilot_s05_B__ROLEGEN_Office_Professional_S01_SET1,Client File Review,Intrusion,,,,,,6. The client prefers concise bullet-point updates.,N,N,Intrusion,,,,,,,,,,,9.25,1.25,0.097,33.35,role-adapted-v10-self-paced,63,2,2026-09-20T09:52:46.780+00:00,2026-09-20T09:57:58.813+00:00,312.033,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","1-37, 2-18,3-31,29",Y,N,87.008,4,4,1,25.0,87.008,"[{""time_sec"": 87.008, ""answer"": ""1-37, 2-18,3-31,29""}]",2026-09-20T09:57:58.813+00:00,2026-09-20T09:59:25.821+00:00,87.008,2026-09-20T09:59:25.821+00:00,2026-09-20T10:07:48.500+00:00,502.679,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Target,pilot_s01_B_t01__ROLEGEN_Office_Professional_S01_SET2,pilot_s01_t01,1,4,Summarize the key points from the client’s last quarterly report.,2. Summarise the key points from the client's last quarterly report.,Y,N,Semantic,1.0,Primacy,N,N,Y,last quarterly report,11,1,0.08,0.357,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Target,pilot_s01_B_t02__ROLEGEN_Office_Professional_S01_SET2,pilot_s01_t02,2,4,Identify the three main risks highlighted in the compliance audit.,4. Identify the three main risks highlighted in the compliance audit.,Y,N,Exact,1.0,Middle,Y,N,N,compliance audit,10,1,0.076,0.331,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Target,pilot_s01_B_t03__ROLEGEN_Office_Professional_S01_SET2,pilot_s01_t03,3,4,Explain how the new tax regulations will affect the client’s projected cash flow for the next fiscal year.,5. Explain how the new tax regulations will affect the client's projected cash flow for the next fiscal year.,Y,N,Exact,1.0,Middle,N,Y,N,new tax regulations,19,1,0.069,0.555,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Target,pilot_s01_B_t04__ROLEGEN_Office_Professional_S01_SET2,pilot_s01_t04,4,4,List the recommended actions to mitigate identified risks.,7. List the recommended actions to migrate identified risks.,Y,N,Exact,0.957,Recency,N,N,N,recommended actions,8,1,0.078,0.282,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Intrusion,,,,,,1. You are preparing for the upcoming client meeting .,N,N,Intrusion,,,,,,,,,,,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Intrusion,,,,,,3. The meeting is scheduled for next Monday.,N,N,Intrusion,,,,,,,,,,,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,2,2,pilot_s01,B,pilot_s01_B__ROLEGEN_Office_Professional_S01_SET2,Client File Review,Intrusion,,,,,,6. The client's industry is manufacturing.,N,N,Intrusion,,,,,,,,,,,12.0,1.0,0.076,38.125,role-adapted-v10-self-paced,72,2,2026-09-20T10:07:49.169+00:00,2026-09-20T10:14:33.018+00:00,403.849,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","1-36, 2-35, 3-25, 4-38, 5-32, 6-37",Y,N,92.173,6,6,0,0.0,92.173,"[{""time_sec"": 92.173, ""answer"": ""1-36, 2-35, 3-25, 4-38, 5-32, 6-37""}]",2026-09-20T10:14:33.018+00:00,2026-09-20T10:16:05.191+00:00,92.173,2026-09-20T10:16:05.191+00:00,2026-09-20T10:24:37.712+00:00,512.521,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Target,pilot_s02_B_t01__ROLEGEN_Office_Professional_S01_SET3,pilot_s02_t01,1,4,Summarize the client's main concern and the proposed solution in one sentence.,2. Summarize the client's main concern and proposed solution in one sentence.,Y,N,Semantic,1.0,Primacy,N,N,Y,Summarize the client's main concern,12,2,0.105,0.456,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Target,pilot_s02_B_t02__ROLEGEN_Office_Professional_S01_SET3,pilot_s02_t02,2,4,List the three key documents that support the proposed solution.,4.  List the three key documents that support the proposed solution.,Y,N,Exact,1.0,Middle,Y,N,N,List the three key documents,10,1,0.092,0.334,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Target,pilot_s02_B_t03__ROLEGEN_Office_Professional_S01_SET3,pilot_s02_t03,3,4,"Explain why the client should prioritize the solution over alternative options, citing potential risks.","5. Explain why the client should prioritize the solution over alternative options, citing potential risks.",Y,N,Exact,1.0,Middle,N,Y,N,Explain why the client should prioritize the solution,14,1,0.064,0.43,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Target,pilot_s02_B_t04__ROLEGEN_Office_Professional_S01_SET3,pilot_s02_t04,4,4,"Provide a concise timeline for implementation, including start and completion dates.","7. Provide a concise timeline for implementation, including start and completion dates.",Y,N,Exact,1.0,Recency,N,N,N,Provide a concise timeline,11,2,0.016,0.417,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Intrusion,,,,,,1. You are preparing a brief report on the client's file for the upcoming meeting.,N,N,Intrusion,,,,,,,,,,,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Intrusion,,,,,,3. The meeting is scheduled for next Wednesday.,N,N,Intrusion,,,,,,,,,,,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,3,3,pilot_s02,B,pilot_s02_B__ROLEGEN_Office_Professional_S01_SET3,Client File Review,Intrusion,,,,,,"6. The client prefers a concise, data-driven presentation.",N,N,Intrusion,,,,,,,,,,,11.75,1.5,0.069,40.925,role-adapted-v10-self-paced,77,2,2026-09-20T10:24:38.287+00:00,2026-09-20T10:33:19.837+00:00,521.55,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","1- 12, 2-35, 3-44, 4-32.",Y,N,124.633,4,4,0,0.0,124.633,"[{""time_sec"": 124.633, ""answer"": ""1- 12, 2-35, 3-44, 4-32.""}]",2026-09-20T10:33:19.837+00:00,2026-09-20T10:35:24.471+00:00,124.633,2026-09-20T10:35:24.471+00:00,2026-09-20T10:46:14.352+00:00,649.882,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Target,pilot_s03_B_t01__ROLEGEN_Office_Professional_S01_SET4,pilot_s03_t01,1,4,Schedule the client meeting for next Tuesday.,2. Schedule the client meeting for next Tuesday.,Y,N,Exact,1.0,Primacy,N,N,Y,Calendar reminder,7,1,0.079,0.257,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Target,pilot_s03_B_t02__ROLEGEN_Office_Professional_S01_SET4,pilot_s03_t02,2,4,Compile expense report before lunch.,4. Compile the expense report before lunch.,Y,N,Semantic,1.0,Middle,Y,N,N,Budget spreadsheet,5,2,0.0,0.265,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Target,pilot_s03_B_t03__ROLEGEN_Office_Professional_S01_SET4,pilot_s03_t03,3,4,Send the revised contract to the legal team today.,5. Send the revised contract to the legal team today.,Y,N,Exact,1.0,Middle,N,N,N,Contract file,9,1,0.048,0.302,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Target,pilot_s03_B_t04__ROLEGEN_Office_Professional_S01_SET4,pilot_s03_t04,4,4,List items for the office supply order.,7. List items for the office supply order.,Y,N,Exact,1.0,Recency,N,Y,N,Supply list,7,1,0.079,0.257,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Intrusion,,,,,,1. You are preparing for an upcoming client engagement in a busy office environment.,N,N,Intrusion,,,,,,,,,,,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Intrusion,,,,,,3. The office is located on the 3rd floor.,N,N,Intrusion,,,,,,,,,,,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,4,4,pilot_s03,B,pilot_s03_B__ROLEGEN_Office_Professional_S01_SET4,Client Meeting Prep,Intrusion,,,,,,6. The meeting room has a projector..,N,N,Intrusion,,,,,,,,,,,7.0,1.25,0.052,27.025,role-adapted-v10-self-paced,55,2,2026-09-20T10:46:15.069+00:00,2026-09-20T10:50:23.162+00:00,248.093,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T10:50:23.162+00:00,2026-09-20T10:51:27.699+00:00,64.537,2026-09-20T10:51:27.699+00:00,2026-09-20T10:57:42.078+00:00,374.38,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Target,pilot_s04_B_t01__ROLEGEN_Office_Professional_S01_SET5,pilot_s04_t01,1,4,Review the agenda items,2. Review the agenda items.,Y,N,Exact,1.0,Primacy,N,N,Y,agenda,4,1,0.085,0.183,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Target,pilot_s04_B_t02__ROLEGEN_Office_Professional_S01_SET5,pilot_s04_t02,2,4,Confirm the client’s budget constraints,4. Confirm the client's budget constraints.,Y,N,Exact,1.0,Middle,Y,N,N,budget,6,1,0.074,0.231,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Target,pilot_s04_B_t03__ROLEGEN_Office_Professional_S01_SET5,pilot_s04_t03,3,4,Outline the project timeline,5. Outline the project timeline.,Y,N,Exact,1.0,Middle,N,Y,N,timeline,4,1,0.085,0.183,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Target,pilot_s04_B_t04__ROLEGEN_Office_Professional_S01_SET5,pilot_s04_t04,4,4,Summarize key deliverables,7. Summarize the key deliverables.,Y,N,Semantic,1.0,Recency,N,N,N,deliverables,3,1,0.0,0.145,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Intrusion,,,,,,1. You are preparing a high-stakes client presentation in the office.,N,N,Intrusion,,,,,,,,,,,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Intrusion,,,,,,3. The meeting room is booked for 10 a.m.,N,N,Intrusion,,,,,,,,,,,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P5RNDP6L_7c9aafc8615d4f31985738cae296dc6a,1,2026-09-20T09:51:41.123+00:00,Y,2026-09-20T09:51:36.840+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P5RNDP6L,Office Professional,5,5,pilot_s04,B,pilot_s04_B__ROLEGEN_Office_Professional_S01_SET5,Client Meeting Prep,Intrusion,,,,,,6. The projector is set up for use.,N,N,Intrusion,,,,,,,,,,,4.25,1.0,0.061,18.55,role-adapted-v10-self-paced,46,2,2026-09-20T10:57:42.894+00:00,2026-09-20T11:01:29.196+00:00,226.302,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","1-50, 2-24,3-24,4-44,5-31,6-51.",Y,N,89.866,6,6,0,0.0,89.866,"[{""time_sec"": 89.866, ""answer"": ""1-50, 2-24,3-24,4-44,5-31,6-51.""}]",2026-09-20T11:01:29.196+00:00,2026-09-20T11:02:59.062+00:00,89.866,2026-09-20T11:02:59.062+00:00,2026-09-20T11:08:14.194+00:00,315.132,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

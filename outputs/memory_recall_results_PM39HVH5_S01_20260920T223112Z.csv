@@ -1,0 +1,147 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s04_B_t01__ROLEGEN_Student_S01_SET1,pilot_s04_t01,1,4,List the three main topics covered in the first chapter.,,N,N,None,0.0,Primacy,N,N,Y,first chapter,10,1,0.087,0.333,9.5,1.0,0.075,31.875,role-adapted-v10-self-paced,59,2,2026-09-20T22:12:52.906+00:00,2026-09-20T22:14:27.729+00:00,94.823,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50,24,24,44,31,51",Y,Y,144.181,6,6,6,100.0,144.181,"[{""time_sec"": 144.181, ""answer"": ""50,24,24,44,31,51""}]",2026-09-20T22:14:27.729+00:00,2026-09-20T22:16:51.911+00:00,144.181,2026-09-20T22:16:51.911+00:00,2026-09-20T22:18:27.244+00:00,95.333,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s04_B_t02__ROLEGEN_Student_S01_SET1,pilot_s04_t02,2,4,Explain why the second concept is crucial for the exam.,,N,N,None,0.0,Middle,Y,N,N,second concept,10,1,0.061,0.329,9.5,1.0,0.075,31.875,role-adapted-v10-self-paced,59,2,2026-09-20T22:12:52.906+00:00,2026-09-20T22:14:27.729+00:00,94.823,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50,24,24,44,31,51",Y,Y,144.181,6,6,6,100.0,144.181,"[{""time_sec"": 144.181, ""answer"": ""50,24,24,44,31,51""}]",2026-09-20T22:14:27.729+00:00,2026-09-20T22:16:51.911+00:00,144.181,2026-09-20T22:16:51.911+00:00,2026-09-20T22:18:27.244+00:00,95.333,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s04_B_t03__ROLEGEN_Student_S01_SET1,pilot_s04_t03,3,4,Describe how the third idea connects to the overall subject.,,N,N,None,0.0,Middle,N,Y,N,third idea,10,1,0.061,0.329,9.5,1.0,0.075,31.875,role-adapted-v10-self-paced,59,2,2026-09-20T22:12:52.906+00:00,2026-09-20T22:14:27.729+00:00,94.823,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50,24,24,44,31,51",Y,Y,144.181,6,6,6,100.0,144.181,"[{""time_sec"": 144.181, ""answer"": ""50,24,24,44,31,51""}]",2026-09-20T22:14:27.729+00:00,2026-09-20T22:16:51.911+00:00,144.181,2026-09-20T22:16:51.911+00:00,2026-09-20T22:18:27.244+00:00,95.333,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s04_B_t04__ROLEGEN_Student_S01_SET1,pilot_s04_t04,4,4,Name the last term mentioned in the notes.,,N,N,None,0.0,Recency,N,N,N,last term,8,1,0.092,0.284,9.5,1.0,0.075,31.875,role-adapted-v10-self-paced,59,2,2026-09-20T22:12:52.906+00:00,2026-09-20T22:14:27.729+00:00,94.823,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50,24,24,44,31,51",Y,Y,144.181,6,6,6,100.0,144.181,"[{""time_sec"": 144.181, ""answer"": ""50,24,24,44,31,51""}]",2026-09-20T22:14:27.729+00:00,2026-09-20T22:16:51.911+00:00,144.181,2026-09-20T22:16:51.911+00:00,2026-09-20T22:18:27.244+00:00,95.333,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,1,1,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Intrusion,,,,,,28+17+6,N,N,Intrusion,,,,,,,,,,,9.5,1.0,0.075,31.875,role-adapted-v10-self-paced,59,2,2026-09-20T22:12:52.906+00:00,2026-09-20T22:14:27.729+00:00,94.823,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50,24,24,44,31,51",Y,Y,144.181,6,6,6,100.0,144.181,"[{""time_sec"": 144.181, ""answer"": ""50,24,24,44,31,51""}]",2026-09-20T22:14:27.729+00:00,2026-09-20T22:16:51.911+00:00,144.181,2026-09-20T22:16:51.911+00:00,2026-09-20T22:18:27.244+00:00,95.333,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET2,Project Planning,Target,pilot_s05_B_t01__ROLEGEN_Student_S01_SET2,pilot_s05_t01,1,4,Identify the three key deliverables for the project.,,N,N,None,0.0,Primacy,N,N,Y,key deliverables,8,1,0.152,0.293,7.75,1.0,0.117,28.125,role-adapted-v10-self-paced,51,2,2026-09-20T22:18:27.598+00:00,2026-09-20T22:19:31.349+00:00,63.751,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","57,38,17,29",Y,N,116.778,4,4,1,25.0,116.778,"[{""time_sec"": 116.778, ""answer"": ""57,38,17,29""}]",2026-09-20T22:19:31.349+00:00,2026-09-20T22:21:28.127+00:00,116.778,2026-09-20T22:21:28.127+00:00,2026-09-20T22:22:18.402+00:00,50.275,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET2,Project Planning,Target,pilot_s05_B_t02__ROLEGEN_Student_S01_SET2,pilot_s05_t02,2,4,Justify the importance of the second milestone.,,N,N,None,0.0,Middle,Y,N,N,second milestone,7,1,0.084,0.258,7.75,1.0,0.117,28.125,role-adapted-v10-self-paced,51,2,2026-09-20T22:18:27.598+00:00,2026-09-20T22:19:31.349+00:00,63.751,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","57,38,17,29",Y,N,116.778,4,4,1,25.0,116.778,"[{""time_sec"": 116.778, ""answer"": ""57,38,17,29""}]",2026-09-20T22:19:31.349+00:00,2026-09-20T22:21:28.127+00:00,116.778,2026-09-20T22:21:28.127+00:00,2026-09-20T22:22:18.402+00:00,50.275,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET2,Project Planning,Target,pilot_s05_B_t03__ROLEGEN_Student_S01_SET2,pilot_s05_t03,3,4,Outline how the third task supports the overall goal.,,N,N,None,0.0,Middle,N,Y,N,third task,9,1,0.075,0.306,7.75,1.0,0.117,28.125,role-adapted-v10-self-paced,51,2,2026-09-20T22:18:27.598+00:00,2026-09-20T22:19:31.349+00:00,63.751,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","57,38,17,29",Y,N,116.778,4,4,1,25.0,116.778,"[{""time_sec"": 116.778, ""answer"": ""57,38,17,29""}]",2026-09-20T22:19:31.349+00:00,2026-09-20T22:21:28.127+00:00,116.778,2026-09-20T22:21:28.127+00:00,2026-09-20T22:22:18.402+00:00,50.275,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET2,Project Planning,Target,pilot_s05_B_t04__ROLEGEN_Student_S01_SET2,pilot_s05_t04,4,4,Mention the final deadline for the project.,,N,N,None,0.0,Recency,N,N,N,final deadline,7,1,0.156,0.268,7.75,1.0,0.117,28.125,role-adapted-v10-self-paced,51,2,2026-09-20T22:18:27.598+00:00,2026-09-20T22:19:31.349+00:00,63.751,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","57,38,17,29",Y,N,116.778,4,4,1,25.0,116.778,"[{""time_sec"": 116.778, ""answer"": ""57,38,17,29""}]",2026-09-20T22:19:31.349+00:00,2026-09-20T22:21:28.127+00:00,116.778,2026-09-20T22:21:28.127+00:00,2026-09-20T22:22:18.402+00:00,50.275,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,2,2,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET2,Project Planning,Intrusion,,,,,,29,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.117,28.125,role-adapted-v10-self-paced,51,2,2026-09-20T22:18:27.598+00:00,2026-09-20T22:19:31.349+00:00,63.751,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","57,38,17,29",Y,N,116.778,4,4,1,25.0,116.778,"[{""time_sec"": 116.778, ""answer"": ""57,38,17,29""}]",2026-09-20T22:19:31.349+00:00,2026-09-20T22:21:28.127+00:00,116.778,2026-09-20T22:21:28.127+00:00,2026-09-20T22:22:18.402+00:00,50.275,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET3,Classroom Setup,Target,pilot_s01_B_t01__ROLEGEN_Student_S01_SET3,pilot_s01_t01,1,4,List the three items needed for the demonstration.,,N,N,None,0.0,Primacy,N,N,Y,demonstration items,8,1,0.079,0.282,7.0,1.0,0.095,25.9,role-adapted-v10-self-paced,47,2,2026-09-20T22:22:18.675+00:00,2026-09-20T22:23:21.208+00:00,62.533,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36,35,25,38,32,37",Y,Y,102.849,6,6,6,100.0,102.849,"[{""time_sec"": 102.849, ""answer"": ""36,35,25,38,32,37""}]",2026-09-20T22:23:21.208+00:00,2026-09-20T22:25:04.057+00:00,102.849,2026-09-20T22:25:04.057+00:00,2026-09-20T22:26:01.983+00:00,57.926,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET3,Classroom Setup,Target,pilot_s01_B_t02__ROLEGEN_Student_S01_SET3,pilot_s01_t02,2,4,Explain why the second item is essential.,,N,N,None,0.0,Middle,Y,N,N,second item,7,1,0.109,0.261,7.0,1.0,0.095,25.9,role-adapted-v10-self-paced,47,2,2026-09-20T22:22:18.675+00:00,2026-09-20T22:23:21.208+00:00,62.533,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36,35,25,38,32,37",Y,Y,102.849,6,6,6,100.0,102.849,"[{""time_sec"": 102.849, ""answer"": ""36,35,25,38,32,37""}]",2026-09-20T22:23:21.208+00:00,2026-09-20T22:25:04.057+00:00,102.849,2026-09-20T22:25:04.057+00:00,2026-09-20T22:26:01.983+00:00,57.926,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET3,Classroom Setup,Target,pilot_s01_B_t03__ROLEGEN_Student_S01_SET3,pilot_s01_t03,3,4,Describe how the third item enhances learning.,,N,N,None,0.0,Middle,N,Y,N,third item,7,1,0.109,0.261,7.0,1.0,0.095,25.9,role-adapted-v10-self-paced,47,2,2026-09-20T22:22:18.675+00:00,2026-09-20T22:23:21.208+00:00,62.533,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36,35,25,38,32,37",Y,Y,102.849,6,6,6,100.0,102.849,"[{""time_sec"": 102.849, ""answer"": ""36,35,25,38,32,37""}]",2026-09-20T22:23:21.208+00:00,2026-09-20T22:25:04.057+00:00,102.849,2026-09-20T22:25:04.057+00:00,2026-09-20T22:26:01.983+00:00,57.926,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET3,Classroom Setup,Target,pilot_s01_B_t04__ROLEGEN_Student_S01_SET3,pilot_s01_t04,4,4,State the last resource to bring.,,N,N,None,0.0,Recency,N,N,N,last resource,6,1,0.083,0.232,7.0,1.0,0.095,25.9,role-adapted-v10-self-paced,47,2,2026-09-20T22:22:18.675+00:00,2026-09-20T22:23:21.208+00:00,62.533,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36,35,25,38,32,37",Y,Y,102.849,6,6,6,100.0,102.849,"[{""time_sec"": 102.849, ""answer"": ""36,35,25,38,32,37""}]",2026-09-20T22:23:21.208+00:00,2026-09-20T22:25:04.057+00:00,102.849,2026-09-20T22:25:04.057+00:00,2026-09-20T22:26:01.983+00:00,57.926,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,3,3,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET3,Classroom Setup,Intrusion,,,,,,33+16-12,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.095,25.9,role-adapted-v10-self-paced,47,2,2026-09-20T22:22:18.675+00:00,2026-09-20T22:23:21.208+00:00,62.533,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36,35,25,38,32,37",Y,Y,102.849,6,6,6,100.0,102.849,"[{""time_sec"": 102.849, ""answer"": ""36,35,25,38,32,37""}]",2026-09-20T22:23:21.208+00:00,2026-09-20T22:25:04.057+00:00,102.849,2026-09-20T22:25:04.057+00:00,2026-09-20T22:26:01.983+00:00,57.926,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET4,Exam Prep Review,Target,pilot_s02_B_t01__ROLEGEN_Student_S01_SET4,pilot_s02_t01,1,4,List the three main causes of the French Revolution.,French revolution and Industrial revolution,Y,N,Semantic,0.8,Primacy,N,N,Y,List the three main causes,9,1,0.141,0.316,8.75,1.0,0.114,30.6,role-adapted-v10-self-paced,67,2,2026-09-20T22:26:02.412+00:00,2026-09-20T22:26:56.699+00:00,54.287,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","39,35,78,32",Y,N,99.428,4,4,2,50.0,99.428,"[{""time_sec"": 99.428, ""answer"": ""39,35,78,32""}]",2026-09-20T22:26:56.699+00:00,2026-09-20T22:28:36.127+00:00,99.428,2026-09-20T22:28:36.127+00:00,2026-09-20T22:29:28.761+00:00,52.634,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET4,Exam Prep Review,Target,pilot_s02_B_t02__ROLEGEN_Student_S01_SET4,pilot_s02_t02,2,4,Explain why the Treaty of Versailles was controversial.,,N,N,None,0.0,Middle,Y,N,N,Explain why the Treaty of Versailles,8,1,0.114,0.287,8.75,1.0,0.114,30.6,role-adapted-v10-self-paced,67,2,2026-09-20T22:26:02.412+00:00,2026-09-20T22:26:56.699+00:00,54.287,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","39,35,78,32",Y,N,99.428,4,4,2,50.0,99.428,"[{""time_sec"": 99.428, ""answer"": ""39,35,78,32""}]",2026-09-20T22:26:56.699+00:00,2026-09-20T22:28:36.127+00:00,99.428,2026-09-20T22:28:36.127+00:00,2026-09-20T22:29:28.761+00:00,52.634,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET4,Exam Prep Review,Target,pilot_s02_B_t03__ROLEGEN_Student_S01_SET4,pilot_s02_t03,3,4,Describe the impact of the Industrial Revolution on urban life.,,N,N,None,0.0,Middle,N,Y,N,Describe the impact of the Industrial Revolution,10,1,0.137,0.341,8.75,1.0,0.114,30.6,role-adapted-v10-self-paced,67,2,2026-09-20T22:26:02.412+00:00,2026-09-20T22:26:56.699+00:00,54.287,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","39,35,78,32",Y,N,99.428,4,4,2,50.0,99.428,"[{""time_sec"": 99.428, ""answer"": ""39,35,78,32""}]",2026-09-20T22:26:56.699+00:00,2026-09-20T22:28:36.127+00:00,99.428,2026-09-20T22:28:36.127+00:00,2026-09-20T22:29:28.761+00:00,52.634,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,4,4,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET4,Exam Prep Review,Target,pilot_s02_B_t04__ROLEGEN_Student_S01_SET4,pilot_s02_t04,4,4,Identify the primary themes in Shakespeare’s Hamlet.,,N,N,None,0.0,Recency,N,N,N,Identify the primary themes,8,1,0.065,0.28,8.75,1.0,0.114,30.6,role-adapted-v10-self-paced,67,2,2026-09-20T22:26:02.412+00:00,2026-09-20T22:26:56.699+00:00,54.287,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","39,35,78,32",Y,N,99.428,4,4,2,50.0,99.428,"[{""time_sec"": 99.428, ""answer"": ""39,35,78,32""}]",2026-09-20T22:26:56.699+00:00,2026-09-20T22:28:36.127+00:00,99.428,2026-09-20T22:28:36.127+00:00,2026-09-20T22:29:28.761+00:00,52.634,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET5,Exam Preparation,Target,pilot_s03_B_t01__ROLEGEN_Student_S01_SET5,pilot_s03_t01,1,4,List the three main causes of climate change.,,N,N,None,0.0,Primacy,N,N,Y,List the three main causes of climate change.,8,1,0.092,0.284,8.25,1.0,0.068,28.65,role-adapted-v10-self-paced,51,2,2026-09-20T22:29:29.209+00:00,2026-09-20T22:30:13.103+00:00,43.893,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T22:30:13.103+00:00,2026-09-20T22:30:19.859+00:00,6.756,2026-09-20T22:30:19.859+00:00,2026-09-20T22:31:12.195+00:00,52.336,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET5,Exam Preparation,Target,pilot_s03_B_t02__ROLEGEN_Student_S01_SET5,pilot_s03_t02,2,4,Explain why photosynthesis is vital for ecosystems.,Photosynthesis is vital for eco systems,Y,N,Semantic,1.0,Middle,Y,N,N,Explain why photosynthesis is vital for ecosystems.,7,1,0.0,0.245,8.25,1.0,0.068,28.65,role-adapted-v10-self-paced,51,2,2026-09-20T22:29:29.209+00:00,2026-09-20T22:30:13.103+00:00,43.893,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T22:30:13.103+00:00,2026-09-20T22:30:19.859+00:00,6.756,2026-09-20T22:30:19.859+00:00,2026-09-20T22:31:12.195+00:00,52.336,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET5,Exam Preparation,Target,pilot_s03_B_t03__ROLEGEN_Student_S01_SET5,pilot_s03_t03,3,4,Describe the process of cellular respiration in detail.,,N,N,None,0.0,Middle,N,N,N,Describe the process of cellular respiration in detail.,8,1,0.092,0.284,8.25,1.0,0.068,28.65,role-adapted-v10-self-paced,51,2,2026-09-20T22:29:29.209+00:00,2026-09-20T22:30:13.103+00:00,43.893,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T22:30:13.103+00:00,2026-09-20T22:30:19.859+00:00,6.756,2026-09-20T22:30:19.859+00:00,2026-09-20T22:31:12.195+00:00,52.336,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PM39HVH5_04dad4c796a6439291f39291c38b4bc5,1,2026-09-20T22:12:46.537+00:00,Y,2026-09-20T22:12:43.403+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PM39HVH5,Student,5,5,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET5,Exam Preparation,Target,pilot_s03_B_t04__ROLEGEN_Student_S01_SET5,pilot_s03_t04,4,4,Summarize the key points of the lecture on Newton's laws.,,N,N,None,0.0,Recency,N,Y,N,Summarize the key points of the lecture on Newton's laws.,10,1,0.089,0.333,8.25,1.0,0.068,28.65,role-adapted-v10-self-paced,51,2,2026-09-20T22:29:29.209+00:00,2026-09-20T22:30:13.103+00:00,43.893,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T22:30:13.103+00:00,2026-09-20T22:30:19.859+00:00,6.756,2026-09-20T22:30:19.859+00:00,2026-09-20T22:31:12.195+00:00,52.336,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

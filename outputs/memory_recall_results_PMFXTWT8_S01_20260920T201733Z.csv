@@ -1,0 +1,125 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,1,1,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s05_A_t01__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s05_t01,1,4,Place the backpack on the floor beside the door.,,N,N,None,0.0,Primacy,N,N,Y,door,9,1,0.105,0.311,8.75,1.25,0.086,31.925,role-adapted-v10-self-paced,63,2,2026-09-20T19:53:02.892+00:00,2026-09-20T19:53:51.365+00:00,48.473,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 31, 29",Y,Y,77.971,4,4,4,100.0,77.971,"[{""time_sec"": 77.971, ""answer"": ""37, 18, 31, 29""}]",2026-09-20T19:53:51.365+00:00,2026-09-20T19:55:09.336+00:00,77.971,2026-09-20T19:55:09.336+00:00,2026-09-20T19:57:35.335+00:00,145.998,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,1,1,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s05_A_t02__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s05_t02,2,4,Check that the lunchbox contains a sandwich and fruit.,,N,N,None,0.0,Middle,Y,N,N,lunchbox,9,2,0.066,0.375,8.75,1.25,0.086,31.925,role-adapted-v10-self-paced,63,2,2026-09-20T19:53:02.892+00:00,2026-09-20T19:53:51.365+00:00,48.473,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 31, 29",Y,Y,77.971,4,4,4,100.0,77.971,"[{""time_sec"": 77.971, ""answer"": ""37, 18, 31, 29""}]",2026-09-20T19:53:51.365+00:00,2026-09-20T19:55:09.336+00:00,77.971,2026-09-20T19:55:09.336+00:00,2026-09-20T19:57:35.335+00:00,145.998,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,1,1,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s05_A_t03__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s05_t03,3,4,Ask the child to remember to bring their math workbook.,"Preparing child for school, ask the chairs to remember to bring work book",Y,N,Semantic,1.0,Middle,N,Y,N,math workbook,10,1,0.066,0.33,8.75,1.25,0.086,31.925,role-adapted-v10-self-paced,63,2,2026-09-20T19:53:02.892+00:00,2026-09-20T19:53:51.365+00:00,48.473,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 31, 29",Y,Y,77.971,4,4,4,100.0,77.971,"[{""time_sec"": 77.971, ""answer"": ""37, 18, 31, 29""}]",2026-09-20T19:53:51.365+00:00,2026-09-20T19:55:09.336+00:00,77.971,2026-09-20T19:55:09.336+00:00,2026-09-20T19:57:35.335+00:00,145.998,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,1,1,pilot_s05,A,pilot_s05_A__ROLEGEN_Parent_Caregiver_S01_SET1,Morning School Drop‑Off,Target,pilot_s05_A_t04__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s05_t04,4,4,Leave the keys on the kitchen counter.,,N,N,None,0.0,Recency,N,N,N,keys,7,1,0.108,0.261,8.75,1.25,0.086,31.925,role-adapted-v10-self-paced,63,2,2026-09-20T19:53:02.892+00:00,2026-09-20T19:53:51.365+00:00,48.473,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 31, 29",Y,Y,77.971,4,4,4,100.0,77.971,"[{""time_sec"": 77.971, ""answer"": ""37, 18, 31, 29""}]",2026-09-20T19:53:51.365+00:00,2026-09-20T19:55:09.336+00:00,77.971,2026-09-20T19:55:09.336+00:00,2026-09-20T19:57:35.335+00:00,145.998,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,2,2,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s01_A_t01__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s01_t01,1,4,Set the fruit bowl on the kitchen island.,"Making snacks for kids while TV is on, set the fruit bowl on kitchen top, kitchen lights are dimmed, open the fridge to grab yogurt",Y,N,Semantic,1.0,Primacy,N,N,Y,fruit bowl,8,1,0.108,0.286,8.25,1.0,0.104,29.175,role-adapted-v10-self-paced,61,2,2026-09-20T19:57:35.760+00:00,2026-09-20T19:58:49.247+00:00,73.487,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36, 35, 25, 36, 32, 37",Y,N,126.693,6,6,5,83.3,126.693,"[{""time_sec"": 126.693, ""answer"": ""36, 35, 25, 36, 32, 37""}]",2026-09-20T19:58:49.247+00:00,2026-09-20T20:00:55.940+00:00,126.693,2026-09-20T20:00:55.940+00:00,2026-09-20T20:03:42.835+00:00,166.895,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,2,2,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s01_A_t02__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s01_t02,2,4,Open the fridge to grab the yogurt cups.,,N,N,None,0.0,Middle,Y,N,N,fridge,8,1,0.101,0.285,8.25,1.0,0.104,29.175,role-adapted-v10-self-paced,61,2,2026-09-20T19:57:35.760+00:00,2026-09-20T19:58:49.247+00:00,73.487,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36, 35, 25, 36, 32, 37",Y,N,126.693,6,6,5,83.3,126.693,"[{""time_sec"": 126.693, ""answer"": ""36, 35, 25, 36, 32, 37""}]",2026-09-20T19:58:49.247+00:00,2026-09-20T20:00:55.940+00:00,126.693,2026-09-20T20:00:55.940+00:00,2026-09-20T20:03:42.835+00:00,166.895,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,2,2,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s01_A_t03__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s01_t03,3,4,Ask the child to choose a snack from the list.,,N,N,None,0.0,Middle,N,Y,N,list,10,1,0.094,0.334,8.25,1.0,0.104,29.175,role-adapted-v10-self-paced,61,2,2026-09-20T19:57:35.760+00:00,2026-09-20T19:58:49.247+00:00,73.487,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36, 35, 25, 36, 32, 37",Y,N,126.693,6,6,5,83.3,126.693,"[{""time_sec"": 126.693, ""answer"": ""36, 35, 25, 36, 32, 37""}]",2026-09-20T19:58:49.247+00:00,2026-09-20T20:00:55.940+00:00,126.693,2026-09-20T20:00:55.940+00:00,2026-09-20T20:03:42.835+00:00,166.895,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,2,2,pilot_s01,A,pilot_s01_A__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s01_A_t04__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s01_t04,4,4,Place the plates on the dining table.,,N,N,None,0.0,Recency,N,N,N,plates,7,1,0.112,0.262,8.25,1.0,0.104,29.175,role-adapted-v10-self-paced,61,2,2026-09-20T19:57:35.760+00:00,2026-09-20T19:58:49.247+00:00,73.487,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","36, 35, 25, 36, 32, 37",Y,N,126.693,6,6,5,83.3,126.693,"[{""time_sec"": 126.693, ""answer"": ""36, 35, 25, 36, 32, 37""}]",2026-09-20T19:58:49.247+00:00,2026-09-20T20:00:55.940+00:00,126.693,2026-09-20T20:00:55.940+00:00,2026-09-20T20:03:42.835+00:00,166.895,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,3,3,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s02_A_t01__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s02_t01,1,4,Put the pajamas on the bed.,"Getting children for bed after long day, the bedroom smells levender, the children’s toys are scattered across the floor",Y,N,Semantic,0.8,Primacy,N,N,Y,bed,6,1,0.158,0.244,7.75,1.0,0.128,28.3,role-adapted-v10-self-paced,60,2,2026-09-20T20:03:43.233+00:00,2026-09-20T20:04:52.462+00:00,69.23,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 44, 34",Y,N,107.214,4,4,3,75.0,107.214,"[{""time_sec"": 107.214, ""answer"": ""12, 35, 44, 34""}]",2026-09-20T20:04:52.462+00:00,2026-09-20T20:06:39.677+00:00,107.214,2026-09-20T20:06:39.677+00:00,2026-09-20T20:10:12.057+00:00,212.38,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,3,3,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s02_A_t02__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s02_t02,2,4,Check that the night lights are switched on.,,N,N,None,0.0,Middle,Y,N,N,night lights,8,1,0.136,0.29,7.75,1.0,0.128,28.3,role-adapted-v10-self-paced,60,2,2026-09-20T20:03:43.233+00:00,2026-09-20T20:04:52.462+00:00,69.23,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 44, 34",Y,N,107.214,4,4,3,75.0,107.214,"[{""time_sec"": 107.214, ""answer"": ""12, 35, 44, 34""}]",2026-09-20T20:04:52.462+00:00,2026-09-20T20:06:39.677+00:00,107.214,2026-09-20T20:06:39.677+00:00,2026-09-20T20:10:12.057+00:00,212.38,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,3,3,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s02_A_t03__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s02_t03,3,4,Ask the child to read a page from their storybook.,,N,N,None,0.0,Middle,N,Y,N,storybook,10,1,0.066,0.33,7.75,1.0,0.128,28.3,role-adapted-v10-self-paced,60,2,2026-09-20T20:03:43.233+00:00,2026-09-20T20:04:52.462+00:00,69.23,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 44, 34",Y,N,107.214,4,4,3,75.0,107.214,"[{""time_sec"": 107.214, ""answer"": ""12, 35, 44, 34""}]",2026-09-20T20:04:52.462+00:00,2026-09-20T20:06:39.677+00:00,107.214,2026-09-20T20:06:39.677+00:00,2026-09-20T20:10:12.057+00:00,212.38,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,3,3,pilot_s02,A,pilot_s02_A__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s02_A_t04__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s02_t04,4,4,Place the toothbrush on the bathroom counter.,,N,N,None,0.0,Recency,N,N,N,toothbrush,7,1,0.152,0.268,7.75,1.0,0.128,28.3,role-adapted-v10-self-paced,60,2,2026-09-20T20:03:43.233+00:00,2026-09-20T20:04:52.462+00:00,69.23,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12, 35, 44, 34",Y,N,107.214,4,4,3,75.0,107.214,"[{""time_sec"": 107.214, ""answer"": ""12, 35, 44, 34""}]",2026-09-20T20:04:52.462+00:00,2026-09-20T20:06:39.677+00:00,107.214,2026-09-20T20:06:39.677+00:00,2026-09-20T20:10:12.057+00:00,212.38,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,4,4,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing Breakfast,Target,pilot_s03_A_t01__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s03_t01,1,4,Check if the cereal box is on the top shelf.,,N,N,None,0.0,Primacy,N,N,Y,Cereal box,10,2,0.065,0.4,8.75,1.5,0.068,33.425,role-adapted-v10-self-paced,56,2,2026-09-20T20:10:12.606+00:00,2026-09-20T20:11:10.043+00:00,57.437,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T20:11:10.043+00:00,2026-09-20T20:11:14.824+00:00,4.781,2026-09-20T20:11:14.824+00:00,2026-09-20T20:13:17.710+00:00,122.886,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,4,4,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing Breakfast,Target,pilot_s03_A_t02__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s03_t02,2,4,Place the milk in the fridge.,"Gettt family ready for school, place the milk in fridge, ask the kids what snacks want for lunch",Y,N,Semantic,1.0,Middle,Y,N,N,Milk,6,1,0.077,0.232,8.75,1.5,0.068,33.425,role-adapted-v10-self-paced,56,2,2026-09-20T20:10:12.606+00:00,2026-09-20T20:11:10.043+00:00,57.437,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T20:11:10.043+00:00,2026-09-20T20:11:14.824+00:00,4.781,2026-09-20T20:11:14.824+00:00,2026-09-20T20:13:17.710+00:00,122.886,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,4,4,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing Breakfast,Target,pilot_s03_A_t03__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s03_t03,3,4,Make sure the toast pops up before the kids arrive.,,N,N,None,0.0,Middle,N,N,N,Toast,10,2,0.065,0.4,8.75,1.5,0.068,33.425,role-adapted-v10-self-paced,56,2,2026-09-20T20:10:12.606+00:00,2026-09-20T20:11:10.043+00:00,57.437,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T20:11:10.043+00:00,2026-09-20T20:11:14.824+00:00,4.781,2026-09-20T20:11:14.824+00:00,2026-09-20T20:13:17.710+00:00,122.886,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,4,4,pilot_s03,A,pilot_s03_A__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing Breakfast,Target,pilot_s03_A_t04__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s03_t04,4,4,Ask the child what snack they want for lunch.,,N,N,None,0.0,Recency,N,Y,N,Snack,9,1,0.065,0.305,8.75,1.5,0.068,33.425,role-adapted-v10-self-paced,56,2,2026-09-20T20:10:12.606+00:00,2026-09-20T20:11:10.043+00:00,57.437,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T20:11:10.043+00:00,2026-09-20T20:11:14.824+00:00,4.781,2026-09-20T20:11:14.824+00:00,2026-09-20T20:13:17.710+00:00,122.886,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,5,5,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET5,After-School Routine,Target,pilot_s04_A_t01__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s04_t01,1,4,Check the homework folder on the table.,,N,N,None,0.0,Primacy,N,N,Y,Homework folder,7,1,0.085,0.258,7.5,1.0,0.08,26.95,role-adapted-v10-self-paced,47,2,2026-09-20T20:13:18.218+00:00,2026-09-20T20:14:13.003+00:00,54.785,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50, 24, 24, 44, 31, 51",Y,Y,100.97,6,6,6,100.0,100.97,"[{""time_sec"": 100.97, ""answer"": ""50, 24, 24, 44, 31, 51""}]",2026-09-20T20:14:13.003+00:00,2026-09-20T20:15:53.973+00:00,100.97,2026-09-20T20:15:53.973+00:00,2026-09-20T20:17:33.503+00:00,99.529,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,5,5,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET5,After-School Routine,Target,pilot_s04_A_t02__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s04_t02,2,4,Put the soccer ball in the backyard storage box.,,N,N,None,0.0,Middle,Y,N,N,Soccer ball,9,1,0.076,0.306,7.5,1.0,0.08,26.95,role-adapted-v10-self-paced,47,2,2026-09-20T20:13:18.218+00:00,2026-09-20T20:14:13.003+00:00,54.785,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50, 24, 24, 44, 31, 51",Y,Y,100.97,6,6,6,100.0,100.97,"[{""time_sec"": 100.97, ""answer"": ""50, 24, 24, 44, 31, 51""}]",2026-09-20T20:14:13.003+00:00,2026-09-20T20:15:53.973+00:00,100.97,2026-09-20T20:15:53.973+00:00,2026-09-20T20:17:33.503+00:00,99.529,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,5,5,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET5,After-School Routine,Target,pilot_s04_A_t03__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s04_t03,3,4,Ask the child what they enjoyed most at school today.,,N,N,None,0.0,Middle,N,Y,N,School day,10,1,0.067,0.33,7.5,1.0,0.08,26.95,role-adapted-v10-self-paced,47,2,2026-09-20T20:13:18.218+00:00,2026-09-20T20:14:13.003+00:00,54.785,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50, 24, 24, 44, 31, 51",Y,Y,100.97,6,6,6,100.0,100.97,"[{""time_sec"": 100.97, ""answer"": ""50, 24, 24, 44, 31, 51""}]",2026-09-20T20:14:13.003+00:00,2026-09-20T20:15:53.973+00:00,100.97,2026-09-20T20:15:53.973+00:00,2026-09-20T20:17:33.503+00:00,99.529,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMFXTWT8_6eca64604aef45869bbcd1f5c3452afd,1,2026-09-20T19:52:57.689+00:00,Y,2026-09-20T19:52:55.776+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMFXTWT8,Parent / Caregiver,5,5,pilot_s04,A,pilot_s04_A__ROLEGEN_Parent_Caregiver_S01_SET5,After-School Routine,Target,pilot_s04_A_t04__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s04_t04,4,4,Turn off the TV.,"Helping the children settle after school, check the homework folder, turn off the TV",Y,N,Exact,1.0,Recency,N,N,N,TV,4,1,0.093,0.184,7.5,1.0,0.08,26.95,role-adapted-v10-self-paced,47,2,2026-09-20T20:13:18.218+00:00,2026-09-20T20:14:13.003+00:00,54.785,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","50, 24, 24, 44, 31, 51",Y,Y,100.97,6,6,6,100.0,100.97,"[{""time_sec"": 100.97, ""answer"": ""50, 24, 24, 44, 31, 51""}]",2026-09-20T20:14:13.003+00:00,2026-09-20T20:15:53.973+00:00,100.97,2026-09-20T20:15:53.973+00:00,2026-09-20T20:17:33.503+00:00,99.529,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

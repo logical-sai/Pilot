@@ -1,0 +1,125 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t01__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t01,1,4,Confirm the priority of the new authentication module.,"in the sprint meeting these items are discussed refactor legacy payment api, identify priority of authentication module, improve user security ,  identify deployment bug ,  uses Kanban board for tracking , summarizes on UI improvement",Y,N,Semantic,1.0,Primacy,N,N,Y,priority list,8,1,0.075,0.281,8.0,1.0,0.074,28.1,role-adapted-v10-self-paced,65,2,2026-09-20T16:58:10.820+00:00,2026-09-20T17:06:05.306+00:00,474.486,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:06:05.306+00:00,2026-09-20T17:06:13.910+00:00,8.604,2026-09-20T17:06:13.910+00:00,2026-09-20T17:09:15.998+00:00,182.088,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t02__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t02,2,4,Identify the critical bug that blocks deployment.,,N,N,None,0.0,Middle,Y,N,N,bug report,7,1,0.075,0.256,8.0,1.0,0.074,28.1,role-adapted-v10-self-paced,65,2,2026-09-20T16:58:10.820+00:00,2026-09-20T17:06:05.306+00:00,474.486,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:06:05.306+00:00,2026-09-20T17:06:13.910+00:00,8.604,2026-09-20T17:06:13.910+00:00,2026-09-20T17:09:15.998+00:00,182.088,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t03__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t03,3,4,Outline the steps to refactor the legacy payment API.,,N,N,None,0.0,Middle,N,N,N,refactor plan,9,1,0.071,0.306,8.0,1.0,0.074,28.1,role-adapted-v10-self-paced,65,2,2026-09-20T16:58:10.820+00:00,2026-09-20T17:06:05.306+00:00,474.486,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:06:05.306+00:00,2026-09-20T17:06:13.910+00:00,8.604,2026-09-20T17:06:13.910+00:00,2026-09-20T17:09:15.998+00:00,182.088,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t04__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t04,4,4,Summarize the estimated effort for the UI overhaul.,,N,N,None,0.0,Recency,N,Y,N,effort estimate,8,1,0.075,0.281,8.0,1.0,0.074,28.1,role-adapted-v10-self-paced,65,2,2026-09-20T16:58:10.820+00:00,2026-09-20T17:06:05.306+00:00,474.486,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T17:06:05.306+00:00,2026-09-20T17:06:13.910+00:00,8.604,2026-09-20T17:06:13.910+00:00,2026-09-20T17:09:15.998+00:00,182.088,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Code Review Session,Target,pilot_s04_C_t01__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t01,1,4,Verify that the new caching layer respects cache‑invalidation rules.,"pair of developers review merge requests, validates if the pr validates current cache invalidation policy , follow current branch stratagies , improve logging , run the tests if every thing is pass then merge the PR",Y,N,Semantic,0.9,Primacy,N,N,Y,caching rules,10,1,0.057,0.329,9.0,1.25,0.059,32.15,role-adapted-v10-self-paced,63,2,2026-09-20T17:09:16.591+00:00,2026-09-20T17:14:37.720+00:00,321.129,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","45, 24, 24,43,31,51",Y,N,171.4,6,6,4,66.7,171.4,"[{""time_sec"": 171.4, ""answer"": ""45, 24, 24,43,31,51""}]",2026-09-20T17:14:37.720+00:00,2026-09-20T17:17:29.120+00:00,171.4,2026-09-20T17:17:29.120+00:00,2026-09-20T17:19:26.102+00:00,116.982,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Code Review Session,Target,pilot_s04_C_t02__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t02,2,4,Detect any potential race conditions in the concurrent data structure.,,N,N,None,0.0,Middle,Y,N,N,race condition,10,1,0.057,0.329,9.0,1.25,0.059,32.15,role-adapted-v10-self-paced,63,2,2026-09-20T17:09:16.591+00:00,2026-09-20T17:14:37.720+00:00,321.129,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","45, 24, 24,43,31,51",Y,N,171.4,6,6,4,66.7,171.4,"[{""time_sec"": 171.4, ""answer"": ""45, 24, 24,43,31,51""}]",2026-09-20T17:14:37.720+00:00,2026-09-20T17:17:29.120+00:00,171.4,2026-09-20T17:17:29.120+00:00,2026-09-20T17:19:26.102+00:00,116.982,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Code Review Session,Target,pilot_s04_C_t03__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t03,3,4,Suggest improvements for the logging strategy across services.,,N,N,None,0.0,Middle,N,Y,N,logging strategy,8,1,0.061,0.279,9.0,1.25,0.059,32.15,role-adapted-v10-self-paced,63,2,2026-09-20T17:09:16.591+00:00,2026-09-20T17:14:37.720+00:00,321.129,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","45, 24, 24,43,31,51",Y,N,171.4,6,6,4,66.7,171.4,"[{""time_sec"": 171.4, ""answer"": ""45, 24, 24,43,31,51""}]",2026-09-20T17:14:37.720+00:00,2026-09-20T17:17:29.120+00:00,171.4,2026-09-20T17:17:29.120+00:00,2026-09-20T17:19:26.102+00:00,116.982,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Code Review Session,Target,pilot_s04_C_t04__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t04,4,4,Approve the merge after confirming all tests pass.,,N,N,None,0.0,Recency,N,N,N,merge approval,8,2,0.061,0.349,9.0,1.25,0.059,32.15,role-adapted-v10-self-paced,63,2,2026-09-20T17:09:16.591+00:00,2026-09-20T17:14:37.720+00:00,321.129,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51","45, 24, 24,43,31,51",Y,N,171.4,6,6,4,66.7,171.4,"[{""time_sec"": 171.4, ""answer"": ""45, 24, 24,43,31,51""}]",2026-09-20T17:14:37.720+00:00,2026-09-20T17:17:29.120+00:00,171.4,2026-09-20T17:17:29.120+00:00,2026-09-20T17:19:26.102+00:00,116.982,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Release Deployment Checklist,Target,pilot_s05_C_t01__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t01,1,4,Ensure the database migration scripts are idempotent.,"review of deployment checklist , identify the database migration scripts are idempotent, uses blue green deployments , verify health check is 200. check rollback instructions are documented and testable , review dashbaords",Y,N,Semantic,1.0,Primacy,N,N,Y,migration scripts,7,1,0.07,0.256,8.25,1.25,0.079,30.575,role-adapted-v10-self-paced,60,2,2026-09-20T17:19:26.590+00:00,2026-09-20T17:25:23.515+00:00,356.925,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 35,29",Y,N,93.64,4,4,3,75.0,93.64,"[{""time_sec"": 93.64, ""answer"": ""37, 18, 35,29""}]",2026-09-20T17:25:23.515+00:00,2026-09-20T17:26:57.156+00:00,93.64,2026-09-20T17:26:57.156+00:00,2026-09-20T17:29:41.854+00:00,164.698,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Release Deployment Checklist,Target,pilot_s05_C_t02__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t02,2,4,Confirm that the health‑check endpoint returns 200.,,N,N,None,0.0,Middle,Y,N,N,health‑check,8,1,0.09,0.284,8.25,1.25,0.079,30.575,role-adapted-v10-self-paced,60,2,2026-09-20T17:19:26.590+00:00,2026-09-20T17:25:23.515+00:00,356.925,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 35,29",Y,N,93.64,4,4,3,75.0,93.64,"[{""time_sec"": 93.64, ""answer"": ""37, 18, 35,29""}]",2026-09-20T17:25:23.515+00:00,2026-09-20T17:26:57.156+00:00,93.64,2026-09-20T17:26:57.156+00:00,2026-09-20T17:29:41.854+00:00,164.698,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Release Deployment Checklist,Target,pilot_s05_C_t03__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t03,3,4,Verify that the rollback plan is documented and testable.,,N,N,None,0.0,Middle,N,Y,N,rollback plan,9,2,0.088,0.378,8.25,1.25,0.079,30.575,role-adapted-v10-self-paced,60,2,2026-09-20T17:19:26.590+00:00,2026-09-20T17:25:23.515+00:00,356.925,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 35,29",Y,N,93.64,4,4,3,75.0,93.64,"[{""time_sec"": 93.64, ""answer"": ""37, 18, 35,29""}]",2026-09-20T17:25:23.515+00:00,2026-09-20T17:26:57.156+00:00,93.64,2026-09-20T17:26:57.156+00:00,2026-09-20T17:29:41.854+00:00,164.698,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Release Deployment Checklist,Target,pilot_s05_C_t04__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t04,4,4,Deploy the new version to the staging environment first.,,N,N,None,0.0,Recency,N,N,N,staging deployment,9,1,0.067,0.305,8.25,1.25,0.079,30.575,role-adapted-v10-self-paced,60,2,2026-09-20T17:19:26.590+00:00,2026-09-20T17:25:23.515+00:00,356.925,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29","37, 18, 35,29",Y,N,93.64,4,4,3,75.0,93.64,"[{""time_sec"": 93.64, ""answer"": ""37, 18, 35,29""}]",2026-09-20T17:25:23.515+00:00,2026-09-20T17:26:57.156+00:00,93.64,2026-09-20T17:26:57.156+00:00,2026-09-20T17:29:41.854+00:00,164.698,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t01__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t01,1,4,Deploy the new authentication module before release,"in the sprint meeting review for upcoming release .  deploy authentication module before release, release is next friday , document api changes in change log today , find concurrency bugs filed today. tests legacy payment api",Y,N,Semantic,1.0,Primacy,N,N,Y,deployment reminder,7,2,0.048,0.322,6.75,1.25,0.05,26.35,role-adapted-v10-self-paced,53,2,2026-09-20T17:29:42.632+00:00,2026-09-20T17:35:11.375+00:00,328.743,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","35,35,25,38,32,37",Y,N,89.062,6,6,5,83.3,89.062,"[{""time_sec"": 89.062, ""answer"": ""35,35,25,38,32,37""}]",2026-09-20T17:35:11.375+00:00,2026-09-20T17:36:40.438+00:00,89.063,2026-09-20T17:36:40.438+00:00,2026-09-20T17:38:25.380+00:00,104.942,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t02__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t02,2,4,Check concurrency bugs today,,N,N,None,0.0,Middle,Y,N,N,code review,4,1,0.03,0.174,6.75,1.25,0.05,26.35,role-adapted-v10-self-paced,53,2,2026-09-20T17:29:42.632+00:00,2026-09-20T17:35:11.375+00:00,328.743,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","35,35,25,38,32,37",Y,N,89.062,6,6,5,83.3,89.062,"[{""time_sec"": 89.062, ""answer"": ""35,35,25,38,32,37""}]",2026-09-20T17:35:11.375+00:00,2026-09-20T17:36:40.438+00:00,89.063,2026-09-20T17:36:40.438+00:00,2026-09-20T17:38:25.380+00:00,104.942,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t03__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t03,3,4,Document API changes in the changelog file today,,N,N,None,0.0,Middle,N,Y,N,documentation task,8,1,0.076,0.281,6.75,1.25,0.05,26.35,role-adapted-v10-self-paced,53,2,2026-09-20T17:29:42.632+00:00,2026-09-20T17:35:11.375+00:00,328.743,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","35,35,25,38,32,37",Y,N,89.062,6,6,5,83.3,89.062,"[{""time_sec"": 89.062, ""answer"": ""35,35,25,38,32,37""}]",2026-09-20T17:35:11.375+00:00,2026-09-20T17:36:40.438+00:00,89.063,2026-09-20T17:36:40.438+00:00,2026-09-20T17:38:25.380+00:00,104.942,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t04__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t04,4,4,Run unit tests on the payment gateway suite,,N,N,None,0.0,Recency,N,N,N,testing deadline,8,1,0.046,0.277,6.75,1.25,0.05,26.35,role-adapted-v10-self-paced,53,2,2026-09-20T17:29:42.632+00:00,2026-09-20T17:35:11.375+00:00,328.743,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37","35,35,25,38,32,37",Y,N,89.062,6,6,5,83.3,89.062,"[{""time_sec"": 89.062, ""answer"": ""35,35,25,38,32,37""}]",2026-09-20T17:35:11.375+00:00,2026-09-20T17:36:40.438+00:00,89.063,2026-09-20T17:36:40.438+00:00,2026-09-20T17:38:25.380+00:00,104.942,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Release Preparation Checklist,Target,pilot_s02_C_t01__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t01,1,4,Merge feature branch into main today,"all services run on kubernetes, release plan by release manager, merge functional branch to main, roll back instructions",Y,N,Semantic,1.0,Primacy,N,N,Y,merge deadline,6,1,0.024,0.224,7.5,1.25,0.024,27.9,role-adapted-v10-self-paced,53,2,2026-09-20T17:38:26.005+00:00,2026-09-20T18:07:35.107+00:00,1749.102,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12,35,44,32",Y,Y,233.471,4,4,4,100.0,233.471,"[{""time_sec"": 233.471, ""answer"": ""12,35,44,32""}]",2026-09-20T18:07:35.107+00:00,2026-09-20T18:11:28.578+00:00,233.471,2026-09-20T18:11:28.578+00:00,2026-09-20T18:12:51.313+00:00,82.735,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Release Preparation Checklist,Target,pilot_s02_C_t02__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t02,2,4,Optimize database query for user lookup,,N,N,None,0.0,Middle,Y,N,N,performance tweak,6,1,0.024,0.224,7.5,1.25,0.024,27.9,role-adapted-v10-self-paced,53,2,2026-09-20T17:38:26.005+00:00,2026-09-20T18:07:35.107+00:00,1749.102,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12,35,44,32",Y,Y,233.471,4,4,4,100.0,233.471,"[{""time_sec"": 233.471, ""answer"": ""12,35,44,32""}]",2026-09-20T18:07:35.107+00:00,2026-09-20T18:11:28.578+00:00,233.471,2026-09-20T18:11:28.578+00:00,2026-09-20T18:12:51.313+00:00,82.735,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Release Preparation Checklist,Target,pilot_s02_C_t03__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t03,3,4,Create a rollback plan for the recent deployment strategy,,N,N,None,0.0,Middle,N,Y,N,risk mitigation,9,1,0.024,0.299,7.5,1.25,0.024,27.9,role-adapted-v10-self-paced,53,2,2026-09-20T17:38:26.005+00:00,2026-09-20T18:07:35.107+00:00,1749.102,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12,35,44,32",Y,Y,233.471,4,4,4,100.0,233.471,"[{""time_sec"": 233.471, ""answer"": ""12,35,44,32""}]",2026-09-20T18:07:35.107+00:00,2026-09-20T18:11:28.578+00:00,233.471,2026-09-20T18:11:28.578+00:00,2026-09-20T18:12:51.313+00:00,82.735,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PBP526TM_6f3ede1ace784f52b4d357fbc54ce64b,1,2026-09-20T16:56:43.599+00:00,Y,2026-09-20T16:56:41.229+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PBP526TM,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Release Preparation Checklist,Target,pilot_s02_C_t04__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t04,4,4,Validate SSL certificates on all microservices before scaling today,,N,N,None,0.0,Recency,N,N,N,security audit,9,2,0.024,0.369,7.5,1.25,0.024,27.9,role-adapted-v10-self-paced,53,2,2026-09-20T17:38:26.005+00:00,2026-09-20T18:07:35.107+00:00,1749.102,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32","12,35,44,32",Y,Y,233.471,4,4,4,100.0,233.471,"[{""time_sec"": 233.471, ""answer"": ""12,35,44,32""}]",2026-09-20T18:07:35.107+00:00,2026-09-20T18:11:28.578+00:00,233.471,2026-09-20T18:11:28.578+00:00,2026-09-20T18:12:51.313+00:00,82.735,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

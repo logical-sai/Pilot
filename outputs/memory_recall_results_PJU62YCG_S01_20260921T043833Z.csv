@@ -1,0 +1,121 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s03_C_t01__ROLEGEN_Student_S01_SET1,pilot_s03_t01,1,4,List the three main causes of the French Revolution.,"Mid terms, French Revolution. Magna carts, difference between keynomics economics. Photosynthesis",Y,N,Semantic,0.8,Primacy,N,N,Y,List the three main causes,9,1,0.076,0.306,7.75,1.25,0.05,28.875,role-adapted-v10-self-paced,54,2,2026-09-21T04:26:28.982+00:00,2026-09-21T04:27:40.574+00:00,71.592,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis,Y,N,62.659,4,1,0,0.0,62.659,"[{""time_sec"": 62.659, ""answer"": ""Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis""}]",2026-09-21T04:27:40.574+00:00,2026-09-21T04:28:43.233+00:00,62.659,2026-09-21T04:28:43.233+00:00,2026-09-21T04:29:54.271+00:00,71.038,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s03_C_t02__ROLEGEN_Student_S01_SET1,pilot_s03_t02,2,4,Explain the significance of the Magna Carta.,,N,N,None,0.0,Middle,Y,N,N,Explain the significance,7,1,0.079,0.257,7.75,1.25,0.05,28.875,role-adapted-v10-self-paced,54,2,2026-09-21T04:26:28.982+00:00,2026-09-21T04:27:40.574+00:00,71.592,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis,Y,N,62.659,4,1,0,0.0,62.659,"[{""time_sec"": 62.659, ""answer"": ""Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis""}]",2026-09-21T04:27:40.574+00:00,2026-09-21T04:28:43.233+00:00,62.659,2026-09-21T04:28:43.233+00:00,2026-09-21T04:29:54.271+00:00,71.038,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s03_C_t03__ROLEGEN_Student_S01_SET1,pilot_s03_t03,3,4,Identify the key differences between Keynesian and classical economics.,,N,N,None,0.0,Middle,N,N,N,Identify the key differences,9,2,0.045,0.372,7.75,1.25,0.05,28.875,role-adapted-v10-self-paced,54,2,2026-09-21T04:26:28.982+00:00,2026-09-21T04:27:40.574+00:00,71.592,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis,Y,N,62.659,4,1,0,0.0,62.659,"[{""time_sec"": 62.659, ""answer"": ""Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis""}]",2026-09-21T04:27:40.574+00:00,2026-09-21T04:28:43.233+00:00,62.659,2026-09-21T04:28:43.233+00:00,2026-09-21T04:29:54.271+00:00,71.038,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s03_C_t04__ROLEGEN_Student_S01_SET1,pilot_s03_t04,4,4,Describe how photosynthesis supports plant growth.,,N,N,None,0.0,Recency,N,Y,N,Describe how photosynthesis,6,1,0.0,0.22,7.75,1.25,0.05,28.875,role-adapted-v10-self-paced,54,2,2026-09-21T04:26:28.982+00:00,2026-09-21T04:27:40.574+00:00,71.592,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31",Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis,Y,N,62.659,4,1,0,0.0,62.659,"[{""time_sec"": 62.659, ""answer"": ""Preparing for mid terms. Significsnce if magma carts. Difference between Keynesian and economics. Photosynthesis""}]",2026-09-21T04:27:40.574+00:00,2026-09-21T04:28:43.233+00:00,62.659,2026-09-21T04:28:43.233+00:00,2026-09-21T04:29:54.271+00:00,71.038,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET2,Exam Prep Checklist,Target,pilot_s04_C_t01__ROLEGEN_Student_S01_SET2,pilot_s04_t01,1,4,Gather all lecture slides,,N,N,None,0.0,Primacy,N,N,Y,lecture slides,4,1,0.0,0.17,5.5,1.0,0.013,20.95,role-adapted-v10-self-paced,40,2,2026-09-21T04:29:54.842+00:00,2026-09-21T04:30:35.772+00:00,40.93,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:30:35.772+00:00,2026-09-21T04:30:42.532+00:00,6.759,2026-09-21T04:30:42.532+00:00,2026-09-21T04:31:39.656+00:00,57.125,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET2,Exam Prep Checklist,Target,pilot_s04_C_t02__ROLEGEN_Student_S01_SET2,pilot_s04_t02,2,4,Summarize key concepts in a paragraph,,N,N,None,0.0,Middle,Y,N,N,key concepts,6,1,0.026,0.224,5.5,1.0,0.013,20.95,role-adapted-v10-self-paced,40,2,2026-09-21T04:29:54.842+00:00,2026-09-21T04:30:35.772+00:00,40.93,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:30:35.772+00:00,2026-09-21T04:30:42.532+00:00,6.759,2026-09-21T04:30:42.532+00:00,2026-09-21T04:31:39.656+00:00,57.125,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET2,Exam Prep Checklist,Target,pilot_s04_C_t03__ROLEGEN_Student_S01_SET2,pilot_s04_t03,3,4,Create a mind map of the chapter themes,Student is preparing for midterm. Room is quiet. Create mind map and gather key evidences,Y,N,Semantic,1.0,Middle,N,Y,N,chapter themes,8,1,0.026,0.274,5.5,1.0,0.013,20.95,role-adapted-v10-self-paced,40,2,2026-09-21T04:29:54.842+00:00,2026-09-21T04:30:35.772+00:00,40.93,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:30:35.772+00:00,2026-09-21T04:30:42.532+00:00,6.759,2026-09-21T04:30:42.532+00:00,2026-09-21T04:31:39.656+00:00,57.125,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Student_S01_SET2,Exam Prep Checklist,Target,pilot_s04_C_t04__ROLEGEN_Student_S01_SET2,pilot_s04_t04,4,4,List three practice questions,,N,N,None,0.0,Recency,N,N,N,practice questions,4,1,0.0,0.17,5.5,1.0,0.013,20.95,role-adapted-v10-self-paced,40,2,2026-09-21T04:29:54.842+00:00,2026-09-21T04:30:35.772+00:00,40.93,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:30:35.772+00:00,2026-09-21T04:30:42.532+00:00,6.759,2026-09-21T04:30:42.532+00:00,2026-09-21T04:31:39.656+00:00,57.125,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s05_C_t01__ROLEGEN_Student_S01_SET3,pilot_s05_t01,1,4,List the three main causes of climate change.,,N,N,None,0.0,Primacy,N,N,Y,List,8,1,0.083,0.282,6.5,1.25,0.055,25.8,role-adapted-v10-self-paced,48,2,2026-09-21T04:31:40.174+00:00,2026-09-21T04:32:42.567+00:00,62.393,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 38",Y,N,136.394,6,6,5,83.3,136.394,"[{""time_sec"": 136.394, ""answer"": ""26, 39, 39, 25, 39, 38""}]",2026-09-21T04:32:42.567+00:00,2026-09-21T04:34:58.960+00:00,136.394,2026-09-21T04:34:58.960+00:00,2026-09-21T04:36:28.139+00:00,89.178,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s05_C_t02__ROLEGEN_Student_S01_SET3,pilot_s05_t02,2,4,Explain the difference between renewable and nonrenewable resources.,,N,N,None,0.0,Middle,Y,N,N,Explain,8,2,0.05,0.347,6.5,1.25,0.055,25.8,role-adapted-v10-self-paced,48,2,2026-09-21T04:31:40.174+00:00,2026-09-21T04:32:42.567+00:00,62.393,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 38",Y,N,136.394,6,6,5,83.3,136.394,"[{""time_sec"": 136.394, ""answer"": ""26, 39, 39, 25, 39, 38""}]",2026-09-21T04:32:42.567+00:00,2026-09-21T04:34:58.960+00:00,136.394,2026-09-21T04:34:58.960+00:00,2026-09-21T04:36:28.139+00:00,89.178,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s05_C_t03__ROLEGEN_Student_S01_SET3,pilot_s05_t03,3,4,Describe how photosynthesis supports ecosystems.,"French Revolution, photosynthesis, keynomics, economics, Magna Carta, Summarize. Paragraph through mind map, math problems",Y,N,Semantic,1.0,Middle,N,Y,N,Describe,5,1,0.0,0.195,6.5,1.25,0.055,25.8,role-adapted-v10-self-paced,48,2,2026-09-21T04:31:40.174+00:00,2026-09-21T04:32:42.567+00:00,62.393,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 38",Y,N,136.394,6,6,5,83.3,136.394,"[{""time_sec"": 136.394, ""answer"": ""26, 39, 39, 25, 39, 38""}]",2026-09-21T04:32:42.567+00:00,2026-09-21T04:34:58.960+00:00,136.394,2026-09-21T04:34:58.960+00:00,2026-09-21T04:36:28.139+00:00,89.178,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Student_S01_SET3,Exam Preparation,Target,pilot_s05_C_t04__ROLEGEN_Student_S01_SET3,pilot_s05_t04,4,4,Name the capital of France.,,N,N,None,0.0,Recency,N,N,N,Name,5,1,0.088,0.208,6.5,1.25,0.055,25.8,role-adapted-v10-self-paced,48,2,2026-09-21T04:31:40.174+00:00,2026-09-21T04:32:42.567+00:00,62.393,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 38",Y,N,136.394,6,6,5,83.3,136.394,"[{""time_sec"": 136.394, ""answer"": ""26, 39, 39, 25, 39, 38""}]",2026-09-21T04:32:42.567+00:00,2026-09-21T04:34:58.960+00:00,136.394,2026-09-21T04:34:58.960+00:00,2026-09-21T04:36:28.139+00:00,89.178,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET4,Midterm Prep Routine,Target,pilot_s01_C_t01__ROLEGEN_Student_S01_SET4,pilot_s01_t01,1,4,"Gather the syllabus, lecture notes, and textbook chapters.",,N,N,None,0.0,Primacy,N,N,Y,First thing in the morning,8,2,0.086,0.353,9.25,1.25,0.074,33.0,role-adapted-v10-self-paced,68,2,2026-09-21T04:36:28.725+00:00,2026-09-21T04:37:03.139+00:00,34.415,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:37:03.139+00:00,2026-09-21T04:37:09.534+00:00,6.394,2026-09-21T04:37:09.534+00:00,2026-09-21T04:37:50.849+00:00,41.316,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET4,Midterm Prep Routine,Target,pilot_s01_C_t02__ROLEGEN_Student_S01_SET4,pilot_s01_t02,2,4,Review the outline for the upcoming quiz.,"Preparing for quiz, helping friend to prep for the quiz",Y,N,Semantic,1.0,Middle,Y,N,N,During the coffee break,7,1,0.07,0.256,9.25,1.25,0.074,33.0,role-adapted-v10-self-paced,68,2,2026-09-21T04:36:28.725+00:00,2026-09-21T04:37:03.139+00:00,34.415,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:37:03.139+00:00,2026-09-21T04:37:09.534+00:00,6.394,2026-09-21T04:37:09.534+00:00,2026-09-21T04:37:50.849+00:00,41.316,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET4,Midterm Prep Routine,Target,pilot_s01_C_t03__ROLEGEN_Student_S01_SET4,pilot_s01_t03,3,4,Explain the key concepts from the last lecture to a study partner.,,N,N,None,0.0,Middle,N,Y,N,After class discussion,12,1,0.078,0.382,9.25,1.25,0.074,33.0,role-adapted-v10-self-paced,68,2,2026-09-21T04:36:28.725+00:00,2026-09-21T04:37:03.139+00:00,34.415,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:37:03.139+00:00,2026-09-21T04:37:09.534+00:00,6.394,2026-09-21T04:37:09.534+00:00,2026-09-21T04:37:50.849+00:00,41.316,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Student_S01_SET4,Midterm Prep Routine,Target,pilot_s01_C_t04__ROLEGEN_Student_S01_SET4,pilot_s01_t04,4,4,Summarize the main points of the chapter you just read.,,N,N,None,0.0,Recency,N,N,N,Before heading home,10,1,0.062,0.329,9.25,1.25,0.074,33.0,role-adapted-v10-self-paced,68,2,2026-09-21T04:36:28.725+00:00,2026-09-21T04:37:03.139+00:00,34.415,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:37:03.139+00:00,2026-09-21T04:37:09.534+00:00,6.394,2026-09-21T04:37:09.534+00:00,2026-09-21T04:37:50.849+00:00,41.316,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET5,Project Deadline Countdown,Target,pilot_s02_C_t01__ROLEGEN_Student_S01_SET5,pilot_s02_t01,1,4,Collect all research articles and data sets.,,N,N,None,0.0,Primacy,N,N,Y,At the start of the project,7,2,0.076,0.326,7.25,2.0,0.118,33.875,role-adapted-v10-self-paced,55,2,2026-09-21T04:37:51.370+00:00,2026-09-21T04:38:07.824+00:00,16.454,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Math,Y,N,18.303,6,1,0,0.0,18.303,"[{""time_sec"": 18.303, ""answer"": ""Math""}]",2026-09-21T04:38:07.824+00:00,2026-09-21T04:38:26.127+00:00,18.303,2026-09-21T04:38:26.127+00:00,2026-09-21T04:38:32.791+00:00,6.665,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET5,Project Deadline Countdown,Target,pilot_s02_C_t02__ROLEGEN_Student_S01_SET5,pilot_s02_t02,2,4,Outline the project structure and assign tasks.,,N,N,None,0.0,Middle,Y,N,N,During the kickoff meeting,7,2,0.134,0.335,7.25,2.0,0.118,33.875,role-adapted-v10-self-paced,55,2,2026-09-21T04:37:51.370+00:00,2026-09-21T04:38:07.824+00:00,16.454,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Math,Y,N,18.303,6,1,0,0.0,18.303,"[{""time_sec"": 18.303, ""answer"": ""Math""}]",2026-09-21T04:38:07.824+00:00,2026-09-21T04:38:26.127+00:00,18.303,2026-09-21T04:38:26.127+00:00,2026-09-21T04:38:32.791+00:00,6.665,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET5,Project Deadline Countdown,Target,pilot_s02_C_t03__ROLEGEN_Student_S01_SET5,pilot_s02_t03,3,4,Draft the introduction section and share it with teammates.,,N,N,None,0.0,Middle,N,Y,N,After the first draft,9,2,0.121,0.383,7.25,2.0,0.118,33.875,role-adapted-v10-self-paced,55,2,2026-09-21T04:37:51.370+00:00,2026-09-21T04:38:07.824+00:00,16.454,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Math,Y,N,18.303,6,1,0,0.0,18.303,"[{""time_sec"": 18.303, ""answer"": ""Math""}]",2026-09-21T04:38:07.824+00:00,2026-09-21T04:38:26.127+00:00,18.303,2026-09-21T04:38:26.127+00:00,2026-09-21T04:38:32.791+00:00,6.665,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET5,Project Deadline Countdown,Target,pilot_s02_C_t04__ROLEGEN_Student_S01_SET5,pilot_s02_t04,4,4,Compile the bibliography and reference list.,,N,N,None,0.0,Recency,N,N,N,Before the final submission,6,2,0.14,0.311,7.25,2.0,0.118,33.875,role-adapted-v10-self-paced,55,2,2026-09-21T04:37:51.370+00:00,2026-09-21T04:38:07.824+00:00,16.454,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Math,Y,N,18.303,6,1,0,0.0,18.303,"[{""time_sec"": 18.303, ""answer"": ""Math""}]",2026-09-21T04:38:07.824+00:00,2026-09-21T04:38:26.127+00:00,18.303,2026-09-21T04:38:26.127+00:00,2026-09-21T04:38:32.791+00:00,6.665,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PJU62YCG_aeace773e8d24d6da21fb77e373ea012,1,2026-09-21T04:26:25.106+00:00,Y,2026-09-21T04:26:21.843+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PJU62YCG,Student,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Student_S01_SET5,Project Deadline Countdown,Intrusion,,,,,,Math,N,N,Intrusion,,,,,,,,,,,7.25,2.0,0.118,33.875,role-adapted-v10-self-paced,55,2,2026-09-21T04:37:51.370+00:00,2026-09-21T04:38:07.824+00:00,16.454,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38",Math,Y,N,18.303,6,1,0,0.0,18.303,"[{""time_sec"": 18.303, ""answer"": ""Math""}]",2026-09-21T04:38:07.824+00:00,2026-09-21T04:38:26.127+00:00,18.303,2026-09-21T04:38:26.127+00:00,2026-09-21T04:38:32.791+00:00,6.665,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

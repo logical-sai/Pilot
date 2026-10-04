@@ -1,0 +1,163 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Office_Professional_S01_SET1,Client Call Follow‑Up,Target,pilot_s02_C_t01__ROLEGEN_Office_Professional_S01_SET1,pilot_s02_t01,1,4,Send a brief email confirming the new project timeline and budget adjustments.,,N,N,None,0.0,Primacy,N,N,Y,email confirmation,12,2,0.122,0.458,13.25,2.0,0.12,48.9,role-adapted-v10-self-paced,95,2,2026-09-21T03:36:37.665+00:00,2026-09-21T03:36:41.206+00:00,3.54,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36, 37, 86, 34, 27, 38",Y,N,235.467,6,6,5,83.3,235.467,"[{""time_sec"": 235.467, ""answer"": ""36, 37, 86, 34, 27, 38""}]",2026-09-21T03:36:41.206+00:00,2026-09-21T03:40:36.673+00:00,235.467,2026-09-21T03:40:36.673+00:00,2026-09-21T03:41:30.325+00:00,53.652,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Office_Professional_S01_SET1,Client Call Follow‑Up,Target,pilot_s02_C_t02__ROLEGEN_Office_Professional_S01_SET1,pilot_s02_t02,2,4,Update the shared project plan file with the revised milestones and deliverables.,,N,N,None,0.0,Middle,Y,N,N,plan update,12,2,0.11,0.456,13.25,2.0,0.12,48.9,role-adapted-v10-self-paced,95,2,2026-09-21T03:36:37.665+00:00,2026-09-21T03:36:41.206+00:00,3.54,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36, 37, 86, 34, 27, 38",Y,N,235.467,6,6,5,83.3,235.467,"[{""time_sec"": 235.467, ""answer"": ""36, 37, 86, 34, 27, 38""}]",2026-09-21T03:36:41.206+00:00,2026-09-21T03:40:36.673+00:00,235.467,2026-09-21T03:40:36.673+00:00,2026-09-21T03:41:30.325+00:00,53.652,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Office_Professional_S01_SET1,Client Call Follow‑Up,Target,pilot_s02_C_t03__ROLEGEN_Office_Professional_S01_SET1,pilot_s02_t03,3,4,Schedule a quick internal sync to review the client’s feedback and adjust the strategy accordingly.,,N,N,None,0.0,Middle,N,Y,N,internal sync,16,2,0.127,0.559,13.25,2.0,0.12,48.9,role-adapted-v10-self-paced,95,2,2026-09-21T03:36:37.665+00:00,2026-09-21T03:36:41.206+00:00,3.54,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36, 37, 86, 34, 27, 38",Y,N,235.467,6,6,5,83.3,235.467,"[{""time_sec"": 235.467, ""answer"": ""36, 37, 86, 34, 27, 38""}]",2026-09-21T03:36:41.206+00:00,2026-09-21T03:40:36.673+00:00,235.467,2026-09-21T03:40:36.673+00:00,2026-09-21T03:41:30.325+00:00,53.652,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Office_Professional_S01_SET1,Client Call Follow‑Up,Target,pilot_s02_C_t04__ROLEGEN_Office_Professional_S01_SET1,pilot_s02_t04,4,4,Print the updated contract for the client’s signature and arrange courier pickup.,,N,N,None,0.0,Recency,N,N,N,contract pickup,13,2,0.12,0.483,13.25,2.0,0.12,48.9,role-adapted-v10-self-paced,95,2,2026-09-21T03:36:37.665+00:00,2026-09-21T03:36:41.206+00:00,3.54,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36, 37, 86, 34, 27, 38",Y,N,235.467,6,6,5,83.3,235.467,"[{""time_sec"": 235.467, ""answer"": ""36, 37, 86, 34, 27, 38""}]",2026-09-21T03:36:41.206+00:00,2026-09-21T03:40:36.673+00:00,235.467,2026-09-21T03:40:36.673+00:00,2026-09-21T03:41:30.325+00:00,53.652,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,1,1,pilot_s02,C,pilot_s02_C__ROLEGEN_Office_Professional_S01_SET1,Client Call Follow‑Up,Intrusion,,,,,,58-29+9,N,N,Intrusion,,,,,,,,,,,13.25,2.0,0.12,48.9,role-adapted-v10-self-paced,95,2,2026-09-21T03:36:37.665+00:00,2026-09-21T03:36:41.206+00:00,3.54,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36, 37, 86, 34, 27, 38",Y,N,235.467,6,6,5,83.3,235.467,"[{""time_sec"": 235.467, ""answer"": ""36, 37, 86, 34, 27, 38""}]",2026-09-21T03:36:41.206+00:00,2026-09-21T03:40:36.673+00:00,235.467,2026-09-21T03:40:36.673+00:00,2026-09-21T03:41:30.325+00:00,53.652,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Target,pilot_s03_C_t01__ROLEGEN_Office_Professional_S01_SET2,pilot_s03_t01,1,4,Cross‑check the revenue figures against the sales database for consistency.,,N,N,None,0.0,Primacy,N,N,Y,revenue cross‑check,11,1,0.067,0.355,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Target,pilot_s03_C_t02__ROLEGEN_Office_Professional_S01_SET2,pilot_s03_t02,2,4,Compile the expense breakdown into the spreadsheet and highlight any anomalies.,,N,N,None,0.0,Middle,Y,N,N,expense compilation,11,2,0.067,0.425,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Target,pilot_s03_C_t03__ROLEGEN_Office_Professional_S01_SET2,pilot_s03_t03,3,4,Draft a summary paragraph outlining the key financial trends for the executive deck.,,N,N,None,0.0,Middle,N,N,N,summary paragraph,13,1,0.064,0.405,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Target,pilot_s03_C_t04__ROLEGEN_Office_Professional_S01_SET2,pilot_s03_t04,4,4,Submit the final report to the audit team and confirm receipt via email.,,N,N,None,0.0,Recency,N,Y,N,audit submission,13,2,0.064,0.475,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Intrusion,,,,,,13+7*2-9,N,N,Intrusion,,,,,,,,,,,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,2,2,pilot_s03,C,pilot_s03_C__ROLEGEN_Office_Professional_S01_SET2,Quarterly Report Prep,Intrusion,,,,,,54+11/2+16,N,N,Intrusion,,,,,,,,,,,12.0,1.5,0.066,41.5,role-adapted-v10-self-paced,80,2,2026-09-21T03:41:30.801+00:00,2026-09-21T03:41:42.409+00:00,11.608,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 46.5, 71, 18",Y,N,210.125,4,4,1,25.0,210.125,"[{""time_sec"": 210.125, ""answer"": ""42, 46.5, 71, 18""}]",2026-09-21T03:41:42.409+00:00,2026-09-21T03:45:12.535+00:00,210.125,2026-09-21T03:45:12.535+00:00,2026-09-21T03:46:59.542+00:00,107.007,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Office_Professional_S01_SET3,Vendor Negotiation,Target,pilot_s04_C_t01__ROLEGEN_Office_Professional_S01_SET3,pilot_s04_t01,1,4,Prepare a list of current usage metrics to justify the requested discount.,,N,N,None,0.0,Primacy,N,N,Y,usage metrics list,12,1,0.061,0.379,11.75,1.75,0.079,42.8,role-adapted-v10-self-paced,84,2,2026-09-21T03:46:59.861+00:00,2026-09-21T03:49:32.120+00:00,152.259,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:49:32.120+00:00,2026-09-21T03:49:46.353+00:00,14.233,2026-09-21T03:49:46.353+00:00,2026-09-21T03:50:32.226+00:00,45.873,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Office_Professional_S01_SET3,Vendor Negotiation,Target,pilot_s04_C_t02__ROLEGEN_Office_Professional_S01_SET3,pilot_s04_t02,2,4,Outline the proposed contract terms and highlight the volume commitment clause.,,N,N,None,0.0,Middle,Y,N,N,contract terms outline,11,2,0.083,0.427,11.75,1.75,0.079,42.8,role-adapted-v10-self-paced,84,2,2026-09-21T03:46:59.861+00:00,2026-09-21T03:49:32.120+00:00,152.259,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:49:32.120+00:00,2026-09-21T03:49:46.353+00:00,14.233,2026-09-21T03:49:46.353+00:00,2026-09-21T03:50:32.226+00:00,45.873,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Office_Professional_S01_SET3,Vendor Negotiation,Target,pilot_s04_C_t03__ROLEGEN_Office_Professional_S01_SET3,pilot_s04_t03,3,4,Record the vendor’s counter‑offer and note any concessions they propose.,,N,N,None,0.0,Middle,N,Y,N,counter‑offer record,12,2,0.078,0.452,11.75,1.75,0.079,42.8,role-adapted-v10-self-paced,84,2,2026-09-21T03:46:59.861+00:00,2026-09-21T03:49:32.120+00:00,152.259,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:49:32.120+00:00,2026-09-21T03:49:46.353+00:00,14.233,2026-09-21T03:49:46.353+00:00,2026-09-21T03:50:32.226+00:00,45.873,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Office_Professional_S01_SET3,Vendor Negotiation,Target,pilot_s04_C_t04__ROLEGEN_Office_Professional_S01_SET3,pilot_s04_t04,4,4,Send a follow‑up email summarizing the agreed points and next steps.,,N,N,None,0.0,Recency,N,N,N,follow‑up email,12,2,0.094,0.454,11.75,1.75,0.079,42.8,role-adapted-v10-self-paced,84,2,2026-09-21T03:46:59.861+00:00,2026-09-21T03:49:32.120+00:00,152.259,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:49:32.120+00:00,2026-09-21T03:49:46.353+00:00,14.233,2026-09-21T03:49:46.353+00:00,2026-09-21T03:50:32.226+00:00,45.873,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,3,3,pilot_s04,C,pilot_s04_C__ROLEGEN_Office_Professional_S01_SET3,Vendor Negotiation,Intrusion,,,,,,when you are ready continue to recall,N,N,Intrusion,,,,,,,,,,,11.75,1.75,0.079,42.8,role-adapted-v10-self-paced,84,2,2026-09-21T03:46:59.861+00:00,2026-09-21T03:49:32.120+00:00,152.259,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:49:32.120+00:00,2026-09-21T03:49:46.353+00:00,14.233,2026-09-21T03:49:46.353+00:00,2026-09-21T03:50:32.226+00:00,45.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Target,pilot_s05_C_t01__ROLEGEN_Office_Professional_S01_SET4,pilot_s05_t01,1,4,Schedule the quarterly budget review meeting for next week,,N,N,None,0.0,Primacy,N,N,Y,When the calendar invites arrive,9,1,0.095,0.309,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Target,pilot_s05_C_t02__ROLEGEN_Office_Professional_S01_SET4,pilot_s05_t02,2,4,Send the updated client proposal today,,N,N,None,0.0,Middle,Y,N,N,When the client email is opened,6,1,0.049,0.227,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Target,pilot_s05_C_t03__ROLEGEN_Office_Professional_S01_SET4,pilot_s05_t03,3,4,Review the new marketing metrics spreadsheet for approval,,N,N,None,0.0,Middle,N,Y,N,When the spreadsheet is shared,8,1,0.097,0.285,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Target,pilot_s05_C_t04__ROLEGEN_Office_Professional_S01_SET4,pilot_s05_t04,4,4,Confirm receipt of vendor invoice,,N,N,None,0.0,Recency,N,N,N,When the invoice arrives,5,1,0.0,0.195,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Intrusion,,,,,,8*6-11,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Intrusion,,,,,,24+33-18,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,4,4,pilot_s05,C,pilot_s05_C__ROLEGEN_Office_Professional_S01_SET4,Budget Meeting Prep,Intrusion,,,,,,7*5+4,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.06,25.4,role-adapted-v10-self-paced,52,2,2026-09-21T03:50:32.563+00:00,2026-09-21T03:50:42.775+00:00,10.212,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26, 39, 39, 25, 39, 37",Y,Y,148.759,6,6,6,100.0,148.759,"[{""time_sec"": 148.759, ""answer"": ""26, 39, 39, 25, 39, 37""}]",2026-09-21T03:50:42.775+00:00,2026-09-21T03:53:11.534+00:00,148.759,2026-09-21T03:53:11.534+00:00,2026-09-21T03:54:26.280+00:00,74.745,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Office_Professional_S01_SET5,Board Presentation,Target,pilot_s01_C_t01__ROLEGEN_Office_Professional_S01_SET5,pilot_s01_t01,1,4,Prepare the presentation deck for the board,,N,N,None,0.0,Primacy,N,N,Y,When the board agenda is received,7,1,0.123,0.263,6.25,1.0,0.108,24.25,role-adapted-v10-self-paced,50,2,2026-09-21T03:54:26.711+00:00,2026-09-21T03:54:34.845+00:00,8.134,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:54:34.845+00:00,2026-09-21T03:55:13.850+00:00,39.005,2026-09-21T03:55:13.850+00:00,2026-09-21T03:56:09.494+00:00,55.644,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Office_Professional_S01_SET5,Board Presentation,Target,pilot_s01_C_t02__ROLEGEN_Office_Professional_S01_SET5,pilot_s01_t02,2,4,Update the project timeline,,N,N,None,0.0,Middle,Y,N,N,When the project status changes,4,1,0.104,0.186,6.25,1.0,0.108,24.25,role-adapted-v10-self-paced,50,2,2026-09-21T03:54:26.711+00:00,2026-09-21T03:54:34.845+00:00,8.134,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:54:34.845+00:00,2026-09-21T03:55:13.850+00:00,39.005,2026-09-21T03:55:13.850+00:00,2026-09-21T03:56:09.494+00:00,55.644,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Office_Professional_S01_SET5,Board Presentation,Target,pilot_s01_C_t03__ROLEGEN_Office_Professional_S01_SET5,pilot_s01_t03,3,4,Check the compliance checklist to ensure,,N,N,None,0.0,Middle,N,Y,N,When the checklist is emailed,6,1,0.093,0.234,6.25,1.0,0.108,24.25,role-adapted-v10-self-paced,50,2,2026-09-21T03:54:26.711+00:00,2026-09-21T03:54:34.845+00:00,8.134,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:54:34.845+00:00,2026-09-21T03:55:13.850+00:00,39.005,2026-09-21T03:55:13.850+00:00,2026-09-21T03:56:09.494+00:00,55.644,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Office_Professional_S01_SET5,Board Presentation,Target,pilot_s01_C_t04__ROLEGEN_Office_Professional_S01_SET5,pilot_s01_t04,4,4,Arrange the conference room for tomorrow's client call,,N,N,None,0.0,Recency,N,N,N,When the client confirms the call,8,1,0.111,0.287,6.25,1.0,0.108,24.25,role-adapted-v10-self-paced,50,2,2026-09-21T03:54:26.711+00:00,2026-09-21T03:54:34.845+00:00,8.134,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:54:34.845+00:00,2026-09-21T03:55:13.850+00:00,39.005,2026-09-21T03:55:13.850+00:00,2026-09-21T03:56:09.494+00:00,55.644,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+P9F6T7W5_f83221e359be48c9831f113a86eaeb57,1,2026-09-21T03:36:00.015+00:00,Y,2026-09-21T03:35:57.244+00:00,pilot-consent-1.0,Y,participant-registry-2.0,P9F6T7W5,Office Professional,5,5,pilot_s01,C,pilot_s01_C__ROLEGEN_Office_Professional_S01_SET5,Board Presentation,Intrusion,,,,,,Keep your eyes on the fixation mark entered below,N,N,Intrusion,,,,,,,,,,,6.25,1.0,0.108,24.25,role-adapted-v10-self-paced,50,2,2026-09-21T03:54:26.711+00:00,2026-09-21T03:54:34.845+00:00,8.134,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T03:54:34.845+00:00,2026-09-21T03:55:13.850+00:00,39.005,2026-09-21T03:55:13.850+00:00,2026-09-21T03:56:09.494+00:00,55.644,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

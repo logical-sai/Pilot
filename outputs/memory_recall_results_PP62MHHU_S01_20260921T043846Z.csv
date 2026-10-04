@@ -1,0 +1,276 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Target,pilot_s05_C_t01__ROLEGEN_Household_Manager_S01_SET1,pilot_s05_t01,1,4,"Add milk, eggs, and bread to the list.",Prepare grocery list,Y,Y,Semantic,1.0,Primacy,N,N,Y,"milk, eggs, and bread",8,2,0.073,0.351,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Target,pilot_s05_C_t02__ROLEGEN_Household_Manager_S01_SET1,pilot_s05_t02,2,4,Include 2 pounds of chicken.,,N,N,None,0.0,Middle,Y,N,N,2 pounds of chicken,5,1,0.0,0.195,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Target,pilot_s05_C_t03__ROLEGEN_Household_Manager_S01_SET1,pilot_s05_t03,3,4,"Remember to buy fresh spinach, tomatoes, and cucumbers.",Buy fresh produce and essentials,Y,Y,Semantic,1.0,Middle,N,Y,N,"fresh spinach, tomatoes, and cucumbers",8,2,0.048,0.347,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Target,pilot_s05_C_t04__ROLEGEN_Household_Manager_S01_SET1,pilot_s05_t04,4,4,Check the pantry for canned beans.,Check pantry/fridge inventory,Y,Y,Semantic,1.0,Recency,N,N,N,canned beans,6,1,0.026,0.224,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Intrusion,,,,,,Plan meals for the week,N,N,Intrusion,,,,,,,,,,,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Intrusion,,,,,,Set weekly budget,N,N,Intrusion,,,,,,,,,,,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Intrusion,,,,,,Avoid duplicate or unnecessary items,N,N,Intrusion,,,,,,,,,,,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Intrusion,,,,,,Track items running low,N,N,Intrusion,,,,,,,,,,,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,1,1,pilot_s05,C,pilot_s05_C__ROLEGEN_Household_Manager_S01_SET1,Weekly Grocery Planning,Intrusion,,,,,,Plan for snacks and kids’ needs,N,N,Intrusion,,,,,,,,,,,6.75,1.5,0.037,27.925,role-adapted-v10-self-paced,50,2,2026-09-21T04:15:25.542+00:00,2026-09-21T04:16:26.061+00:00,60.519,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:16:26.061+00:00,2026-09-21T04:18:13.988+00:00,107.928,2026-09-21T04:18:13.988+00:00,2026-09-21T04:19:27.811+00:00,73.823,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Target,pilot_s01_C_t01__ROLEGEN_Household_Manager_S01_SET2,pilot_s01_t01,1,4,Create a shopping list for the next week's groceries.,Make your grocery list based on the meal plan.,Y,N,Semantic,1.0,Primacy,N,N,Y,shopping list,9,1,0.113,0.312,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Target,pilot_s01_C_t02__ROLEGEN_Household_Manager_S01_SET2,pilot_s01_t02,2,4,Schedule dinner times for each day.,,N,N,None,0.0,Middle,Y,N,N,dinner times,6,1,0.168,0.245,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Target,pilot_s01_C_t03__ROLEGEN_Household_Manager_S01_SET2,pilot_s01_t03,3,4,Decide on a theme for each week's dinner menu.,,N,N,None,0.0,Middle,N,Y,N,theme,9,1,0.198,0.325,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Target,pilot_s01_C_t04__ROLEGEN_Household_Manager_S01_SET2,pilot_s01_t04,4,4,Allocate budget limits for each meal category.,,N,N,None,0.0,Recency,N,N,N,budget limits,7,1,0.13,0.265,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,"Plan breakfast, lunch, dinner, and snacks for 7 days.",N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,"Check your fridge, freezer, and pantry before planning.",N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,Choose 2–3 easy breakfasts to repeat during the week.,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,Plan lunches using leftovers when possible.,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,"Include vegetables, protein, grains, and fruit each day.",N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,Keep 1–2 quick meals for busy days.,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,"Prep basics ahead, like chopping vegetables or making dosa/idli batter.",N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,Keep one flexible day for eating out or leftovers.,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,2,2,pilot_s01,C,pilot_s01_C__ROLEGEN_Household_Manager_S01_SET2,Weekly Meal Planning,Intrusion,,,,,,Review what worked at the end of the week and adjust for next week.,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.152,28.675,role-adapted-v10-self-paced,66,2,2026-09-21T04:19:28.525+00:00,2026-09-21T04:19:58.636+00:00,30.11,N,HIGH,high_pack_01,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 18 → +7 → ×2 → -11
+2. Start 36 → -8 → +14 → ÷2
+3. Start 12 → ×3 → -5 → +17
+4. Start 50 → ÷2 → +9 → -13","39,21,48,21","21,35,48,21",Y,N,386.944,4,4,2,50.0,386.944,"[{""time_sec"": 386.944, ""answer"": ""21,35,48,21""}]",2026-09-21T04:19:58.636+00:00,2026-09-21T04:26:25.579+00:00,386.944,2026-09-21T04:26:25.579+00:00,2026-09-21T04:27:14.452+00:00,48.873,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Target,pilot_s02_C_t01__ROLEGEN_Household_Manager_S01_SET3,pilot_s02_t01,1,4,Add fresh spinach to the shopping list for the salad tomorrow.,,N,N,None,0.0,Primacy,N,N,Y,fresh spinach,11,1,0.141,0.366,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Target,pilot_s02_C_t02__ROLEGEN_Household_Manager_S01_SET3,pilot_s02_t02,2,4,Schedule the oven to preheat at 180°C for the lasagna tonight.,,N,N,None,0.0,Middle,Y,N,N,preheat at 180°C,12,1,0.137,0.391,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Target,pilot_s02_C_t03__ROLEGEN_Household_Manager_S01_SET3,pilot_s02_t03,3,4,Remember to include a reminder to call the florist for the birthday bouquet next week.,,N,N,None,0.0,Middle,N,Y,N,birthday bouquet,15,1,0.128,0.464,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Target,pilot_s02_C_t04__ROLEGEN_Household_Manager_S01_SET3,pilot_s02_t04,4,4,Check that the pantry has enough canned tomatoes for the soup recipe.,,N,N,None,0.0,Recency,N,N,N,canned tomatoes,12,1,0.099,0.385,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Plan meals for the week,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Make a grocery list,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Wash and chop vegetables,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Cook grains and proteins ahead,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Portion meals into containers,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Prepare snacks in advance,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Label and refrigerate/freezer-store meals,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,3,3,pilot_s02,C,pilot_s02_C__ROLEGEN_Household_Manager_S01_SET3,Weekly Meal Prep,Intrusion,,,,,,Keep 1–2 quick backup meals ready,N,N,Intrusion,,,,,,,,,,,12.5,1.0,0.126,40.15,role-adapted-v10-self-paced,79,2,2026-09-21T04:27:14.899+00:00,2026-09-21T04:28:01.146+00:00,46.247,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-21T04:28:01.146+00:00,2026-09-21T04:28:04.060+00:00,2.915,2026-09-21T04:28:04.060+00:00,2026-09-21T04:29:45.402+00:00,101.342,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Target,pilot_s03_C_t01__ROLEGEN_Household_Manager_S01_SET4,pilot_s03_t01,1,4,Add fresh basil to the salad dressing recipe.,,N,N,None,0.0,Primacy,N,N,Y,salad dressing recipe,8,1,0.075,0.281,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Target,pilot_s03_C_t02__ROLEGEN_Household_Manager_S01_SET4,pilot_s03_t02,2,4,Buy 2 pounds of ground turkey for the chili.,,N,N,None,0.0,Middle,Y,N,N,ground turkey,9,1,0.091,0.309,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Target,pilot_s03_C_t03__ROLEGEN_Household_Manager_S01_SET4,pilot_s03_t03,3,4,Schedule a 30‑minute cleaning session for the kitchen after dinner tonight.,,N,N,None,0.0,Middle,N,N,N,cleaning session,12,2,0.083,0.452,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Target,pilot_s03_C_t04__ROLEGEN_Household_Manager_S01_SET4,pilot_s03_t04,4,4,Remember to check the pantry for any expired items before finalizing the list.,Check expiry dates before shopping,Y,N,Semantic,1.0,Recency,N,Y,N,pantry,13,2,0.102,0.48,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Choose meals based on your weekly schedule,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Use ingredients across multiple meals,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Marinate proteins ahead of time,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Prepare sauces or chutneys in advance,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Cook one-pot meals for busy days,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Pre-portion breakfast items,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Store ready-to-cook vegetables,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Plan a leftovers day,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,4,4,pilot_s03,C,pilot_s03_C__ROLEGEN_Household_Manager_S01_SET4,Weekly Meal Prep,Intrusion,,,,,,Rotate meals to avoid repetition,N,N,Intrusion,,,,,,,,,,,10.5,1.5,0.088,38.05,role-adapted-v10-self-paced,72,2,2026-09-21T04:29:45.881+00:00,2026-09-21T04:30:13.672+00:00,27.79,N,LOW,low_pack_03,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 63 ÷ 7 + 12
+2. 34 + 28 - 17
+3. 6 × 7 - 8
+4. 71 - 26 + 4
+5. 9 × 4 + 3
+6. 52 - 18 - 7","21,45,34,49,39,27","21,45,34,49,39,27",Y,Y,104.336,6,6,6,100.0,104.336,"[{""time_sec"": 104.336, ""answer"": ""21,45,34,49,39,27""}]",2026-09-21T04:30:13.672+00:00,2026-09-21T04:31:58.007+00:00,104.336,2026-09-21T04:31:58.007+00:00,2026-09-21T04:33:46.531+00:00,108.523,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,5,5,pilot_s04,C,pilot_s04_C__ROLEGEN_Household_Manager_S01_SET5,Daily Meal Prep,Target,pilot_s04_C_t01__ROLEGEN_Household_Manager_S01_SET5,pilot_s04_t01,1,4,Check the fridge for fresh produce before shopping.,check the fridge for fresh produce before shopping,Y,N,Exact,1.0,Primacy,N,N,Y,fridge,8,2,0.015,0.342,9.75,1.75,0.032,37.1,role-adapted-v10-self-paced,63,2,2026-09-21T04:33:47.053+00:00,2026-09-21T04:37:14.419+00:00,207.366,N,HIGH,high_pack_04,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 55 → -17 → ×2 → -20
+2. Start 30 → +12 → -6 → ÷3
+3. Start 72 → ÷3 → +15 → -11
+4. Start 19 → ×2 → -9 → +14","56,12,28,43","1,40,28,43",Y,N,74.865,4,4,2,50.0,74.865,"[{""time_sec"": 74.865, ""answer"": ""1,40,28,43""}]",2026-09-21T04:37:14.419+00:00,2026-09-21T04:38:29.284+00:00,74.865,2026-09-21T04:38:29.284+00:00,2026-09-21T04:38:45.536+00:00,16.253,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,5,5,pilot_s04,C,pilot_s04_C__ROLEGEN_Household_Manager_S01_SET5,Daily Meal Prep,Target,pilot_s04_C_t02__ROLEGEN_Household_Manager_S01_SET5,pilot_s04_t02,2,4,"Add 2 pounds of chicken breast, 1 bag of spinach, and 3 tomatoes to the list.",add 2 pounds of chicken breast 1 bag of spinach and 3 tomato's to the list,Y,N,Semantic,1.0,Middle,Y,N,N,list,16,2,0.063,0.549,9.75,1.75,0.032,37.1,role-adapted-v10-self-paced,63,2,2026-09-21T04:33:47.053+00:00,2026-09-21T04:37:14.419+00:00,207.366,N,HIGH,high_pack_04,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 55 → -17 → ×2 → -20
+2. Start 30 → +12 → -6 → ÷3
+3. Start 72 → ÷3 → +15 → -11
+4. Start 19 → ×2 → -9 → +14","56,12,28,43","1,40,28,43",Y,N,74.865,4,4,2,50.0,74.865,"[{""time_sec"": 74.865, ""answer"": ""1,40,28,43""}]",2026-09-21T04:37:14.419+00:00,2026-09-21T04:38:29.284+00:00,74.865,2026-09-21T04:38:29.284+00:00,2026-09-21T04:38:45.536+00:00,16.253,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,5,5,pilot_s04,C,pilot_s04_C__ROLEGEN_Household_Manager_S01_SET5,Daily Meal Prep,Target,pilot_s04_C_t03__ROLEGEN_Household_Manager_S01_SET5,pilot_s04_t03,3,4,Remember to include a reminder to buy milk and eggs.,reminder to buy milk and eggs,Y,N,Exact,1.0,Middle,N,Y,N,reminder,10,2,0.03,0.395,9.75,1.75,0.032,37.1,role-adapted-v10-self-paced,63,2,2026-09-21T04:33:47.053+00:00,2026-09-21T04:37:14.419+00:00,207.366,N,HIGH,high_pack_04,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 55 → -17 → ×2 → -20
+2. Start 30 → +12 → -6 → ÷3
+3. Start 72 → ÷3 → +15 → -11
+4. Start 19 → ×2 → -9 → +14","56,12,28,43","1,40,28,43",Y,N,74.865,4,4,2,50.0,74.865,"[{""time_sec"": 74.865, ""answer"": ""1,40,28,43""}]",2026-09-21T04:37:14.419+00:00,2026-09-21T04:38:29.284+00:00,74.865,2026-09-21T04:38:29.284+00:00,2026-09-21T04:38:45.536+00:00,16.253,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,5,5,pilot_s04,C,pilot_s04_C__ROLEGEN_Household_Manager_S01_SET5,Daily Meal Prep,Target,pilot_s04_C_t04__ROLEGEN_Household_Manager_S01_SET5,pilot_s04_t04,4,4,Finish list by 5 pm.,family prefers organic options finish list by 5 p.m,Y,N,Semantic,1.0,Recency,N,N,N,5 pm,5,1,0.018,0.198,9.75,1.75,0.032,37.1,role-adapted-v10-self-paced,63,2,2026-09-21T04:33:47.053+00:00,2026-09-21T04:37:14.419+00:00,207.366,N,HIGH,high_pack_04,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 55 → -17 → ×2 → -20
+2. Start 30 → +12 → -6 → ÷3
+3. Start 72 → ÷3 → +15 → -11
+4. Start 19 → ×2 → -9 → +14","56,12,28,43","1,40,28,43",Y,N,74.865,4,4,2,50.0,74.865,"[{""time_sec"": 74.865, ""answer"": ""1,40,28,43""}]",2026-09-21T04:37:14.419+00:00,2026-09-21T04:38:29.284+00:00,74.865,2026-09-21T04:38:29.284+00:00,2026-09-21T04:38:45.536+00:00,16.253,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PP62MHHU_a81cea89ab5c46c7ad3232a955102cef,1,2026-09-21T04:15:17.691+00:00,Y,2026-09-21T04:15:12.850+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PP62MHHU,Household Manager,5,5,pilot_s04,C,pilot_s04_C__ROLEGEN_Household_Manager_S01_SET5,Daily Meal Prep,Intrusion,,,,,,kitchen is organized with labeled containers,N,N,Intrusion,,,,,,,,,,,9.75,1.75,0.032,37.1,role-adapted-v10-self-paced,63,2,2026-09-21T04:33:47.053+00:00,2026-09-21T04:37:14.419+00:00,207.366,N,HIGH,high_pack_04,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 55 → -17 → ×2 → -20
+2. Start 30 → +12 → -6 → ÷3
+3. Start 72 → ÷3 → +15 → -11
+4. Start 19 → ×2 → -9 → +14","56,12,28,43","1,40,28,43",Y,N,74.865,4,4,2,50.0,74.865,"[{""time_sec"": 74.865, ""answer"": ""1,40,28,43""}]",2026-09-21T04:37:14.419+00:00,2026-09-21T04:38:29.284+00:00,74.865,2026-09-21T04:38:29.284+00:00,2026-09-21T04:38:45.536+00:00,16.253,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

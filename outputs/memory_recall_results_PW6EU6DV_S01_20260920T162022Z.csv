@@ -1,0 +1,139 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s01_B_t01__ROLEGEN_Student_S01_SET1,pilot_s01_t01,1,4,List the three main causes of the French Revolution.,,N,N,None,0.0,Primacy,N,N,Y,List the three main causes,9,1,0.147,0.317,8.0,1.0,0.165,29.475,role-adapted-v10-self-paced,56,2,2026-09-20T16:14:10.304+00:00,2026-09-20T16:14:50.817+00:00,40.513,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",jkkj,Y,N,10.121,6,1,0,0.0,10.121,"[{""time_sec"": 10.121, ""answer"": ""jkkj""}]",2026-09-20T16:14:50.817+00:00,2026-09-20T16:15:00.938+00:00,10.121,2026-09-20T16:15:00.938+00:00,2026-09-20T16:16:07.624+00:00,66.686,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s01_B_t02__ROLEGEN_Student_S01_SET1,pilot_s01_t02,2,4,Explain why the Treaty of Versailles was controversial.,Explain controversies of the Treaty of Versalies,Y,N,Semantic,1.0,Middle,Y,N,N,Explain why the Treaty of Versailles,8,1,0.147,0.292,8.0,1.0,0.165,29.475,role-adapted-v10-self-paced,56,2,2026-09-20T16:14:10.304+00:00,2026-09-20T16:14:50.817+00:00,40.513,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",jkkj,Y,N,10.121,6,1,0,0.0,10.121,"[{""time_sec"": 10.121, ""answer"": ""jkkj""}]",2026-09-20T16:14:50.817+00:00,2026-09-20T16:15:00.938+00:00,10.121,2026-09-20T16:15:00.938+00:00,2026-09-20T16:16:07.624+00:00,66.686,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s01_B_t03__ROLEGEN_Student_S01_SET1,pilot_s01_t03,3,4,Describe the process of photosynthesis in detail.,Describe Photosynthesis,Y,N,Semantic,1.0,Middle,N,Y,N,Describe the process of photosynthesis,7,1,0.186,0.273,8.0,1.0,0.165,29.475,role-adapted-v10-self-paced,56,2,2026-09-20T16:14:10.304+00:00,2026-09-20T16:14:50.817+00:00,40.513,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",jkkj,Y,N,10.121,6,1,0,0.0,10.121,"[{""time_sec"": 10.121, ""answer"": ""jkkj""}]",2026-09-20T16:14:50.817+00:00,2026-09-20T16:15:00.938+00:00,10.121,2026-09-20T16:15:00.938+00:00,2026-09-20T16:16:07.624+00:00,66.686,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,1,1,pilot_s01,B,pilot_s01_B__ROLEGEN_Student_S01_SET1,Exam Preparation,Target,pilot_s01_B_t04__ROLEGEN_Student_S01_SET1,pilot_s01_t04,4,4,Summarize the plot of Hamlet in one paragraph.,Explain Hamlet,Y,N,Semantic,1.0,Recency,N,N,N,Summarize the plot of Hamlet,8,1,0.179,0.297,8.0,1.0,0.165,29.475,role-adapted-v10-self-paced,56,2,2026-09-20T16:14:10.304+00:00,2026-09-20T16:14:50.817+00:00,40.513,N,LOW,low_pack_01,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 27 + 18 - 9
+2. 14 × 3 - 7
+3. 64 ÷ 8 + 17
+4. 51 - 19 + 6
+5. 9 × 5 - 13
+6. 33 + 16 - 12","36,35,25,38,32,37",jkkj,Y,N,10.121,6,1,0,0.0,10.121,"[{""time_sec"": 10.121, ""answer"": ""jkkj""}]",2026-09-20T16:14:50.817+00:00,2026-09-20T16:15:00.938+00:00,10.121,2026-09-20T16:15:00.938+00:00,2026-09-20T16:16:07.624+00:00,66.686,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s02_B_t01__ROLEGEN_Student_S01_SET2,pilot_s02_t01,1,4,Identify the main theme of chapter one.,Review Section 1,Y,N,Semantic,1.0,Primacy,N,N,Y,chapter one,7,1,0.137,0.266,10.0,1.0,0.151,34.275,role-adapted-v10-self-paced,57,2,2026-09-20T16:16:08.091+00:00,2026-09-20T16:16:27.574+00:00,19.483,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32",dfg,Y,N,2.206,4,1,0,0.0,2.206,"[{""time_sec"": 2.206, ""answer"": ""dfg""}]",2026-09-20T16:16:27.574+00:00,2026-09-20T16:16:29.780+00:00,2.206,2026-09-20T16:16:29.780+00:00,2026-09-20T16:17:14.098+00:00,44.318,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s02_B_t02__ROLEGEN_Student_S01_SET2,pilot_s02_t02,2,4,Explain the significance of the experiment described in section three.,Study on Lesson 3,Y,N,Semantic,1.0,Middle,Y,N,N,section three,10,1,0.176,0.346,10.0,1.0,0.151,34.275,role-adapted-v10-self-paced,57,2,2026-09-20T16:16:08.091+00:00,2026-09-20T16:16:27.574+00:00,19.483,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32",dfg,Y,N,2.206,4,1,0,0.0,2.206,"[{""time_sec"": 2.206, ""answer"": ""dfg""}]",2026-09-20T16:16:27.574+00:00,2026-09-20T16:16:29.780+00:00,2.206,2026-09-20T16:16:29.780+00:00,2026-09-20T16:17:14.098+00:00,44.318,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s02_B_t03__ROLEGEN_Student_S01_SET2,pilot_s02_t03,3,4,List three potential applications of the theory discussed in the lecture.,Test the notes from the Lecture,Y,N,Semantic,1.0,Middle,N,Y,N,lecture,11,1,0.17,0.371,10.0,1.0,0.151,34.275,role-adapted-v10-self-paced,57,2,2026-09-20T16:16:08.091+00:00,2026-09-20T16:16:27.574+00:00,19.483,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32",dfg,Y,N,2.206,4,1,0,0.0,2.206,"[{""time_sec"": 2.206, ""answer"": ""dfg""}]",2026-09-20T16:16:27.574+00:00,2026-09-20T16:16:29.780+00:00,2.206,2026-09-20T16:16:29.780+00:00,2026-09-20T16:17:14.098+00:00,44.318,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,2,2,pilot_s02,B,pilot_s02_B__ROLEGEN_Student_S01_SET2,Exam Preparation,Target,pilot_s02_B_t04__ROLEGEN_Student_S01_SET2,pilot_s02_t04,4,4,Summarize the key points from the last five pages of the textbook.,Review the Last 5 pages,Y,N,Semantic,1.0,Recency,N,N,N,last five pages,12,1,0.121,0.388,10.0,1.0,0.151,34.275,role-adapted-v10-self-paced,57,2,2026-09-20T16:16:08.091+00:00,2026-09-20T16:16:27.574+00:00,19.483,N,HIGH,high_pack_02,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 42 → -15 → +9 → ÷3
+2. Start 20 → +6 → ×2 → -17
+3. Start 64 → ÷2 → -7 → +19
+4. Start 15 → ×3 → +8 → -21","12,35,44,32",dfg,Y,N,2.206,4,1,0,0.0,2.206,"[{""time_sec"": 2.206, ""answer"": ""dfg""}]",2026-09-20T16:16:27.574+00:00,2026-09-20T16:16:29.780+00:00,2.206,2026-09-20T16:16:29.780+00:00,2026-09-20T16:17:14.098+00:00,44.318,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET3,Exam Prep Checklist,Target,pilot_s03_B_t01__ROLEGEN_Student_S01_SET3,pilot_s03_t01,1,4,Review the chapter summary and key concepts.,find summary,Y,Y,Semantic,0.8,Primacy,N,N,Y,chapter summary,7,2,0.105,0.331,9.75,1.5,0.107,36.5,role-adapted-v10-self-paced,69,2,2026-09-20T16:17:14.642+00:00,2026-09-20T16:17:46.290+00:00,31.647,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T16:17:46.290+00:00,2026-09-20T16:17:47.429+00:00,1.139,2026-09-20T16:17:47.429+00:00,2026-09-20T16:18:18.064+00:00,30.636,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET3,Exam Prep Checklist,Target,pilot_s03_B_t02__ROLEGEN_Student_S01_SET3,pilot_s03_t02,2,4,Solve five practice problems on the topic.,,N,N,None,0.0,Middle,Y,N,N,practice problems,7,1,0.064,0.255,9.75,1.5,0.107,36.5,role-adapted-v10-self-paced,69,2,2026-09-20T16:17:14.642+00:00,2026-09-20T16:17:46.290+00:00,31.647,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T16:17:46.290+00:00,2026-09-20T16:17:47.429+00:00,1.139,2026-09-20T16:17:47.429+00:00,2026-09-20T16:18:18.064+00:00,30.636,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET3,Exam Prep Checklist,Target,pilot_s03_B_t03__ROLEGEN_Student_S01_SET3,pilot_s03_t03,3,4,Create a concise summary of the main arguments and evidence presented in the lecture.,explain summary,Y,Y,Semantic,0.9,Middle,N,N,N,lecture summary,14,2,0.147,0.512,9.75,1.5,0.107,36.5,role-adapted-v10-self-paced,69,2,2026-09-20T16:17:14.642+00:00,2026-09-20T16:17:46.290+00:00,31.647,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T16:17:46.290+00:00,2026-09-20T16:17:47.429+00:00,1.139,2026-09-20T16:17:47.429+00:00,2026-09-20T16:18:18.064+00:00,30.636,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,3,3,pilot_s03,B,pilot_s03_B__ROLEGEN_Student_S01_SET3,Exam Prep Checklist,Target,pilot_s03_B_t04__ROLEGEN_Student_S01_SET3,pilot_s03_t04,4,4,Explain the significance of the main findings in your own words.,,N,N,None,0.0,Recency,N,Y,N,main findings,11,1,0.112,0.362,9.75,1.5,0.107,36.5,role-adapted-v10-self-paced,69,2,2026-09-20T16:17:14.642+00:00,2026-09-20T16:17:46.290+00:00,31.647,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T16:17:46.290+00:00,2026-09-20T16:17:47.429+00:00,1.139,2026-09-20T16:17:47.429+00:00,2026-09-20T16:18:18.064+00:00,30.636,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET4,Midterm Study Group,Target,pilot_s04_B_t01__ROLEGEN_Student_S01_SET4,pilot_s04_t01,1,4,Bring the syllabus outline for the first chapter.,Bring Syllabus Outline,Y,N,Semantic,1.0,Primacy,N,N,Y,first chapter,8,1,0.066,0.28,9.5,1.0,0.094,32.15,role-adapted-v10-self-paced,76,2,2026-09-20T16:18:18.625+00:00,2026-09-20T16:18:41.283+00:00,22.658,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",hj,Y,N,3.122,6,1,0,0.0,3.122,"[{""time_sec"": 3.122, ""answer"": ""hj""}]",2026-09-20T16:18:41.283+00:00,2026-09-20T16:18:44.405+00:00,3.122,2026-09-20T16:18:44.405+00:00,2026-09-20T16:19:15.376+00:00,30.971,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET4,Midterm Study Group,Target,pilot_s04_B_t02__ROLEGEN_Student_S01_SET4,pilot_s04_t02,2,4,Explain the key concept of the second lecture in detail.,Review Lecture 2,Y,N,Semantic,1.0,Middle,Y,N,N,second lecture,10,1,0.126,0.339,9.5,1.0,0.094,32.15,role-adapted-v10-self-paced,76,2,2026-09-20T16:18:18.625+00:00,2026-09-20T16:18:41.283+00:00,22.658,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",hj,Y,N,3.122,6,1,0,0.0,3.122,"[{""time_sec"": 3.122, ""answer"": ""hj""}]",2026-09-20T16:18:41.283+00:00,2026-09-20T16:18:44.405+00:00,3.122,2026-09-20T16:18:44.405+00:00,2026-09-20T16:19:15.376+00:00,30.971,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET4,Midterm Study Group,Target,pilot_s04_B_t03__ROLEGEN_Student_S01_SET4,pilot_s04_t03,3,4,Summarize the main points of the third lecture in your own words.,Review Lecture 3,Y,N,Semantic,1.0,Middle,N,Y,N,third lecture,12,1,0.121,0.388,9.5,1.0,0.094,32.15,role-adapted-v10-self-paced,76,2,2026-09-20T16:18:18.625+00:00,2026-09-20T16:18:41.283+00:00,22.658,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",hj,Y,N,3.122,6,1,0,0.0,3.122,"[{""time_sec"": 3.122, ""answer"": ""hj""}]",2026-09-20T16:18:41.283+00:00,2026-09-20T16:18:44.405+00:00,3.122,2026-09-20T16:18:44.405+00:00,2026-09-20T16:19:15.376+00:00,30.971,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET4,Midterm Study Group,Target,pilot_s04_B_t04__ROLEGEN_Student_S01_SET4,pilot_s04_t04,4,4,List the three study tips discussed last week.,,N,N,None,0.0,Recency,N,N,N,study tips,8,1,0.063,0.279,9.5,1.0,0.094,32.15,role-adapted-v10-self-paced,76,2,2026-09-20T16:18:18.625+00:00,2026-09-20T16:18:41.283+00:00,22.658,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",hj,Y,N,3.122,6,1,0,0.0,3.122,"[{""time_sec"": 3.122, ""answer"": ""hj""}]",2026-09-20T16:18:41.283+00:00,2026-09-20T16:18:44.405+00:00,3.122,2026-09-20T16:18:44.405+00:00,2026-09-20T16:19:15.376+00:00,30.971,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,4,4,pilot_s04,B,pilot_s04_B__ROLEGEN_Student_S01_SET4,Midterm Study Group,Intrusion,,,,,,Review Chapter 1,N,N,Intrusion,,,,,,,,,,,9.5,1.0,0.094,32.15,role-adapted-v10-self-paced,76,2,2026-09-20T16:18:18.625+00:00,2026-09-20T16:18:41.283+00:00,22.658,N,LOW,low_pack_04,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 39 + 24 - 13
+2. 72 ÷ 8 + 15
+3. 11 × 3 - 9
+4. 67 - 31 + 8
+5. 5 × 9 - 14
+6. 28 + 17 + 6","50,24,24,44,31,51",hj,Y,N,3.122,6,1,0,0.0,3.122,"[{""time_sec"": 3.122, ""answer"": ""hj""}]",2026-09-20T16:18:41.283+00:00,2026-09-20T16:18:44.405+00:00,3.122,2026-09-20T16:18:44.405+00:00,2026-09-20T16:19:15.376+00:00,30.971,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET5,Project Presentation Prep,Target,pilot_s05_B_t01__ROLEGEN_Student_S01_SET5,pilot_s05_t01,1,4,Outline the project objectives and expected outcomes.,Explain ket points,Y,Y,Semantic,1.0,Primacy,N,N,Y,project objectives,7,2,0.125,0.334,8.25,1.5,0.106,32.725,role-adapted-v10-self-paced,63,2,2026-09-20T16:19:15.955+00:00,2026-09-20T16:19:45.138+00:00,29.183,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",hgf,Y,N,5.415,4,1,0,0.0,5.415,"[{""time_sec"": 5.415, ""answer"": ""hgf""}]",2026-09-20T16:19:45.138+00:00,2026-09-20T16:19:50.553+00:00,5.416,2026-09-20T16:19:50.553+00:00,2026-09-20T16:20:22.283+00:00,31.729,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET5,Project Presentation Prep,Target,pilot_s05_B_t02__ROLEGEN_Student_S01_SET5,pilot_s05_t02,2,4,Describe the methodology you will use to collect data.,Collect data,Y,N,Exact,1.0,Middle,Y,N,N,methodology,9,1,0.086,0.308,8.25,1.5,0.106,32.725,role-adapted-v10-self-paced,63,2,2026-09-20T16:19:15.955+00:00,2026-09-20T16:19:45.138+00:00,29.183,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",hgf,Y,N,5.415,4,1,0,0.0,5.415,"[{""time_sec"": 5.415, ""answer"": ""hgf""}]",2026-09-20T16:19:45.138+00:00,2026-09-20T16:19:50.553+00:00,5.416,2026-09-20T16:19:50.553+00:00,2026-09-20T16:20:22.283+00:00,31.729,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET5,Project Presentation Prep,Target,pilot_s05_B_t03__ROLEGEN_Student_S01_SET5,pilot_s05_t03,3,4,Explain how the results will be analyzed and interpreted.,Analzye Data,Y,Y,Semantic,1.0,Middle,N,Y,N,results,9,2,0.112,0.382,8.25,1.5,0.106,32.725,role-adapted-v10-self-paced,63,2,2026-09-20T16:19:15.955+00:00,2026-09-20T16:19:45.138+00:00,29.183,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",hgf,Y,N,5.415,4,1,0,0.0,5.415,"[{""time_sec"": 5.415, ""answer"": ""hgf""}]",2026-09-20T16:19:45.138+00:00,2026-09-20T16:19:50.553+00:00,5.416,2026-09-20T16:19:50.553+00:00,2026-09-20T16:20:22.283+00:00,31.729,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET5,Project Presentation Prep,Target,pilot_s05_B_t04__ROLEGEN_Student_S01_SET5,pilot_s05_t04,4,4,Mention the key resources needed for the project.,,N,N,None,0.0,Recency,N,N,N,resources,8,1,0.1,0.285,8.25,1.5,0.106,32.725,role-adapted-v10-self-paced,63,2,2026-09-20T16:19:15.955+00:00,2026-09-20T16:19:45.138+00:00,29.183,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",hgf,Y,N,5.415,4,1,0,0.0,5.415,"[{""time_sec"": 5.415, ""answer"": ""hgf""}]",2026-09-20T16:19:45.138+00:00,2026-09-20T16:19:50.553+00:00,5.416,2026-09-20T16:19:50.553+00:00,2026-09-20T16:20:22.283+00:00,31.729,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PW6EU6DV_7cf06b358bea4bdb8b0c3f2487b09526,1,2026-09-20T16:14:04.017+00:00,Y,2026-09-20T16:13:59.824+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PW6EU6DV,Student,5,5,pilot_s05,B,pilot_s05_B__ROLEGEN_Student_S01_SET5,Project Presentation Prep,Intrusion,,,,,,Review the presentation,N,N,Intrusion,,,,,,,,,,,8.25,1.5,0.106,32.725,role-adapted-v10-self-paced,63,2,2026-09-20T16:19:15.955+00:00,2026-09-20T16:19:45.138+00:00,29.183,N,HIGH,high_pack_05,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 24 → +12 → ÷2 → +19
+2. Start 48 → -18 → +6 → ÷2
+3. Start 14 → +9 → ×2 → -15
+4. Start 60 → ÷3 → +17 → -8","37,18,31,29",hgf,Y,N,5.415,4,1,0,0.0,5.415,"[{""time_sec"": 5.415, ""answer"": ""hgf""}]",2026-09-20T16:19:45.138+00:00,2026-09-20T16:19:50.553+00:00,5.416,2026-09-20T16:19:50.553+00:00,2026-09-20T16:20:22.283+00:00,31.729,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

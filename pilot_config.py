@@ -29,10 +29,7 @@ def _env_bool(name: str, default: bool) -> bool:
 # MODEL / BACKEND
 # ==========================================================================
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "").strip()
-GROQ_BASE_URL = os.environ.get(
-    "GROQ_BASE_URL",
-    "https://api.groq.com/openai/v1",
-).strip()
+GROQ_BASE_URL = os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1",).strip()
 
 MODEL_NAME = os.environ.get(
     "MODEL_NAME",

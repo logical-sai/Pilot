@@ -1,0 +1,138 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t01__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t01,1,4,Review the new API endpoint specifications,,N,N,None,0.0,Primacy,N,N,Y,API endpoint specifications,6,1,0.046,0.227,7.0,1.0,0.032,24.975,role-adapted-v10-self-paced,63,2,2026-09-20T21:49:43.433+00:00,2026-09-20T21:49:52.958+00:00,9.525,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 34,35,31",Y,Y,79.512,4,4,4,100.0,79.512,"[{""time_sec"": 79.512, ""answer"": ""42, 34,35,31""}]",2026-09-20T21:49:52.958+00:00,2026-09-20T21:51:12.470+00:00,79.512,2026-09-20T21:51:12.470+00:00,2026-09-20T21:51:33.006+00:00,20.536,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t02__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t02,2,4,Estimate story points,,N,N,None,0.0,Middle,Y,N,N,story points,3,1,0.0,0.145,7.0,1.0,0.032,24.975,role-adapted-v10-self-paced,63,2,2026-09-20T21:49:43.433+00:00,2026-09-20T21:49:52.958+00:00,9.525,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 34,35,31",Y,Y,79.512,4,4,4,100.0,79.512,"[{""time_sec"": 79.512, ""answer"": ""42, 34,35,31""}]",2026-09-20T21:49:52.958+00:00,2026-09-20T21:51:12.470+00:00,79.512,2026-09-20T21:51:12.470+00:00,2026-09-20T21:51:33.006+00:00,20.536,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t03__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t03,3,4,Identify potential integration challenges with the legacy authentication system,,N,N,None,0.0,Middle,N,N,N,legacy authentication system,9,1,0.042,0.301,7.0,1.0,0.032,24.975,role-adapted-v10-self-paced,63,2,2026-09-20T21:49:43.433+00:00,2026-09-20T21:49:52.958+00:00,9.525,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 34,35,31",Y,Y,79.512,4,4,4,100.0,79.512,"[{""time_sec"": 79.512, ""answer"": ""42, 34,35,31""}]",2026-09-20T21:49:52.958+00:00,2026-09-20T21:51:12.470+00:00,79.512,2026-09-20T21:51:12.470+00:00,2026-09-20T21:51:33.006+00:00,20.536,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Target,pilot_s03_C_t04__ROLEGEN_Software_Engineer_S01_SET1,pilot_s03_t04,4,4,Discuss the impact of recent performance regressions on user experience,,N,N,None,0.0,Recency,N,Y,N,performance regressions,10,1,0.041,0.326,7.0,1.0,0.032,24.975,role-adapted-v10-self-paced,63,2,2026-09-20T21:49:43.433+00:00,2026-09-20T21:49:52.958+00:00,9.525,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 34,35,31",Y,Y,79.512,4,4,4,100.0,79.512,"[{""time_sec"": 79.512, ""answer"": ""42, 34,35,31""}]",2026-09-20T21:49:52.958+00:00,2026-09-20T21:51:12.470+00:00,79.512,2026-09-20T21:51:12.470+00:00,2026-09-20T21:51:33.006+00:00,20.536,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,1,1,pilot_s03,C,pilot_s03_C__ROLEGEN_Software_Engineer_S01_SET1,Sprint Planning Review,Intrusion,,,,,,54,N,N,Intrusion,,,,,,,,,,,7.0,1.0,0.032,24.975,role-adapted-v10-self-paced,63,2,2026-09-20T21:49:43.433+00:00,2026-09-20T21:49:52.958+00:00,9.525,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42, 34,35,31",Y,Y,79.512,4,4,4,100.0,79.512,"[{""time_sec"": 79.512, ""answer"": ""42, 34,35,31""}]",2026-09-20T21:49:52.958+00:00,2026-09-20T21:51:12.470+00:00,79.512,2026-09-20T21:51:12.470+00:00,2026-09-20T21:51:33.006+00:00,20.536,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Sprint Planning Review,Target,pilot_s04_C_t01__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t01,1,4,Identify the top three user stories for the next sprint.,,N,N,None,0.0,Primacy,N,N,Y,top three user stories,10,1,0.101,0.335,8.25,1.0,0.064,28.575,role-adapted-v10-self-paced,71,2,2026-09-20T21:51:33.335+00:00,2026-09-20T21:51:59.522+00:00,26.187,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:51:59.522+00:00,2026-09-20T21:52:13.449+00:00,13.927,2026-09-20T21:52:13.449+00:00,2026-09-20T21:52:39.563+00:00,26.114,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Sprint Planning Review,Target,pilot_s04_C_t02__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t02,2,4,Allocate effort estimates for each story in story points.,,N,N,None,0.0,Middle,Y,N,N,effort estimates,9,1,0.021,0.298,8.25,1.0,0.064,28.575,role-adapted-v10-self-paced,71,2,2026-09-20T21:51:33.335+00:00,2026-09-20T21:51:59.522+00:00,26.187,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:51:59.522+00:00,2026-09-20T21:52:13.449+00:00,13.927,2026-09-20T21:52:13.449+00:00,2026-09-20T21:52:39.563+00:00,26.114,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Sprint Planning Review,Target,pilot_s04_C_t03__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t03,3,4,Explain how the new feature integrates with the existing API.,,N,N,None,0.0,Middle,N,Y,N,integration explanation,10,1,0.047,0.327,8.25,1.0,0.064,28.575,role-adapted-v10-self-paced,71,2,2026-09-20T21:51:33.335+00:00,2026-09-20T21:51:59.522+00:00,26.187,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:51:59.522+00:00,2026-09-20T21:52:13.449+00:00,13.927,2026-09-20T21:52:13.449+00:00,2026-09-20T21:52:39.563+00:00,26.114,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,2,2,pilot_s04,C,pilot_s04_C__ROLEGEN_Software_Engineer_S01_SET2,Sprint Planning Review,Target,pilot_s04_C_t04__ROLEGEN_Software_Engineer_S01_SET2,pilot_s04_t04,4,4,Confirm the sprint goal.,Sprint planning,Y,N,Semantic,1.0,Recency,N,N,N,sprint goal,4,1,0.088,0.183,8.25,1.0,0.064,28.575,role-adapted-v10-self-paced,71,2,2026-09-20T21:51:33.335+00:00,2026-09-20T21:51:59.522+00:00,26.187,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:51:59.522+00:00,2026-09-20T21:52:13.449+00:00,13.927,2026-09-20T21:52:13.449+00:00,2026-09-20T21:52:39.563+00:00,26.114,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Sprint Planning Review,Target,pilot_s05_C_t01__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t01,1,4,Review the highest priority user story for the next sprint.,,N,N,None,0.0,Primacy,N,N,Y,highest priority user story,10,1,0.087,0.333,9.5,1.0,0.086,32.05,role-adapted-v10-self-paced,65,2,2026-09-20T21:52:39.852+00:00,2026-09-20T21:53:18.885+00:00,39.033,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,49,39,25,39,37",Y,N,58.769,6,6,5,83.3,58.769,"[{""time_sec"": 58.769, ""answer"": ""26,49,39,25,39,37""}]",2026-09-20T21:53:18.885+00:00,2026-09-20T21:54:17.653+00:00,58.769,2026-09-20T21:54:17.653+00:00,2026-09-20T21:54:25.140+00:00,7.486,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Sprint Planning Review,Target,pilot_s05_C_t02__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t02,2,4,Allocate two developers to the new authentication module.,,N,N,None,0.0,Middle,Y,N,N,authentication module,8,1,0.086,0.283,9.5,1.0,0.086,32.05,role-adapted-v10-self-paced,65,2,2026-09-20T21:52:39.852+00:00,2026-09-20T21:53:18.885+00:00,39.033,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,49,39,25,39,37",Y,N,58.769,6,6,5,83.3,58.769,"[{""time_sec"": 58.769, ""answer"": ""26,49,39,25,39,37""}]",2026-09-20T21:53:18.885+00:00,2026-09-20T21:54:17.653+00:00,58.769,2026-09-20T21:54:17.653+00:00,2026-09-20T21:54:25.140+00:00,7.486,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Sprint Planning Review,Target,pilot_s05_C_t03__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t03,3,4,Explain the impact of the new feature on the existing API endpoints.,,N,N,None,0.0,Middle,N,Y,N,impact on API endpoints,12,1,0.081,0.382,9.5,1.0,0.086,32.05,role-adapted-v10-self-paced,65,2,2026-09-20T21:52:39.852+00:00,2026-09-20T21:53:18.885+00:00,39.033,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,49,39,25,39,37",Y,N,58.769,6,6,5,83.3,58.769,"[{""time_sec"": 58.769, ""answer"": ""26,49,39,25,39,37""}]",2026-09-20T21:53:18.885+00:00,2026-09-20T21:54:17.653+00:00,58.769,2026-09-20T21:54:17.653+00:00,2026-09-20T21:54:25.140+00:00,7.486,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Sprint Planning Review,Target,pilot_s05_C_t04__ROLEGEN_Software_Engineer_S01_SET3,pilot_s05_t04,4,4,Confirm the sprint goal with the product owner.,,N,N,None,0.0,Recency,N,N,N,sprint goal,8,1,0.092,0.284,9.5,1.0,0.086,32.05,role-adapted-v10-self-paced,65,2,2026-09-20T21:52:39.852+00:00,2026-09-20T21:53:18.885+00:00,39.033,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,49,39,25,39,37",Y,N,58.769,6,6,5,83.3,58.769,"[{""time_sec"": 58.769, ""answer"": ""26,49,39,25,39,37""}]",2026-09-20T21:53:18.885+00:00,2026-09-20T21:54:17.653+00:00,58.769,2026-09-20T21:54:17.653+00:00,2026-09-20T21:54:25.140+00:00,7.486,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,3,3,pilot_s05,C,pilot_s05_C__ROLEGEN_Software_Engineer_S01_SET3,Sprint Planning Review,Intrusion,,,,,,None,N,N,Intrusion,,,,,,,,,,,9.5,1.0,0.086,32.05,role-adapted-v10-self-paced,65,2,2026-09-20T21:52:39.852+00:00,2026-09-20T21:53:18.885+00:00,39.033,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,49,39,25,39,37",Y,N,58.769,6,6,5,83.3,58.769,"[{""time_sec"": 58.769, ""answer"": ""26,49,39,25,39,37""}]",2026-09-20T21:53:18.885+00:00,2026-09-20T21:54:17.653+00:00,58.769,2026-09-20T21:54:17.653+00:00,2026-09-20T21:54:25.140+00:00,7.486,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t01__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t01,1,4,Review the top three user stories for the sprint.,,N,N,None,0.0,Primacy,N,N,Y,Sprint backlog,9,1,0.1,0.31,7.75,1.0,0.062,27.325,role-adapted-v10-self-paced,55,2,2026-09-20T21:54:25.582+00:00,2026-09-20T21:54:28.514+00:00,2.933,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:54:28.514+00:00,2026-09-20T21:54:33.842+00:00,5.328,2026-09-20T21:54:33.842+00:00,2026-09-20T21:55:04.560+00:00,30.717,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t02__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t02,2,4,Estimate effort for story two.,,N,N,None,0.0,Middle,Y,N,N,Story two,5,1,0.053,0.203,7.75,1.0,0.062,27.325,role-adapted-v10-self-paced,55,2,2026-09-20T21:54:25.582+00:00,2026-09-20T21:54:28.514+00:00,2.933,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:54:28.514+00:00,2026-09-20T21:54:33.842+00:00,5.328,2026-09-20T21:54:33.842+00:00,2026-09-20T21:55:04.560+00:00,30.717,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t03__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t03,3,4,Explain why story three needs a new API endpoint.,,N,N,None,0.0,Middle,N,Y,N,API endpoint,9,1,0.046,0.302,7.75,1.0,0.062,27.325,role-adapted-v10-self-paced,55,2,2026-09-20T21:54:25.582+00:00,2026-09-20T21:54:28.514+00:00,2.933,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:54:28.514+00:00,2026-09-20T21:54:33.842+00:00,5.328,2026-09-20T21:54:33.842+00:00,2026-09-20T21:55:04.560+00:00,30.717,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Target,pilot_s01_C_t04__ROLEGEN_Software_Engineer_S01_SET4,pilot_s01_t04,4,4,Confirm the sprint goal with the product owner.,,N,N,None,0.0,Recency,N,N,N,Sprint goal,8,1,0.051,0.278,7.75,1.0,0.062,27.325,role-adapted-v10-self-paced,55,2,2026-09-20T21:54:25.582+00:00,2026-09-20T21:54:28.514+00:00,2.933,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:54:28.514+00:00,2026-09-20T21:54:33.842+00:00,5.328,2026-09-20T21:54:33.842+00:00,2026-09-20T21:55:04.560+00:00,30.717,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,4,4,pilot_s01,C,pilot_s01_C__ROLEGEN_Software_Engineer_S01_SET4,Sprint Planning Review,Intrusion,,,,,,Allocate two developers to work on the authentication,N,N,Intrusion,,,,,,,,,,,7.75,1.0,0.062,27.325,role-adapted-v10-self-paced,55,2,2026-09-20T21:54:25.582+00:00,2026-09-20T21:54:28.514+00:00,2.933,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T21:54:28.514+00:00,2026-09-20T21:54:33.842+00:00,5.328,2026-09-20T21:54:33.842+00:00,2026-09-20T21:55:04.560+00:00,30.717,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Code Review Session,Target,pilot_s02_C_t01__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t01,1,4,Identify the main security concern in the code.,,N,N,None,0.0,Primacy,N,N,Y,Security concern,8,1,0.074,0.281,8.0,1.25,0.072,29.85,role-adapted-v10-self-paced,56,2,2026-09-20T21:55:04.858+00:00,2026-09-20T21:55:24.121+00:00,19.263,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,48.845,6,6,6,100.0,48.845,"[{""time_sec"": 48.845, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T21:55:24.121+00:00,2026-09-20T21:56:12.967+00:00,48.845,2026-09-20T21:56:12.967+00:00,2026-09-20T21:56:27.198+00:00,14.232,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Code Review Session,Target,pilot_s02_C_t02__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t02,2,4,Suggest an alternative implementation for the data parser.,,N,N,None,0.0,Middle,Y,N,N,Data parser,8,1,0.07,0.281,8.0,1.25,0.072,29.85,role-adapted-v10-self-paced,56,2,2026-09-20T21:55:04.858+00:00,2026-09-20T21:55:24.121+00:00,19.263,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,48.845,6,6,6,100.0,48.845,"[{""time_sec"": 48.845, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T21:55:24.121+00:00,2026-09-20T21:56:12.967+00:00,48.845,2026-09-20T21:56:12.967+00:00,2026-09-20T21:56:27.198+00:00,14.232,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Code Review Session,Target,pilot_s02_C_t03__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t03,3,4,Discuss the impact of the change on unit test coverage.,,N,N,None,0.0,Middle,N,Y,N,Unit tests,10,1,0.067,0.33,8.0,1.25,0.072,29.85,role-adapted-v10-self-paced,56,2,2026-09-20T21:55:04.858+00:00,2026-09-20T21:55:24.121+00:00,19.263,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,48.845,6,6,6,100.0,48.845,"[{""time_sec"": 48.845, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T21:55:24.121+00:00,2026-09-20T21:56:12.967+00:00,48.845,2026-09-20T21:56:12.967+00:00,2026-09-20T21:56:27.198+00:00,14.232,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Code Review Session,Target,pilot_s02_C_t04__ROLEGEN_Software_Engineer_S01_SET5,pilot_s02_t04,4,4,Approve the merge after final checks.,,N,N,None,0.0,Recency,N,N,N,Merge approval,6,2,0.077,0.302,8.0,1.25,0.072,29.85,role-adapted-v10-self-paced,56,2,2026-09-20T21:55:04.858+00:00,2026-09-20T21:55:24.121+00:00,19.263,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,48.845,6,6,6,100.0,48.845,"[{""time_sec"": 48.845, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T21:55:24.121+00:00,2026-09-20T21:56:12.967+00:00,48.845,2026-09-20T21:56:12.967+00:00,2026-09-20T21:56:27.198+00:00,14.232,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PMZ5KDFT_cfd6caa361d247ec8889baa7f9fd83ae,1,2026-09-20T21:49:25.644+00:00,Y,2026-09-20T21:49:22.052+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PMZ5KDFT,Software Engineer,5,5,pilot_s02,C,pilot_s02_C__ROLEGEN_Software_Engineer_S01_SET5,Code Review Session,Intrusion,,,,,,None,N,N,Intrusion,,,,,,,,,,,8.0,1.25,0.072,29.85,role-adapted-v10-self-paced,56,2,2026-09-20T21:55:04.858+00:00,2026-09-20T21:55:24.121+00:00,19.263,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,48.845,6,6,6,100.0,48.845,"[{""time_sec"": 48.845, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T21:55:24.121+00:00,2026-09-20T21:56:12.967+00:00,48.845,2026-09-20T21:56:12.967+00:00,2026-09-20T21:56:27.198+00:00,14.232,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0

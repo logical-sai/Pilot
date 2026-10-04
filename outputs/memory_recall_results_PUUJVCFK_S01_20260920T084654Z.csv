@@ -1,0 +1,121 @@
+Session_ID,Session_Number,Session_Start_UTC,Consent_Confirmed,Consent_Timestamp_UTC,Consent_Text_Version,Participant_ID_Verified,Participant_Registry_Version,User,Role,Set_Index,Scenario_Order_Position,Scenario_Family_ID,Scenario_Form,Scenario_ID,Scenario_Title,Record_Type,Target_ID,Target_Family_ID,Target_Index,Target_Count,Target_Instruction,User_Recall_Text,Remembered,Out_of_Order,Match_Type,Match_Score,Serial_Category,High_Demand,Open_Ended,Instruction_Interference_Present,Trigger_Anchor,Target_Word_Count,Target_Dependency_Depth,Target_Semantic_Overlap,Target_Structural_Complexity,Scenario_Mean_Target_Words,Scenario_Mean_Dependency_Depth,Scenario_Semantic_Overlap,Instruction_Complexity_Index,Complexity_Method_Version,Scenario_Total_Word_Count,Embedded_Distractor_Count,Reading_Start_UTC,Reading_End_UTC,Reading_Time_Sec,Reading_Skipped,Distractor_Condition,Distractor_ID,Distractor_Difficulty_Score,Distractor_Task,Distractor_Expected_Answer,Distractor_Answer,Distractor_Submitted,Distractor_Correct,Distractor_Response_Time_Sec,Distractor_Items_Presented,Distractor_Items_Answered,Distractor_Items_Correct,Distractor_Accuracy_Pct,Distractor_Mean_Response_Time_Sec,Distractor_Responses_JSON,Distractor_Start_UTC,Distractor_End_UTC,Distractor_Time_Sec,Recall_Start_UTC,Recall_End_UTC,Recall_Time_Sec,Risk_Score,Risk_Level,Requires_Reminder,App_Version,Schema_Version,Evaluator_Model,Rule_Engine_Version
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,1,1,pilot_s03,B,pilot_s03_B__ROLEGEN_Parent_Caregiver_S01_SET1,Morning Routine Check,Target,pilot_s03_B_t01__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s03_t01,1,4,Tell me the first thing you do after turning off the stove.,Morning routine check,Y,N,Semantic,0.8,Primacy,N,N,Y,stove off,12,2,0.148,0.462,11.75,1.75,0.135,43.65,role-adapted-v10-self-paced,76,2,2026-09-20T08:36:02.583+00:00,2026-09-20T08:36:22.173+00:00,19.591,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42,34,25,31",Y,N,74.003,4,4,3,75.0,74.003,"[{""time_sec"": 74.003, ""answer"": ""42,34,25,31""}]",2026-09-20T08:36:22.173+00:00,2026-09-20T08:37:36.176+00:00,74.003,2026-09-20T08:37:36.176+00:00,2026-09-20T08:38:15.572+00:00,39.396,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,1,1,pilot_s03,B,pilot_s03_B__ROLEGEN_Parent_Caregiver_S01_SET1,Morning Routine Check,Target,pilot_s03_B_t02__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s03_t02,2,4,List the two items you need to pack for the school lunch.,,N,N,None,0.0,Middle,Y,N,N,lunch pack,12,1,0.12,0.388,11.75,1.75,0.135,43.65,role-adapted-v10-self-paced,76,2,2026-09-20T08:36:02.583+00:00,2026-09-20T08:36:22.173+00:00,19.591,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42,34,25,31",Y,N,74.003,4,4,3,75.0,74.003,"[{""time_sec"": 74.003, ""answer"": ""42,34,25,31""}]",2026-09-20T08:36:22.173+00:00,2026-09-20T08:37:36.176+00:00,74.003,2026-09-20T08:37:36.176+00:00,2026-09-20T08:38:15.572+00:00,39.396,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,1,1,pilot_s03,B,pilot_s03_B__ROLEGEN_Parent_Caregiver_S01_SET1,Morning Routine Check,Target,pilot_s03_B_t03__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s03_t03,3,4,Describe the steps you take to ensure the door is locked before leaving.,,N,N,None,0.0,Middle,N,N,N,door lock,13,2,0.117,0.483,11.75,1.75,0.135,43.65,role-adapted-v10-self-paced,76,2,2026-09-20T08:36:02.583+00:00,2026-09-20T08:36:22.173+00:00,19.591,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42,34,25,31",Y,N,74.003,4,4,3,75.0,74.003,"[{""time_sec"": 74.003, ""answer"": ""42,34,25,31""}]",2026-09-20T08:36:22.173+00:00,2026-09-20T08:37:36.176+00:00,74.003,2026-09-20T08:37:36.176+00:00,2026-09-20T08:38:15.572+00:00,39.396,42.5,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,1,1,pilot_s03,B,pilot_s03_B__ROLEGEN_Parent_Caregiver_S01_SET1,Morning Routine Check,Target,pilot_s03_B_t04__ROLEGEN_Parent_Caregiver_S01_SET1,pilot_s03_t04,4,4,What do you do with the leftover fruit after breakfast?,,N,N,None,0.0,Recency,N,Y,N,fruit left,10,2,0.155,0.413,11.75,1.75,0.135,43.65,role-adapted-v10-self-paced,76,2,2026-09-20T08:36:02.583+00:00,2026-09-20T08:36:22.173+00:00,19.591,N,HIGH,high_pack_03,7.0,"Work through the multi-step problems in order. Enter final answers separated by commas.
+
+1. Start 16 → ×3 → -14 → +8
+2. Start 25 → +11 → ÷2 → +16
+3. Start 54 → -18 → ÷3 → +23
+4. Start 13 → +7 → ×2 → -9","42,34,35,31","42,34,25,31",Y,N,74.003,4,4,3,75.0,74.003,"[{""time_sec"": 74.003, ""answer"": ""42,34,25,31""}]",2026-09-20T08:36:22.173+00:00,2026-09-20T08:37:36.176+00:00,74.003,2026-09-20T08:37:36.176+00:00,2026-09-20T08:38:15.572+00:00,39.396,38.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,2,2,pilot_s04,B,pilot_s04_B__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s04_B_t01__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s04_t01,1,4,Name the first snack you prepare for the kids.,Evening snack prep,Y,N,Semantic,1.0,Primacy,N,N,Y,first snack,9,1,0.162,0.319,9.75,1.25,0.133,35.1,role-adapted-v10-self-paced,67,2,2026-09-20T08:38:15.934+00:00,2026-09-20T08:38:35.752+00:00,19.818,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:38:35.752+00:00,2026-09-20T08:38:57.271+00:00,21.519,2026-09-20T08:38:57.271+00:00,2026-09-20T08:39:26.845+00:00,29.573,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,2,2,pilot_s04,B,pilot_s04_B__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s04_B_t02__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s04_t02,2,4,Explain how you divide the snack portions between the children.,,N,N,None,0.0,Middle,Y,N,N,portion divide,10,1,0.156,0.343,9.75,1.25,0.133,35.1,role-adapted-v10-self-paced,67,2,2026-09-20T08:38:15.934+00:00,2026-09-20T08:38:35.752+00:00,19.818,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:38:35.752+00:00,2026-09-20T08:38:57.271+00:00,21.519,2026-09-20T08:38:57.271+00:00,2026-09-20T08:39:26.845+00:00,29.573,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,2,2,pilot_s04,B,pilot_s04_B__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s04_B_t03__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s04_t03,3,4,Describe the process of cleaning up the snack table after everyone eats.,,N,N,None,0.0,Middle,N,Y,N,table clean,12,2,0.096,0.454,9.75,1.25,0.133,35.1,role-adapted-v10-self-paced,67,2,2026-09-20T08:38:15.934+00:00,2026-09-20T08:38:35.752+00:00,19.818,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:38:35.752+00:00,2026-09-20T08:38:57.271+00:00,21.519,2026-09-20T08:38:57.271+00:00,2026-09-20T08:39:26.845+00:00,29.573,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,2,2,pilot_s04,B,pilot_s04_B__ROLEGEN_Parent_Caregiver_S01_SET2,Evening Snack Prep,Target,pilot_s04_B_t04__ROLEGEN_Parent_Caregiver_S01_SET2,pilot_s04_t04,4,4,What do you do with the leftover juice?,,N,N,None,0.0,Recency,N,N,N,juice left,8,1,0.119,0.288,9.75,1.25,0.133,35.1,role-adapted-v10-self-paced,67,2,2026-09-20T08:38:15.934+00:00,2026-09-20T08:38:35.752+00:00,19.818,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:38:35.752+00:00,2026-09-20T08:38:57.271+00:00,21.519,2026-09-20T08:38:57.271+00:00,2026-09-20T08:39:26.845+00:00,29.573,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,3,3,pilot_s05,B,pilot_s05_B__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s05_B_t01__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s05_t01,1,4,State the first thing you do after dimming the lights.,,N,N,None,0.0,Primacy,N,N,Y,lights dim,10,2,0.193,0.419,10.5,1.75,0.152,40.8,role-adapted-v10-self-paced,66,2,2026-09-20T08:39:27.282+00:00,2026-09-20T08:39:55.902+00:00,28.62,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,39,39,25,39,37",Y,Y,138.519,6,6,6,100.0,138.519,"[{""time_sec"": 138.519, ""answer"": ""26,39,39,25,39,37""}]",2026-09-20T08:39:55.902+00:00,2026-09-20T08:42:14.421+00:00,138.519,2026-09-20T08:42:14.421+00:00,2026-09-20T08:42:38.500+00:00,24.079,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,3,3,pilot_s05,B,pilot_s05_B__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s05_B_t02__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s05_t02,2,4,List the two items you check before turning off the bedroom lights.,,N,N,None,0.0,Middle,Y,N,N,bedroom check,12,2,0.131,0.46,10.5,1.75,0.152,40.8,role-adapted-v10-self-paced,66,2,2026-09-20T08:39:27.282+00:00,2026-09-20T08:39:55.902+00:00,28.62,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,39,39,25,39,37",Y,Y,138.519,6,6,6,100.0,138.519,"[{""time_sec"": 138.519, ""answer"": ""26,39,39,25,39,37""}]",2026-09-20T08:39:55.902+00:00,2026-09-20T08:42:14.421+00:00,138.519,2026-09-20T08:42:14.421+00:00,2026-09-20T08:42:38.500+00:00,24.079,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,3,3,pilot_s05,B,pilot_s05_B__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s05_B_t03__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s05_t03,3,4,Explain how you help the children put on their pajamas.,,N,N,None,0.0,Middle,N,Y,N,pajamas,10,1,0.114,0.337,10.5,1.75,0.152,40.8,role-adapted-v10-self-paced,66,2,2026-09-20T08:39:27.282+00:00,2026-09-20T08:39:55.902+00:00,28.62,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,39,39,25,39,37",Y,Y,138.519,6,6,6,100.0,138.519,"[{""time_sec"": 138.519, ""answer"": ""26,39,39,25,39,37""}]",2026-09-20T08:39:55.902+00:00,2026-09-20T08:42:14.421+00:00,138.519,2026-09-20T08:42:14.421+00:00,2026-09-20T08:42:38.500+00:00,24.079,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,3,3,pilot_s05,B,pilot_s05_B__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Target,pilot_s05_B_t04__ROLEGEN_Parent_Caregiver_S01_SET3,pilot_s05_t04,4,4,What do you do with the bedtime storybook after reading?,,N,N,None,0.0,Recency,N,N,N,storybook,10,2,0.171,0.416,10.5,1.75,0.152,40.8,role-adapted-v10-self-paced,66,2,2026-09-20T08:39:27.282+00:00,2026-09-20T08:39:55.902+00:00,28.62,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,39,39,25,39,37",Y,Y,138.519,6,6,6,100.0,138.519,"[{""time_sec"": 138.519, ""answer"": ""26,39,39,25,39,37""}]",2026-09-20T08:39:55.902+00:00,2026-09-20T08:42:14.421+00:00,138.519,2026-09-20T08:42:14.421+00:00,2026-09-20T08:42:38.500+00:00,24.079,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,3,3,pilot_s05,B,pilot_s05_B__ROLEGEN_Parent_Caregiver_S01_SET3,Bedtime Routine,Intrusion,,,,,,Evening snack prep,N,N,Intrusion,,,,,,,,,,,10.5,1.75,0.152,40.8,role-adapted-v10-self-paced,66,2,2026-09-20T08:39:27.282+00:00,2026-09-20T08:39:55.902+00:00,28.62,N,LOW,low_pack_05,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 84 ÷ 12 + 19
+2. 43 - 16 + 12
+3. 7 × 5 + 4
+4. 62 - 28 - 9
+5. 24 + 33 - 18
+6. 8 × 6 - 11","26,39,39,25,39,37","26,39,39,25,39,37",Y,Y,138.519,6,6,6,100.0,138.519,"[{""time_sec"": 138.519, ""answer"": ""26,39,39,25,39,37""}]",2026-09-20T08:39:55.902+00:00,2026-09-20T08:42:14.421+00:00,138.519,2026-09-20T08:42:14.421+00:00,2026-09-20T08:42:38.500+00:00,24.079,,,,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,4,4,pilot_s01,B,pilot_s01_B__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing for the Family Picnic,Target,pilot_s01_B_t01__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s01_t01,1,4,"Pack the picnic blanket, a cooler, and a first‑aid kit.",Preparing for the family picnic,Y,N,Semantic,1.0,Primacy,N,N,Y,Remember the blanket,11,2,0.13,0.435,11.0,1.5,0.12,39.8,role-adapted-v10-self-paced,75,2,2026-09-20T08:42:38.784+00:00,2026-09-20T08:42:53.691+00:00,14.907,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:42:53.691+00:00,2026-09-20T08:43:20.063+00:00,26.372,2026-09-20T08:43:20.063+00:00,2026-09-20T08:44:13.322+00:00,53.259,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,4,4,pilot_s01,B,pilot_s01_B__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing for the Family Picnic,Target,pilot_s01_B_t02__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s01_t02,2,4,Arrange the seating in a circle.,,N,N,None,0.0,Middle,Y,N,N,Circle seating,6,1,0.129,0.239,11.0,1.5,0.12,39.8,role-adapted-v10-self-paced,75,2,2026-09-20T08:42:38.784+00:00,2026-09-20T08:42:53.691+00:00,14.907,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:42:53.691+00:00,2026-09-20T08:43:20.063+00:00,26.372,2026-09-20T08:43:20.063+00:00,2026-09-20T08:44:13.322+00:00,53.259,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,4,4,pilot_s01,B,pilot_s01_B__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing for the Family Picnic,Target,pilot_s01_B_t03__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s01_t03,3,4,Ask each child to bring a snack and a small toy to share with the group.,,N,N,None,0.0,Middle,N,Y,N,Snack and toy,16,2,0.114,0.557,11.0,1.5,0.12,39.8,role-adapted-v10-self-paced,75,2,2026-09-20T08:42:38.784+00:00,2026-09-20T08:42:53.691+00:00,14.907,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:42:53.691+00:00,2026-09-20T08:43:20.063+00:00,26.372,2026-09-20T08:43:20.063+00:00,2026-09-20T08:44:13.322+00:00,53.259,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,4,4,pilot_s01,B,pilot_s01_B__ROLEGEN_Parent_Caregiver_S01_SET4,Preparing for the Family Picnic,Target,pilot_s01_B_t04__ROLEGEN_Parent_Caregiver_S01_SET4,pilot_s01_t04,4,4,Set a timer for the game time at 3:00 PM.,,N,N,None,0.0,Recency,N,N,N,Timer at 3:00 PM,11,1,0.109,0.361,11.0,1.5,0.12,39.8,role-adapted-v10-self-paced,75,2,2026-09-20T08:42:38.784+00:00,2026-09-20T08:42:53.691+00:00,14.907,N,NONE,none_fixation_01,0.0,"Keep your eyes on the fixation mark below until the interval ends.
+
+# +",,,N,,,0,0,0,,,[],2026-09-20T08:42:53.691+00:00,2026-09-20T08:43:20.063+00:00,26.372,2026-09-20T08:43:20.063+00:00,2026-09-20T08:44:13.322+00:00,53.259,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,5,5,pilot_s02,B,pilot_s02_B__ROLEGEN_Parent_Caregiver_S01_SET5,Managing the Evening Routine,Target,pilot_s02_B_t01__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s02_t01,1,4,Gather the pajamas and toothbrushes.,Managing the evening routine,Y,N,Semantic,0.8,Primacy,N,N,Y,Pajamas and toothbrushes,5,2,0.106,0.281,12.0,2.0,0.088,45.325,role-adapted-v10-self-paced,86,2,2026-09-20T08:44:13.856+00:00,2026-09-20T08:44:44.466+00:00,30.611,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,97.326,6,6,6,100.0,97.326,"[{""time_sec"": 97.326, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T08:44:44.466+00:00,2026-09-20T08:46:21.793+00:00,97.326,2026-09-20T08:46:21.793+00:00,2026-09-20T08:46:53.921+00:00,32.128,35.0,MEDIUM,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,5,5,pilot_s02,B,pilot_s02_B__ROLEGEN_Parent_Caregiver_S01_SET5,Managing the Evening Routine,Target,pilot_s02_B_t02__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s02_t02,2,4,Set the room temperature to 68°F and dim the lights.,,N,N,None,0.0,Middle,Y,N,N,Room temperature,11,2,0.109,0.431,12.0,2.0,0.088,45.325,role-adapted-v10-self-paced,86,2,2026-09-20T08:44:13.856+00:00,2026-09-20T08:44:44.466+00:00,30.611,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,97.326,6,6,6,100.0,97.326,"[{""time_sec"": 97.326, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T08:44:44.466+00:00,2026-09-20T08:46:21.793+00:00,97.326,2026-09-20T08:46:21.793+00:00,2026-09-20T08:46:53.921+00:00,32.128,52.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,5,5,pilot_s02,B,pilot_s02_B__ROLEGEN_Parent_Caregiver_S01_SET5,Managing the Evening Routine,Target,pilot_s02_B_t03__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s02_t03,3,4,Read a short story and ask each child to name one thing they liked today.,,N,N,None,0.0,Middle,N,Y,N,Story and reflection,15,2,0.058,0.524,12.0,2.0,0.088,45.325,role-adapted-v10-self-paced,86,2,2026-09-20T08:44:13.856+00:00,2026-09-20T08:44:44.466+00:00,30.611,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,97.326,6,6,6,100.0,97.326,"[{""time_sec"": 97.326, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T08:44:44.466+00:00,2026-09-20T08:46:21.793+00:00,97.326,2026-09-20T08:46:21.793+00:00,2026-09-20T08:46:53.921+00:00,32.128,60.5,HIGH,Y,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
+PUUJVCFK_9e9c693241474bf8b1cc1e4aaa43b14c,1,2026-09-20T08:35:32.293+00:00,Y,2026-09-20T08:35:30.135+00:00,pilot-consent-1.0,Y,participant-registry-2.0,PUUJVCFK,Parent / Caregiver,5,5,pilot_s02,B,pilot_s02_B__ROLEGEN_Parent_Caregiver_S01_SET5,Managing the Evening Routine,Target,pilot_s02_B_t04__ROLEGEN_Parent_Caregiver_S01_SET5,pilot_s02_t04,4,4,Place the night‑light on the bedside table and turn off the TV at 8:30 PM.,,N,N,None,0.0,Recency,N,N,N,Night‑light at 8:30 PM,17,2,0.078,0.577,12.0,2.0,0.088,45.325,role-adapted-v10-self-paced,86,2,2026-09-20T08:44:13.856+00:00,2026-09-20T08:44:44.466+00:00,30.611,N,LOW,low_pack_02,3.0,"Solve as many as you can in order. Enter answers separated by commas.
+
+1. 45 - 17 + 8
+2. 8 × 4 + 5
+3. 81 ÷ 9 + 14
+4. 26 + 19 - 11
+5. 7 × 6 - 15
+6. 58 - 29 + 9","36,37,23,34,27,38","36,37,23,34,27,38",Y,Y,97.326,6,6,6,100.0,97.326,"[{""time_sec"": 97.326, ""answer"": ""36,37,23,34,27,38""}]",2026-09-20T08:44:44.466+00:00,2026-09-20T08:46:21.793+00:00,97.326,2026-09-20T08:46:21.793+00:00,2026-09-20T08:46:53.921+00:00,32.128,20.0,LOW,N,pilot-8.3,pilot-8.3,openai/gpt-oss-20b,pilot-rule-3.0
